@@ -1,0 +1,51 @@
+﻿{
+  "name": "@members1stfederalcreditunion/design-tokens",
+  "version": "1.0.0",
+  "description": "Design tokens for the M1st Federal Credit Union design system",
+  "main": "dist/js/tokens.js",
+  "types": "dist/js/tokens.d.ts",
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/js/tokens.esm.js",
+      "require": "./dist/js/tokens.js",
+      "types": "./dist/js/tokens.d.ts"
+    },
+    "./css": "./dist/css/tokens.css",
+    "./tokens.css": "./dist/css/tokens.css",
+    "./tokens": "./dist/tokens.json"
+  },
+  "scripts": {
+    "build": "style-dictionary build",
+    "build:clean": "rimraf dist && npm run build",
+    "dev": "style-dictionary build --watch",
+    "test": "echo \"No tests yet\" && exit 0",
+    "prepublishOnly": "npm run build:clean"
+  },
+  "keywords": [
+    "design-tokens",
+    "design-system",
+    "css-variables",
+    "m1st",
+    "credit-union"
+  ],
+  "author": "M1st Federal Credit Union",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Members1stFederalCreditUnion/m1st-design-tokens.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.8.0",
+    "rimraf": "^5.0.0"
+  },
+  "peerDependencies": {
+    "@types/node": "^18.0.0"
+  }
+}
