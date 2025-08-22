@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M1st Design Tokens Test</title>
+    <link rel="stylesheet" href="./dist/css/tokens.css">
+    <style>
+        body {
+            font-family: var(--font-family-body);
+            background-color: var(--color-background-primary);
+            color: var(--color-text-primary);
+            margin: 0;
+            padding: 2rem;
+            transition: var(--transition-theme);
+        }
+
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: grid;
+            gap: 2rem;
+        }
+
+        .token-section {
+            background: var(--color-surface-elevated);
+            border: 1px solid var(--color-border-primary);
+            border-radius: var(--card-border-radius);
+            padding: var(--card-padding);
+        }
+
+        .token-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .color-swatch {
+            height: 60px;
+            border-radius: 0.25rem;
+            border: 1px solid var(--color-border-primary);
+            display: flex;
+            align-items: end;
+            padding: 0.5rem;
+            color: white;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.7);
+            font-size: var(--font-body-s-size);
+        }
+
+        .neutral-0 { background-color: var(--neutral-0); color: var(--neutral-900); text-shadow: none; }
+        .neutral-100 { background-color: var(--neutral-100); color: var(--neutral-900); text-shadow: none; }
+        .neutral-300 { background-color: var(--neutral-300); color: var(--neutral-900); text-shadow: none; }
+        .neutral-500 { background-color: var(--neutral-500); }
+        .neutral-700 { background-color: var(--neutral-700); }
+        .neutral-900 { background-color: var(--neutral-900); }
+        .brand-primary { background-color: var(--color-brand-primary); }
+        .accent-green { background-color: var(--color-accent-green); }
+        .accent-blue { background-color: var(--color-accent-blue); }
+
+        .button-test {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: var(--button-padding-md);
+            border-radius: var(--button-border-radius);
+            font-weight: var(--button-font-weight);
+            border: 1px solid;
+            cursor: pointer;
+            transition: var(--transition-theme);
+        }
+
+        .btn-primary {
+            background: var(--button-primary-background);
+            color: var(--button-primary-text);
+            border-color: var(--button-primary-border);
+        }
+        .btn-primary:hover {
+            background: var(--button-primary-background-hover);
+        }
+
+        .btn-secondary {
+            background: var(--button-secondary-background);
+            color: var(--button-secondary-text);
+            border-color: var(--button-secondary-border);
+        }
+        .btn-secondary:hover {
+            background: var(--button-secondary-background-hover);
+        }
+
+        .typography-test h1 {
+            font-family: var(--font-family-heading);
+            font-size: var(--font-heading-xl-size);
+            line-height: var(--line-height-tight);
+            letter-spacing: var(--letter-spacing-tight);
+            color: var(--heading-color);
+            margin: 0 0 1rem 0;
+        }
+
+        .typography-test h2 {
+            font-family: var(--font-family-heading);
+            font-size: var(--font-heading-l-size);
+            line-height: var(--line-height-tight);
+            color: var(--heading-color);
+            margin: 0 0 0.75rem 0;
+        }
+
+        .typography-test p {
+            font-family: var(--body-font-family);
+            font-size: var(--font-body-m-size);
+            line-height: var(--line-height-normal);
+            color: var(--body-color);
+            margin: 0 0 1rem 0;
+        }
+
+        .theme-toggle {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            background: var(--button-primary-background);
+            color: var(--button-primary-text);
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: var(--button-border-radius);
+            cursor: pointer;
+            transition: var(--transition-theme);
+        }
+
+        .theme-toggle:hover {
+            background: var(--button-primary-background-hover);
+        }
+
+        /* Dark theme indicator */
+        [data-theme="dark"] .theme-indicator {
+            background: linear-gradient(45deg, var(--neutral-900), var(--neutral-700));
+        }
+
+        .theme-indicator {
+            background: linear-gradient(45deg, var(--neutral-0), var(--neutral-200));
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">Toggle Dark Theme</button>
+    
+    <div class="test-container">
+        <div class="theme-indicator">
+            <strong>Current Theme:</strong> <span id="theme-name">Light</span>
+        </div>
+
+        <div class="token-section typography-test">
+            <h1>Typography System Test</h1>
+            <h2>This is a heading using DIN-2014</h2>
+            <p>This is body text using Inter font family. The typography tokens provide consistent sizing, line-height, and letter-spacing across the design system.</p>
+        </div>
+
+        <div class="token-section">
+            <h2>Color Palette</h2>
+            <div class="token-grid">
+                <div class="color-swatch neutral-0">Neutral 0</div>
+                <div class="color-swatch neutral-100">Neutral 100</div>
+                <div class="color-swatch neutral-300">Neutral 300</div>
+                <div class="color-swatch neutral-500">Neutral 500</div>
+                <div class="color-swatch neutral-700">Neutral 700</div>
+                <div class="color-swatch neutral-900">Neutral 900</div>
+                <div class="color-swatch brand-primary">Brand Primary</div>
+                <div class="color-swatch accent-green">Accent Green</div>
+                <div class="color-swatch accent-blue">Accent Blue</div>
+            </div>
+        </div>
+
+        <div class="token-section">
+            <h2>Component Tokens Test</h2>
+            <div class="button-test">
+                <button class="btn btn-primary">Primary Button</button>
+                <button class="btn btn-secondary">Secondary Button</button>
+            </div>
+        </div>
+
+        <div class="token-section">
+            <h2>Token Integration Ready</h2>
+            <p>This test page demonstrates that our design tokens are working correctly and ready to be integrated with web components. The tokens provide:</p>
+            <ul>
+                <li> Complete 4-layer token architecture</li>
+                <li> Dark theme support with smooth transitions</li>
+                <li> Typography system with DIN-2014 and Inter</li>
+                <li> Component-specific styling tokens</li>
+                <li> Accessibility features (reduced motion, high contrast)</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? '' : 'dark';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            document.getElementById('theme-name').textContent = newTheme === 'dark' ? 'Dark' : 'Light';
+        }
+
+        // Set initial theme indicator
+        document.getElementById('theme-name').textContent = 'Light';
+    </script>
+</body>
+</html>
