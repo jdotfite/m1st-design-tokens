@@ -1,12 +1,11 @@
 ﻿{
   "name": "@members1stfederalcreditunion/design-tokens",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "Design tokens for the M1st Federal Credit Union design system",
   "main": "dist/js/tokens.js",
   "types": "dist/js/tokens.d.ts",
   "files": [
     "dist/",
-    "fonts/",
     "README.md",
     "CHANGELOG.md"
   ],
@@ -19,9 +18,9 @@
     "./css": "./dist/css/tokens.css",
     "./tokens.css": "./dist/css/tokens.css",
     "./tokens": "./dist/tokens.json",
-    "./fonts": "./fonts/",
-    "./fonts/inter.css": "./fonts/inter.css",
-    "./fonts/din-2014.css": "./fonts/din-2014.css",
+  "./fonts": "./dist/fonts/",
+  "./fonts/inter.css": "./dist/fonts/inter.css",
+  "./fonts/din-2014.css": "./dist/fonts/din-2014.css",
     "./package.json": "./package.json"
   },
   "scripts": {

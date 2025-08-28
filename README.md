@@ -148,6 +148,8 @@ Optional integrity check idea (future): validate each font referenced in CSS exi
 - Consumption troubleshooting: `PACKAGE-CONSUMPTION-GUIDE.md`
 - Changelog: `CHANGELOG.md`
 
+> 1.3.0: Fonts now shipped only under `dist/fonts/` (old root `fonts/` removed). Use documented import paths.
+
 ## Contributing
 
 Maintained by the M1st Federal Credit Union design system team. PRs welcome for additional component tokens, dark-mode refinements, and performance optimizations.

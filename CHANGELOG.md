@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 ## [1.2.2] - 2024-08-28
 
+## [1.3.0] - 2025-08-28
+
+### Optimized
+- Removed duplicate root `fonts/` directory from published package; consumers now use `dist/fonts/` exclusively.
+- Updated exports so `import "@members1stfederalcreditunion/design-tokens/fonts/inter.css"` resolves to `dist/fonts/inter.css`.
+
+### Notes
+- No token value changes.
+- Version bump signifies potential path change for any consumer who was reading fonts directly from root `fonts/` (deprecated path).
+
+
 ### Fixed
 - **Font Distribution Reliability**: Ensured all font assets are copied into `dist/fonts/` so relative `../fonts/` URLs in `dist/css/tokens.css` always resolve after installation.
 
