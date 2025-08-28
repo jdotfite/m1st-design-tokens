@@ -1,4 +1,6 @@
-# Package Consumption Troubleshooting
+# Package Consumption Troubleshooting (Deprecated)
+
+> Consolidated into `USAGE_GUIDE.md` (v1.3.0+). This legacy guide referenced a duplicate root `fonts/` directory that has been removed. Current package ships fonts exclusively under `dist/fonts/` with stable export mappings.
 
 ## 🚨 Issues Fixed in v1.2.1 – v1.2.2
 
@@ -19,12 +21,12 @@ src: url("../fonts/InterVariable.woff2") format("woff2");
 
 **Solution (v1.2.1)**: Updated Style Dictionary config to automatically prefix font URLs with `../fonts/`
 
-### **Font Assets Now Copied to dist (v1.2.2)**
+### **Font Assets Now Copied to dist (v1.2.2) / Optimized in v1.3.0**
 **Problem**: While font URLs pointed to `../fonts/`, the build previously only shipped fonts at package root (`fonts/`), not under `dist/fonts/`, so relative paths inside `dist/css/tokens.css` could fail in some bundler contexts.
 
 **Solution (v1.2.2)**: Added a post-build copy step that places all font assets in `dist/fonts/` matching the relative URLs. Result: zero 404s even in isolated CSS extraction scenarios.
 
-**Validate**: After install, you should see both locations (root `fonts/` and `dist/fonts/`). Either path works; CSS references `dist/fonts/` via `../fonts/` relative traversal.
+**Validate (Current)**: After install (v1.3.0+), fonts exist only at `dist/fonts/` (root duplicate removed). CSS references resolve via `../fonts/`.
 
 ### **Package Export Improvements**
 - ✅ Added `package.json` export for better tooling support
@@ -92,19 +94,18 @@ console.log(tokens.ColorBrandPrimary); // "#EE3831"
 ### **1. Check Node Modules Structure**
 ```bash
 node_modules/@members1stfederalcreditunion/design-tokens/
-├── dist/
-│   └── css/tokens.css
-├── fonts/
-│   ├── Inter-*.woff2
-│   ├── DIN-2014_*.woff
-│   └── *.css
-└── package.json
+└── dist/
+    ├── css/tokens.css
+    └── fonts/
+        ├── Inter-*.woff2
+        ├── DIN-2014_*.woff
+        └── *.css
 ```
 
 ### **2. Verify Version**
 ```bash
 npm list @members1stfederalcreditunion/design-tokens
-# Should show 1.2.2 or higher
+# Should show 1.3.0 or higher
 ```
 
 ### **2a. (Optional) Run Font Integrity Check Locally**

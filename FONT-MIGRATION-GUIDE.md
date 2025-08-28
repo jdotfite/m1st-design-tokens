@@ -1,4 +1,6 @@
-# Font Migration Guide - M1st Design Tokens
+# Font Migration Guide - M1st Design Tokens (Deprecated)
+
+> This file is retained for historical reference. Please use `USAGE_GUIDE.md` for the current, consolidated usage + migration + troubleshooting documentation (v1.3.0+). Packaging details here referencing a root `fonts/` directory are outdated; fonts now reside only under `dist/fonts/`.
 
 ## Overview
 

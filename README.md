@@ -144,8 +144,8 @@ Optional integrity check idea (future): validate each font referenced in CSS exi
 
 ## Additional Guides
 
-- Font migration: `FONT-MIGRATION-GUIDE.md`
-- Consumption troubleshooting: `PACKAGE-CONSUMPTION-GUIDE.md`
+- Usage & migration: `USAGE_GUIDE.md` (supersedes prior font + consumption guides)
+- (Deprecated) `FONT-MIGRATION-GUIDE.md` / `PACKAGE-CONSUMPTION-GUIDE.md`
 - Changelog: `CHANGELOG.md`
 
 > 1.3.0: Fonts now shipped only under `dist/fonts/` (old root `fonts/` removed). Use documented import paths.
