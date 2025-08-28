@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.1] - 2025-08-28
+
+### Fixed
+- Removed potential UTF-8 BOM from published files (added `strip-bom` prepublish step) to prevent JSON parse errors in consuming build tools.
+
 ## [1.2.2] - 2024-08-28
 
 ## [1.3.0] - 2025-08-28

@@ -1,6 +1,6 @@
-﻿{
+{
   "name": "@members1stfederalcreditunion/design-tokens",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Design tokens for the M1st Federal Credit Union design system",
   "main": "dist/js/tokens.js",
   "types": "dist/js/tokens.d.ts",
@@ -60,4 +60,3 @@
     "@types/node": "^18.0.0"
   }
 }
-
