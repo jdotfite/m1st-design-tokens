@@ -1,12 +1,14 @@
 ﻿{
   "name": "@members1stfederalcreditunion/design-tokens",
-  "version": "1.0.0",
+  "version": "1.2.2",
   "description": "Design tokens for the M1st Federal Credit Union design system",
   "main": "dist/js/tokens.js",
   "types": "dist/js/tokens.d.ts",
   "files": [
     "dist/",
-    "README.md"
+    "fonts/",
+    "README.md",
+    "CHANGELOG.md"
   ],
   "exports": {
     ".": {
@@ -16,14 +18,23 @@
     },
     "./css": "./dist/css/tokens.css",
     "./tokens.css": "./dist/css/tokens.css",
-    "./tokens": "./dist/tokens.json"
+    "./tokens": "./dist/tokens.json",
+    "./fonts": "./fonts/",
+    "./fonts/inter.css": "./fonts/inter.css",
+    "./fonts/din-2014.css": "./fonts/din-2014.css",
+    "./package.json": "./package.json"
   },
   "scripts": {
-    "build": "style-dictionary build",
+    "build": "style-dictionary build --config style-dictionary.config.js",
+  "postbuild": "node scripts/copy-fonts.js && npm run verify:fonts",
     "build:clean": "rimraf dist && npm run build",
-    "dev": "style-dictionary build --watch",
+    "build:fonts": "npm run build",
+    "dev": "style-dictionary build --config style-dictionary.config.js --watch",
     "test": "echo \"No tests yet\" && exit 0",
-    "prepublishOnly": "npm run build:clean"
+    "prepublishOnly": "npm run build:clean",
+    "fonts:check": "echo \"Checking font files...\" && dir fonts",
+  "tokens:update": "npm run build && echo \"Tokens updated with font support!\"",
+  "verify:fonts": "node scripts/verify-fonts.js"
   },
   "keywords": [
     "design-tokens",
@@ -49,3 +60,4 @@
     "@types/node": "^18.0.0"
   }
 }
+

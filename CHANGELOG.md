@@ -1,0 +1,83 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [1.2.2] - 2024-08-28
+
+### Fixed
+- **Font Distribution Reliability**: Ensured all font assets are copied into `dist/fonts/` so relative `../fonts/` URLs in `dist/css/tokens.css` always resolve after installation.
+
+### Added
+- Post-build script (`scripts/copy-fonts.js`) that copies 88 font assets into the build output.
+- Verification step (`npm pack --dry-run`) now shows `dist/fonts/` contents bundled in the package.
+
+### Technical Details
+- Added `postbuild` npm script invoking copy routine.
+- Prevents runtime 404s when consumers rely solely on the CSS entrypoint.
+- No token value changes; purely packaging enhancement.
+
+## [1.2.1] - 2024-08-28
+
+### Fixed
+- **CRITICAL: Font Path Resolution**: Fixed relative font URLs in generated CSS
+  - Font URLs now use proper `../fonts/` paths for package consumption
+  - Resolves 404 errors when consuming package in other projects
+  - Ensures fonts load correctly in all build environments
+
+### Added
+- Package consumption troubleshooting guide
+- Better package exports including `package.json` access
+- CHANGELOG.md now included in distributed files
+
+### Technical Details
+- Updated Style Dictionary config to automatically prefix font URLs
+- Improved package structure for better consumption compatibility
+
+## [1.2.0] - 2024-08-28
+
+### Added
+- **Font Integration**: Complete font system integration with 88+ font files
+  - Inter font family (variable + static fonts, including InterDisplay)
+  - DIN-2014 font family (complete professional collection)
+  - @font-face declarations automatically included in generated CSS
+  - Font files distributed in package under `fonts/` directory
+  - Package exports for individual font CSS files
+  - Font migration guide and documentation
+
+### Changed
+- **CSS Output**: Main `tokens.css` now includes embedded @font-face declarations
+- **Package Structure**: Added `fonts/` directory to distributed files
+- **Build Process**: Enhanced Style Dictionary config to include font CSS integration
+
+### Technical Details
+- All fonts use `font-display: swap` for optimal loading performance
+- Progressive enhancement with system font fallbacks
+- Variable fonts supported where available
+- Font loading strategy optimized for web performance
+
+## [1.1.0] - 2024-12-14
+
+### Added
+- Button token aliases for backward compatibility:
+  - Added `--button-*-bg` aliases for all `--button-*-background` tokens
+  - Added `--button-*-bg-hover` aliases for all `--button-*-background-hover` tokens  
+  - Added `--button-*-bg-active` aliases for all `--button-*-background-active` tokens
+  - Covers all button variants: primary, secondary, ghost, danger, info, success, warning
+
+### Technical Details
+- All original token names remain unchanged for full backward compatibility
+- Aliases reference the same token values, ensuring consistency
+- Generated CSS now includes both naming conventions for consuming projects
+
+## [1.0.0] - 2024-12-14
+
+### Added
+- Complete M1st design token system with 4-layer architecture
+- Foundation tokens: brand colors, spacing, typography, shadows
+- Semantic color tokens with 25-step neutral scale
+- Page-level tokens for theme switching interface
+- Component tokens for buttons with all variants
+- Light/dark theme support with automatic switching
+- Style Dictionary build process with custom M1st formatter
+- NPM package exports for CSS, JavaScript, JSON, and TypeScript
+- Complete rebuild from original.css source

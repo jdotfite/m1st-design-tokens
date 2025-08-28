@@ -1,0 +1,37 @@
+﻿{
+  "brand": {
+    "primary": { "value": "#EE3831", "type": "color", "description": "M1st brand red - matches M logo" }
+  },
+  "accent": {
+    "red": { "value": "#E71C23", "type": "color", "description": "Vibrant red accent" },
+    "green": { "value": "#55A444", "type": "color", "description": "Fresh green accent" },
+    "blue": { "value": "#0090C4", "type": "color", "description": "Blue accent" },
+    "orange": { "value": "#F15C22", "type": "color", "description": "Energetic orange accent" },
+    "yellow": { "value": "#FAA61A", "type": "color", "description": "Warm yellow accent" },
+    "teal": { "value": "#006068", "type": "color", "description": "Sophisticated teal accent" },
+    "blue-light": { "value": "#007199", "type": "color", "description": "Light blue accent" },
+    "blue-dark": { "value": "#133156", "type": "color", "description": "Deep blue accent" },
+    "purple": { "value": "#7C2984", "type": "color", "description": "Rich purple accent" },
+    "magenta": { "value": "#AD1F63", "type": "color", "description": "Bold magenta accent" },
+    "dark-red": { "value": "#BF0000", "type": "color", "description": "Dark red accent" }
+  },
+  "space": {
+    "xs": { "value": "0.25rem", "type": "spacing" },
+    "sm": { "value": "0.5rem", "type": "spacing" },
+    "md": { "value": "1rem", "type": "spacing" },
+    "lg": { "value": "1.5rem", "type": "spacing" },
+    "xl": { "value": "2rem", "type": "spacing" },
+    "2xl": { "value": "3rem", "type": "spacing" },
+    "3xl": { "value": "4rem", "type": "spacing" }
+  },
+  "transition": {
+    "theme": {
+      "value": "background-color 200ms cubic-bezier(0.4, 0, 0.2, 1), border-color 200ms cubic-bezier(0.4, 0, 0.2, 1), color 200ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "type": "transition"
+    }
+  },
+  "shadow": {
+    "focus": { "value": "0 0 0 3px rgba(238, 56, 49, 0.12)", "type": "boxShadow" },
+    "focus-danger": { "value": "0 0 0 3px rgba(238, 56, 49, 0.20)", "type": "boxShadow" }
+  }
+}

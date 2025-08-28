@@ -1,0 +1,82 @@
+﻿{
+  "button": {
+    "primary": {
+      "background": { "value": "{page.accent-primary}", "type": "color", "description": "Primary button background" },
+      "bg": { "value": "{page.accent-primary}", "type": "color", "description": "Primary button background (alias)" },
+      "background-hover": { "value": "{page.accent-primary-hover}", "type": "color", "description": "Primary button hover background" },
+      "bg-hover": { "value": "{page.accent-primary-hover}", "type": "color", "description": "Primary button hover background (alias)" },
+      "background-active": { "value": "{page.accent-primary-active}", "type": "color", "description": "Primary button active background" },
+      "bg-active": { "value": "{page.accent-primary-active}", "type": "color", "description": "Primary button active background (alias)" },
+      "text": { "value": "{page.text-inverse}", "type": "color", "description": "Primary button text color" },
+      "border": { "value": "{page.accent-primary}", "type": "color", "description": "Primary button border" },
+      "shadow": { "value": "0 1px 2px 0 rgba(0, 0, 0, 0.05)", "type": "boxShadow", "description": "Primary button shadow" },
+      "shadow-hover": { "value": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)", "type": "boxShadow", "description": "Primary button hover shadow" }
+    },
+    "secondary": {
+      "background": { "value": "transparent", "type": "color", "description": "Secondary button background" },
+      "bg": { "value": "transparent", "type": "color", "description": "Secondary button background (alias)" },
+      "background-hover": { "value": "{page.hover}", "type": "color", "description": "Secondary button hover background" },
+      "bg-hover": { "value": "{page.hover}", "type": "color", "description": "Secondary button hover background (alias)" },
+      "background-active": { "value": "{page.active}", "type": "color", "description": "Secondary button active background" },
+      "bg-active": { "value": "{page.active}", "type": "color", "description": "Secondary button active background (alias)" },
+      "text": { "value": "{page.accent-primary}", "type": "color", "description": "Secondary button text color" },
+      "border": { "value": "{neutral.925}", "type": "color", "description": "Secondary button border" }
+    },
+    "ghost": {
+      "background": { "value": "transparent", "type": "color", "description": "Ghost button background" },
+      "bg": { "value": "transparent", "type": "color", "description": "Ghost button background (alias)" },
+      "background-hover": { "value": "{page.hover}", "type": "color", "description": "Ghost button hover background" },
+      "bg-hover": { "value": "{page.hover}", "type": "color", "description": "Ghost button hover background (alias)" },
+      "background-active": { "value": "{page.active}", "type": "color", "description": "Ghost button active background" },
+      "bg-active": { "value": "{page.active}", "type": "color", "description": "Ghost button active background (alias)" },
+      "text": { "value": "{page.text-primary}", "type": "color", "description": "Ghost button text color" },
+      "border": { "value": "transparent", "type": "color", "description": "Ghost button border" }
+    },
+    "danger": {
+      "background": { "value": "{page.danger}", "type": "color", "description": "Danger button background" },
+      "bg": { "value": "{page.danger}", "type": "color", "description": "Danger button background (alias)" },
+      "background-hover": { "value": "{page.danger-emphasis}", "type": "color", "description": "Danger button hover background" },
+      "bg-hover": { "value": "{page.danger-emphasis}", "type": "color", "description": "Danger button hover background (alias)" },
+      "background-active": { "value": "{page.danger-emphasis}", "type": "color", "description": "Danger button active background" },
+      "bg-active": { "value": "{page.danger-emphasis}", "type": "color", "description": "Danger button active background (alias)" },
+      "text": { "value": "{page.text-inverse}", "type": "color", "description": "Danger button text color" },
+      "border": { "value": "{page.danger}", "type": "color", "description": "Danger button border" }
+    },
+    "info": {
+      "background": { "value": "{page.info}", "type": "color", "description": "Info button background" },
+      "bg": { "value": "{page.info}", "type": "color", "description": "Info button background (alias)" },
+      "background-hover": { "value": "{page.info-emphasis}", "type": "color", "description": "Info button hover background" },
+      "bg-hover": { "value": "{page.info-emphasis}", "type": "color", "description": "Info button hover background (alias)" },
+      "background-active": { "value": "{page.info-emphasis}", "type": "color", "description": "Info button active background" },
+      "bg-active": { "value": "{page.info-emphasis}", "type": "color", "description": "Info button active background (alias)" },
+      "text": { "value": "{page.text-inverse}", "type": "color", "description": "Info button text color" },
+      "border": { "value": "{page.info}", "type": "color", "description": "Info button border" }
+    },
+    "success": {
+      "background": { "value": "{page.success}", "type": "color", "description": "Success button background" },
+      "bg": { "value": "{page.success}", "type": "color", "description": "Success button background (alias)" },
+      "background-hover": { "value": "{page.success-emphasis}", "type": "color", "description": "Success button hover background" },
+      "bg-hover": { "value": "{page.success-emphasis}", "type": "color", "description": "Success button hover background (alias)" },
+      "background-active": { "value": "{page.success-emphasis}", "type": "color", "description": "Success button active background" },
+      "bg-active": { "value": "{page.success-emphasis}", "type": "color", "description": "Success button active background (alias)" },
+      "text": { "value": "{page.text-inverse}", "type": "color", "description": "Success button text color" },
+      "border": { "value": "{page.success}", "type": "color", "description": "Success button border" }
+    },
+    "warning": {
+      "background": { "value": "{page.warning}", "type": "color", "description": "Warning button background" },
+      "bg": { "value": "{page.warning}", "type": "color", "description": "Warning button background (alias)" },
+      "background-hover": { "value": "{page.warning-emphasis}", "type": "color", "description": "Warning button hover background" },
+      "bg-hover": { "value": "{page.warning-emphasis}", "type": "color", "description": "Warning button hover background (alias)" },
+      "background-active": { "value": "{page.warning-emphasis}", "type": "color", "description": "Warning button active background" },
+      "bg-active": { "value": "{page.warning-emphasis}", "type": "color", "description": "Warning button active background (alias)" },
+      "text": { "value": "{page.text-inverse}", "type": "color", "description": "Warning button text color" },
+      "border": { "value": "{page.warning}", "type": "color", "description": "Warning button border" }
+    },
+    "border-radius": { "value": "9999px", "type": "borderRadius", "description": "Button border radius (pill shape)" },
+    "font-weight-base": { "value": "{font.weight.medium}", "type": "fontWeight", "description": "Base button font weight" },
+    "font-weight-emphasis": { "value": "{font.weight.semibold}", "type": "fontWeight", "description": "Emphasis button font weight" },
+    "transition": { "value": "{transition.theme}", "type": "transition", "description": "Button transition" },
+    "focus-ring": { "value": "{shadow.focus}", "type": "boxShadow", "description": "Button focus ring" },
+    "disabled-opacity": { "value": "0.5", "type": "opacity", "description": "Disabled button opacity" }
+  }
+}

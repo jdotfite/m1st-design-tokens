@@ -1,66 +1,466 @@
-﻿/*
-================================================================================
-M1st DESIGN TOKENS - Single Source of Truth
-================================================================================
+/* =============================================================================
+   FONT IMPORTS - Inter & DIN-2014
+   ============================================================================= */
 
-This file contains all design tokens for the M1st Federal Credit Union
-design system. It uses a 4-layer token architecture:
+/* Variable fonts usage:
+:root { font-family: "Inter", sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: "InterVariable", sans-serif; font-optical-sizing: auto; }
+} */
+@font-face {
+  font-family: InterVariable;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../fonts/InterVariable.woff2") format("woff2");
+}
+@font-face {
+  font-family: InterVariable;
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../fonts/InterVariable-Italic.woff2") format("woff2");
+}
 
-LAYER 1: FOUNDATION TOKENS (Variables)
-LAYER 2: SEMANTIC TOKENS (Color Intentions)  
-LAYER 3: PAGE-LEVEL TOKENS (Page Context)
-LAYER 4: COMPONENT TOKENS (Component-Specific)
+/* static fonts */
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 100; font-display: swap; src: url("../fonts/Inter-Thin.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 100; font-display: swap; src: url("../fonts/Inter-ThinItalic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 200; font-display: swap; src: url("../fonts/Inter-ExtraLight.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 200; font-display: swap; src: url("../fonts/Inter-ExtraLightItalic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 300; font-display: swap; src: url("../fonts/Inter-Light.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 300; font-display: swap; src: url("../fonts/Inter-LightItalic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap; src: url("../fonts/Inter-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 400; font-display: swap; src: url("../fonts/Inter-Italic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 500; font-display: swap; src: url("../fonts/Inter-Medium.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 500; font-display: swap; src: url("../fonts/Inter-MediumItalic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 600; font-display: swap; src: url("../fonts/Inter-SemiBold.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 600; font-display: swap; src: url("../fonts/Inter-SemiBoldItalic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 700; font-display: swap; src: url("../fonts/Inter-Bold.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 700; font-display: swap; src: url("../fonts/Inter-BoldItalic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 800; font-display: swap; src: url("../fonts/Inter-ExtraBold.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 800; font-display: swap; src: url("../fonts/Inter-ExtraBoldItalic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 900; font-display: swap; src: url("../fonts/Inter-Black.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 900; font-display: swap; src: url("../fonts/Inter-BlackItalic.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: normal; font-weight: 100; font-display: swap; src: url("../fonts/InterDisplay-Thin.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: italic; font-weight: 100; font-display: swap; src: url("../fonts/InterDisplay-ThinItalic.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: normal; font-weight: 200; font-display: swap; src: url("../fonts/InterDisplay-ExtraLight.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: italic; font-weight: 200; font-display: swap; src: url("../fonts/InterDisplay-ExtraLightItalic.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: normal; font-weight: 300; font-display: swap; src: url("../fonts/InterDisplay-Light.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: italic; font-weight: 300; font-display: swap; src: url("../fonts/InterDisplay-LightItalic.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: normal; font-weight: 400; font-display: swap; src: url("../fonts/InterDisplay-Regular.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: italic; font-weight: 400; font-display: swap; src: url("../fonts/InterDisplay-Italic.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: normal; font-weight: 500; font-display: swap; src: url("../fonts/InterDisplay-Medium.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: italic; font-weight: 500; font-display: swap; src: url("../fonts/InterDisplay-MediumItalic.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: normal; font-weight: 600; font-display: swap; src: url("../fonts/InterDisplay-SemiBold.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: italic; font-weight: 600; font-display: swap; src: url("../fonts/InterDisplay-SemiBoldItalic.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: normal; font-weight: 700; font-display: swap; src: url("../fonts/InterDisplay-Bold.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: italic; font-weight: 700; font-display: swap; src: url("../fonts/InterDisplay-BoldItalic.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: normal; font-weight: 800; font-display: swap; src: url("../fonts/InterDisplay-ExtraBold.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: italic; font-weight: 800; font-display: swap; src: url("../fonts/InterDisplay-ExtraBoldItalic.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: normal; font-weight: 900; font-display: swap; src: url("../fonts/InterDisplay-Black.woff2") format("woff2"); }
+@font-face { font-family: "InterDisplay"; font-style: italic; font-weight: 900; font-display: swap; src: url("../fonts/InterDisplay-BlackItalic.woff2") format("woff2"); }
 
-================================================================================
-*/
+@font-feature-values InterVariable {
+    @character-variant {
+        cv01: 1; cv02: 2; cv03: 3; cv04: 4; cv05: 5; cv06: 6; cv07: 7; cv08: 8;
+        cv09: 9; cv10: 10; cv11: 11; cv12: 12; cv13: 13;
+        alt-1:            1; /* Alternate one */
+        alt-3:            9; /* Flat-top three */
+        open-4:           2; /* Open four */
+        open-6:           3; /* Open six */
+        open-9:           4; /* Open nine */
+        lc-l-with-tail:   5; /* Lower-case L with tail */
+        simplified-u:     6; /* Simplified u */
+        alt-double-s:     7; /* Alternate German double s */
+        uc-i-with-serif:  8; /* Upper-case i with serif */
+        uc-g-with-spur:  10; /* Capital G with spur */
+        single-story-a:  11; /* Single-story a */
+        compact-lc-f:    12; /* Compact f */
+        compact-lc-t:    13; /* Compact t */
+    }
+    @styleset {
+        ss01: 1; ss02: 2; ss03: 3; ss04: 4; ss05: 5; ss06: 6; ss07: 7; ss08: 8;
+        open-digits: 1;                /* Open digits */
+        disambiguation: 2;             /* Disambiguation (with zero) */
+        disambiguation-except-zero: 4; /* Disambiguation (no zero) */
+        round-quotes-and-commas: 3;    /* Round quotes &amp; commas */
+        square-punctuation: 7;         /* Square punctuation */
+        square-quotes: 8;              /* Square quotes */
+        circled-characters: 5;         /* Circled characters */
+        squared-characters: 6;         /* Squared characters */
+    }
+}
+@font-feature-values Inter {
+    @character-variant {
+        cv01: 1; cv02: 2; cv03: 3; cv04: 4; cv05: 5; cv06: 6; cv07: 7; cv08: 8;
+        cv09: 9; cv10: 10; cv11: 11; cv12: 12; cv13: 13;
+        alt-1:            1; /* Alternate one */
+        alt-3:            9; /* Flat-top three */
+        open-4:           2; /* Open four */
+        open-6:           3; /* Open six */
+        open-9:           4; /* Open nine */
+        lc-l-with-tail:   5; /* Lower-case L with tail */
+        simplified-u:     6; /* Simplified u */
+        alt-double-s:     7; /* Alternate German double s */
+        uc-i-with-serif:  8; /* Upper-case i with serif */
+        uc-g-with-spur:  10; /* Capital G with spur */
+        single-story-a:  11; /* Single-story a */
+        compact-lc-f:    12; /* Compact f */
+        compact-lc-t:    13; /* Compact t */
+    }
+    @styleset {
+        ss01: 1; ss02: 2; ss03: 3; ss04: 4; ss05: 5; ss06: 6; ss07: 7; ss08: 8;
+        open-digits: 1;                /* Open digits */
+        disambiguation: 2;             /* Disambiguation (with zero) */
+        disambiguation-except-zero: 4; /* Disambiguation (no zero) */
+        round-quotes-and-commas: 3;    /* Round quotes &amp; commas */
+        square-punctuation: 7;         /* Square punctuation */
+        square-quotes: 8;              /* Square quotes */
+        circled-characters: 5;         /* Circled characters */
+        squared-characters: 6;         /* Squared characters */
+    }
+}
+@font-feature-values InterDisplay {
+    @character-variant {
+        cv01: 1; cv02: 2; cv03: 3; cv04: 4; cv05: 5; cv06: 6; cv07: 7; cv08: 8;
+        cv09: 9; cv10: 10; cv11: 11; cv12: 12; cv13: 13;
+        alt-1:            1; /* Alternate one */
+        alt-3:            9; /* Flat-top three */
+        open-4:           2; /* Open four */
+        open-6:           3; /* Open six */
+        open-9:           4; /* Open nine */
+        lc-l-with-tail:   5; /* Lower-case L with tail */
+        simplified-u:     6; /* Simplified u */
+        alt-double-s:     7; /* Alternate German double s */
+        uc-i-with-serif:  8; /* Upper-case i with serif */
+        uc-g-with-spur:  10; /* Capital G with spur */
+        single-story-a:  11; /* Single-story a */
+        compact-lc-f:    12; /* Compact f */
+        compact-lc-t:    13; /* Compact t */
+    }
+    @styleset {
+        ss01: 1; ss02: 2; ss03: 3; ss04: 4; ss05: 5; ss06: 6; ss07: 7; ss08: 8;
+        open-digits: 1;                /* Open digits */
+        disambiguation: 2;             /* Disambiguation (with zero) */
+        disambiguation-except-zero: 4; /* Disambiguation (no zero) */
+        round-quotes-and-commas: 3;    /* Round quotes &amp; commas */
+        square-punctuation: 7;         /* Square punctuation */
+        square-quotes: 8;              /* Square quotes */
+        circled-characters: 5;         /* Circled characters */
+        squared-characters: 6;         /* Squared characters */
+    }
+}
+
 
 /* =============================================================================
-   THEME TRANSITIONS & ACCESSIBILITY
+   DIN-2014 Font Family - Modern @font-face Declarations
+   ============================================================================= */
+
+/* DIN-2014 Regular */
+@font-face {
+  font-family: "DIN-2014";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Regular.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Regular.woff") format("woff"),
+       url("../fonts/DIN-2014_Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN-2014";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Italic.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Italic.woff") format("woff"),
+       url("../fonts/DIN-2014_Italic.otf") format("opentype");
+}
+
+/* DIN-2014 Light (300) */
+@font-face {
+  font-family: "DIN-2014";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Light.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Light.woff") format("woff"),
+       url("../fonts/DIN-2014_Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN-2014";
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Light-Italic.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Light-Italic.woff") format("woff"),
+       url("../fonts/DIN-2014_Light-Italic.otf") format("opentype");
+}
+
+/* DIN-2014 Demi (500) */
+@font-face {
+  font-family: "DIN-2014";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Demi.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Demi.woff") format("woff"),
+       url("../fonts/DIN-2014_Demi.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN-2014";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Demi-Italic.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Demi-Italic.woff") format("woff"),
+       url("../fonts/DIN-2014_Demi-Italic.otf") format("opentype");
+}
+
+/* DIN-2014 Bold (700) */
+@font-face {
+  font-family: "DIN-2014";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Bold.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Bold.woff") format("woff"),
+       url("../fonts/DIN-2014_Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN-2014";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Bold-Italic.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Bold-Italic.woff") format("woff"),
+       url("../fonts/DIN-2014_Bold-Italic.otf") format("opentype");
+}
+
+/* DIN-2014 Extra Bold (800) */
+@font-face {
+  font-family: "DIN-2014";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Extra-Bold.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Extra-Bold.woff") format("woff"),
+       url("../fonts/DIN-2014_Extra-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN-2014";
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Extra-Bold-Italic.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Extra-Bold-Italic.woff") format("woff"),
+       url("../fonts/DIN-2014_Extra-Bold-Italic.otf") format("opentype");
+}
+
+/* DIN-2014 Extra Light (200) */
+@font-face {
+  font-family: "DIN-2014";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Extra-Light.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Extra-Light.woff") format("woff"),
+       url("../fonts/DIN-2014_Extra-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN-2014";
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Extra-Light-Italic.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Extra-Light-Italic.woff") format("woff"),
+       url("../fonts/DIN-2014_Extra-Light-Italic.otf") format("opentype");
+}
+
+/* =============================================================================
+   DIN-2014 Condensed Variants
+   ============================================================================= */
+
+/* DIN-2014 Condensed Regular */
+@font-face {
+  font-family: "DIN-2014-Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Condensed.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Condensed.woff") format("woff"),
+       url("../fonts/DIN-2014_Condensed.otf") format("opentype");
+}
+
+/* DIN-2014 Condensed Light */
+@font-face {
+  font-family: "DIN-2014-Condensed";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Condensed-Light.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Condensed-Light.woff") format("woff"),
+       url("../fonts/DIN-2014_Condensed-Light.otf") format("opentype");
+}
+
+/* DIN-2014 Condensed Demi */
+@font-face {
+  font-family: "DIN-2014-Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Condensed-Demi.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Condensed-Demi.woff") format("woff"),
+       url("../fonts/DIN-2014_Condensed-Demi.otf") format("opentype");
+}
+
+/* DIN-2014 Condensed Bold */
+@font-face {
+  font-family: "DIN-2014-Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Condensed-Bold.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Condensed-Bold.woff") format("woff"),
+       url("../fonts/DIN-2014_Condensed-Bold.otf") format("opentype");
+}
+
+/* DIN-2014 Condensed Extra Bold */
+@font-face {
+  font-family: "DIN-2014-Condensed";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Condensed-ExtraBold.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Condensed-ExtraBold.woff") format("woff"),
+       url("../fonts/DIN-2014_Condensed-ExtraBold.otf") format("opentype");
+}
+
+/* DIN-2014 Condensed Extra Light */
+@font-face {
+  font-family: "DIN-2014-Condensed";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Condensed-ExtraLight.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Condensed-ExtraLight.woff") format("woff"),
+       url("../fonts/DIN-2014_Condensed-ExtraLight.otf") format("opentype");
+}
+
+/* =============================================================================
+   DIN-2014 Narrow Variants
+   ============================================================================= */
+
+/* DIN-2014 Narrow Regular */
+@font-face {
+  font-family: "DIN-2014-Narrow";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Narrow.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Narrow.woff") format("woff"),
+       url("../fonts/DIN-2014_Narrow.otf") format("opentype");
+}
+
+/* DIN-2014 Narrow Light */
+@font-face {
+  font-family: "DIN-2014-Narrow";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Narrow-Light.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Narrow-Light.woff") format("woff"),
+       url("../fonts/DIN-2014_Narrow-Light.otf") format("opentype");
+}
+
+/* DIN-2014 Narrow Demi */
+@font-face {
+  font-family: "DIN-2014-Narrow";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Narrow-Demi.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Narrow-Demi.woff") format("woff"),
+       url("../fonts/DIN-2014_Narrow-Demi.otf") format("opentype");
+}
+
+/* DIN-2014 Narrow Bold */
+@font-face {
+  font-family: "DIN-2014-Narrow";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Narrow-Bold.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Narrow-Bold.woff") format("woff"),
+       url("../fonts/DIN-2014_Narrow-Bold.otf") format("opentype");
+}
+
+/* DIN-2014 Narrow Extra Bold */
+@font-face {
+  font-family: "DIN-2014-Narrow";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Narrow-Extra-Bold.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Narrow-Extra-Bold.woff") format("woff"),
+       url("../fonts/DIN-2014_Narrow-Extra-Bold.otf") format("opentype");
+}
+
+/* DIN-2014 Narrow Extra Light */
+@font-face {
+  font-family: "DIN-2014-Narrow";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/DIN-2014_Narrow-Extra-Light.woff2") format("woff2"),
+       url("../fonts/DIN-2014_Narrow-Extra-Light.woff") format("woff"),
+       url("../fonts/DIN-2014_Narrow-Extra-Light.otf") format("opentype");
+}
+
+/**
+ * M1st Design System - CSS Variables
+ * Generated on Thu, 28 Aug 2025 18:57:33 GMT
+ * 
+ * 4-Layer Token Architecture:
+ * Layer 1: Foundation tokens (base colors, typography)
+ * Layer 2: Semantic tokens (color intentions)
+ * Layer 3: Page-level tokens (page context)
+ * Layer 4: Component tokens (component-specific)
+ */
+
+/* =============================================================================
+   M1ST DESIGN SYSTEM - LIGHT THEME
    ============================================================================= */
 
 :root {
-  /* Enable smooth theme transitions */
-  --transition-theme: background-color 200ms cubic-bezier(0.4, 0, 0.2, 1),
-                      border-color 200ms cubic-bezier(0.4, 0, 0.2, 1),
-                      color 200ms cubic-bezier(0.4, 0, 0.2, 1),
-                      box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* Apply theme transitions to all elements */
-*,
-*::before,
-*::after {
-  transition: var(--transition-theme);
-}
-
-/* Respect user motion preferences */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    transition: none !important;
-  }
-}
-
-/* High contrast mode support */
-@media (prefers-contrast: high) {
-  :root {
-    --color-border-primary: #000000;
-    --color-text-primary: #000000;
-  }
-
-  [data-theme="dark"] {
-    --color-border-primary: #ffffff;
-    --color-text-primary: #ffffff;
-  }
-}
-
-/* =============================================================================
-   FOUNDATION TOKENS (Layer 1)
-   ============================================================================= */
-
-:root {
-  /* Extended Neutral Colors */
+  /* Layer 1: Foundation Tokens */
+  --brand-primary: #EE3831;
+  --accent-red: #E71C23;
+  --accent-green: #55A444;
+  --accent-blue: #0090C4;
+  --accent-orange: #F15C22;
+  --accent-yellow: #FAA61A;
+  --accent-teal: #006068;
+  --accent-blue-light: #007199;
+  --accent-blue-dark: #133156;
+  --accent-purple: #7C2984;
+  --accent-magenta: #AD1F63;
+  --accent-dark-red: #BF0000;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --transition-theme: background-color 200ms cubic-bezier(0.4, 0, 0.2, 1), border-color 200ms cubic-bezier(0.4, 0, 0.2, 1), color 200ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --shadow-focus: 0 0 0 3px rgba(238, 56, 49, 0.12);
+  --shadow-focus-danger: 0 0 0 3px rgba(238, 56, 49, 0.20);
   --neutral-0: #ffffff;
   --neutral-25: #fefefd;
   --neutral-50: #fafafa;
@@ -86,391 +486,634 @@ LAYER 4: COMPONENT TOKENS (Component-Specific)
   --neutral-950: #0a0a0a;
   --neutral-975: #050505;
   --neutral-1000: #000000;
+  --font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+  --font-family-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+  --font-family-heading: "DIN-2014", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+  --font-family-mono: SFMono-Regular, Monaco, Inconsolata, Liberation Mono, Courier New, monospace;
+  --font-size-heading-xxl: 4rem;
+  --font-size-heading-xl: 3rem;
+  --font-size-heading-l: 2.25rem;
+  --font-size-heading-m: 1.5rem;
+  --font-size-heading-s: 1.125rem;
+  --font-size-heading-xs: 1rem;
+  --font-size-body-l: 1.125rem;
+  --font-size-body-m: 1rem;
+  --font-size-body-s: 0.875rem;
+  --font-size-body-xs: 0.75rem;
+  --font-size-button: 0.875rem;
+  --font-size-code: 0.875rem;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-line-height-tight: 1.1;
+  --font-line-height-normal: 1.4;
+  --font-line-height-relaxed: 1.6;
+  --font-letter-spacing-tight: -0.02em;
+  --font-letter-spacing-normal: 0;
+  --font-letter-spacing-wide: 0.025em;
 
-  /* Brand Colors */
+  /* Layer 2: Semantic Tokens */
   --color-brand-primary: #EE3831;
-
-  /* Accent Colors - Warm */
   --color-accent-red: #E71C23;
   --color-accent-green: #55A444;
   --color-accent-blue: #0090C4;
   --color-accent-orange: #F15C22;
   --color-accent-yellow: #FAA61A;
-
-  /* Accent Colors - Cool */
   --color-accent-teal: #006068;
   --color-accent-blue-light: #007199;
   --color-accent-blue-dark: #133156;
   --color-accent-purple: #7C2984;
   --color-accent-magenta: #AD1F63;
   --color-accent-dark-red: #BF0000;
-
-  /* Typography Scale */
-  --font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
-  --font-family-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
-  --font-family-heading: "DIN-2014", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
-  --font-family-mono: 'SFMono-Regular', 'Monaco', 'Inconsolata', 'Liberation Mono', 'Courier New', monospace;
-
-  /* DIN-2014 Font Families */
-  --font-family-din: "DIN-2014", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
-  --font-family-din-condensed: "DIN-2014-Condensed", "DIN-2014", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
-  --font-family-din-narrow: "DIN-2014-Narrow", "DIN-2014", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
-
-  /* Font Size Scale */
-  --font-heading-xxl-size: 4rem;
-  --font-heading-xl-size: 3rem;
-  --font-heading-l-size: 2.25rem;
-  --font-heading-m-size: 1.5rem;
-  --font-heading-s-size: 1.125rem;
-  --font-heading-xs-size: 1rem;
-  --font-body-l-size: 1.125rem;
-  --font-body-m-size: 1rem;
-  --font-body-s-size: 0.875rem;
-  --font-body-xs-size: 0.75rem;
-  --font-button-size: 0.875rem;
-  --font-code-size: 0.875rem;
-
-  /* Line Height Scale */
-  --line-height-tight: 1.1;
-  --line-height-normal: 1.4;
-  --line-height-relaxed: 1.6;
-
-  /* Font Weight Scale */
-  --font-weight-light: 300;
-  --font-weight-normal: 400;
-  --font-weight-medium: 500;
-  --font-weight-semibold: 600;
-  --font-weight-bold: 700;
-
-  /* Letter Spacing Scale */
-  --letter-spacing-tight: -0.02em;
-  --letter-spacing-normal: 0;
-  --letter-spacing-wide: 0.025em;
-
-  /* Spacing Scale (Tailwind-compatible) */
-  --space-xs: 0.25rem;
-  --space-sm: 0.5rem;
-  --space-md: 1rem;
-  --space-lg: 1.5rem;
-  --space-xl: 2rem;
-  --space-2xl: 3rem;
-  --space-3xl: 4rem;
-}
-
-/* =============================================================================
-   SEMANTIC TOKENS (Layer 2)
-   ============================================================================= */
-
-:root {
-  /* Background Colors */
-  --color-background-primary: var(--neutral-0);
-  --color-background-secondary: var(--neutral-50);
-  --color-background-tertiary: var(--neutral-100);
-  --color-background-canvas: var(--neutral-0);
+  --color-accent-primary: #133156;
+  --color-accent-primary-hover: #0090C4;
+  --color-accent-primary-active: #133156;
+  --color-accent-secondary: #525252;
+  --color-accent-secondary-hover: #404040;
+  --color-accent-tertiary: #a3a3a3;
+  --color-text-primary: #171717;
+  --color-text-secondary: #525252;
+  --color-text-tertiary: #737373;
+  --color-text-placeholder: #a3a3a3;
+  --color-text-disabled: #b8b8b8;
+  --color-text-inverse: #ffffff;
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #fafafa;
+  --color-background-tertiary: #f5f5f5;
+  --color-background-canvas: #ffffff;
   --color-background-overlay: rgba(255, 255, 255, 0.95);
-
-  /* Surface Colors */
-  --color-surface-primary: var(--neutral-75);
-  --color-surface-secondary: var(--neutral-25);
-  --color-surface-elevated: var(--neutral-0);
-  --color-surface-sunken: var(--neutral-75);
-
-  /* Text Colors */
-  --color-text-primary: var(--neutral-900);
-  --color-text-secondary: var(--neutral-600);
-  --color-text-tertiary: var(--neutral-500);
-  --color-text-placeholder: var(--neutral-400);
-  --color-text-disabled: var(--neutral-350);
-  --color-text-inverse: var(--neutral-0);
-
-  /* Border Colors */
-  --color-border-primary: var(--neutral-200);
-  --color-border-secondary: var(--neutral-150);
-  --color-border-tertiary: var(--neutral-100);
-  --color-border-focus: var(--color-brand-primary);
-  --color-border-danger: #EE3831;
-
-  /* Interactive Colors */
-  --color-accent-primary: var(--neutral-925);
-  --color-accent-primary-hover: var(--neutral-975);
-  --color-accent-primary-active: var(--neutral-950);
-  --color-accent-secondary: var(--neutral-600);
-  --color-accent-secondary-hover: var(--neutral-700);
-  --color-accent-tertiary: var(--neutral-400);
-
-  /* Status Colors */
+  --color-surface-primary: #f7f7f7;
+  --color-surface-secondary: #fefefd;
+  --color-surface-elevated: #ffffff;
+  --color-surface-sunken: #f7f7f7;
+  --color-border-primary: #e5e5e5;
+  --color-border-secondary: #ececec;
+  --color-border-tertiary: #f5f5f5;
+  --color-border-focus: #EE3831;
+  --color-border-danger: #ee3831;
+  --color-state-hover: rgba(229, 229, 229, 0.5);
+  --color-state-active: rgba(212, 212, 212, 0.7);
+  --color-state-focus: rgba(238, 56, 49, 0.12);
+  --color-state-selected: rgba(238, 56, 49, 0.08);
+  --color-state-disabled: rgba(163, 163, 163, 0.4);
   --color-success: #059669;
   --color-success-emphasis: #047857;
   --color-success-subtle: #d1fae5;
   --color-warning: #d97706;
   --color-warning-emphasis: #b45309;
   --color-warning-subtle: #fef3c7;
-  --color-danger: var(--color-brand-primary);
+  --color-danger: #EE3831;
   --color-danger-emphasis: #d32f2f;
   --color-danger-subtle: #fee2e2;
   --color-info: #0891b2;
   --color-info-emphasis: #0e7490;
   --color-info-subtle: #cffafe;
 
-  /* Interactive States */
-  --color-state-hover: rgba(229, 229, 229, 0.5);
-  --color-state-active: rgba(212, 212, 212, 0.7);
-  --color-state-focus: rgba(238, 56, 49, 0.12);
-  --color-state-selected: rgba(238, 56, 49, 0.08);
-  --color-state-disabled: rgba(163, 163, 163, 0.4);
-}
+  /* Layer 3: Page-Level Tokens */
+  --page-background: #ffffff;
+  --page-surface: #fefefd;
+  --page-surface-elevated: #ffffff;
+  --page-surface-sunken: #f7f7f7;
+  --page-text-primary: #171717;
+  --page-text-secondary: #525252;
+  --page-text-muted: #737373;
+  --page-text-inverse: #ffffff;
+  --page-border: #e5e5e5;
+  --page-border-muted: #ececec;
+  --page-focus: rgba(238, 56, 49, 0.12);
+  --page-hover: rgba(229, 229, 229, 0.5);
+  --page-active: rgba(212, 212, 212, 0.7);
+  --page-accent-primary: #133156;
+  --page-accent-primary-hover: #0090C4;
+  --page-accent-primary-active: #133156;
+  --page-accent-secondary: #525252;
+  --page-accent-tertiary: #a3a3a3;
+  --page-text-accent-hover: #0090C4;
+  --page-background-container: #ffffff;
+  --page-overlay-backdrop: rgba(0, 0, 0, 0.6);
+  --page-border-control: #e5e5e5;
+  --page-success: #059669;
+  --page-success-emphasis: #047857;
+  --page-success-subtle: #d1fae5;
+  --page-warning: #d97706;
+  --page-warning-emphasis: #b45309;
+  --page-warning-subtle: #fef3c7;
+  --page-danger: #EE3831;
+  --page-danger-emphasis: #d32f2f;
+  --page-danger-subtle: #fee2e2;
+  --page-info: #0891b2;
+  --page-info-emphasis: #0e7490;
+  --page-info-subtle: #cffafe;
 
-/* =============================================================================
-   PAGE-LEVEL TOKENS (Layer 3)
-   ============================================================================= */
-
-:root {
-  /* Page-level backgrounds */
-  --page-background: var(--color-background-primary);
-  --page-surface: var(--color-surface-secondary);
-  --page-surface-elevated: var(--color-surface-elevated);
-  --page-surface-sunken: var(--color-surface-sunken);
-
-  /* Page-level text */
-  --page-text-primary: var(--color-text-primary);
-  --page-text-secondary: var(--color-text-secondary);
-  --page-text-muted: var(--color-text-tertiary);
-  --page-text-inverse: var(--color-text-inverse);
-
-  /* Page-level interactive states */
-  --page-border: var(--color-border-primary);
-  --page-border-muted: var(--color-border-secondary);
-  --page-focus: var(--color-state-focus);
-  --page-hover: var(--color-state-hover);
-  --page-active: var(--color-state-active);
-
-  /* Page-level accent colors */
-  --page-accent-primary: var(--color-accent-primary);
-  --page-accent-primary-hover: var(--color-accent-primary-hover);
-  --page-accent-primary-active: var(--color-accent-primary-active);
-
-  /* Page-level status colors */
-  --page-success: var(--color-success);
-  --page-warning: var(--color-warning);
-  --page-danger: var(--color-danger);
-  --page-info: var(--color-info);
-
-  /* Custom Focus Shadows */
-  --shadow-focus: 0 0 0 3px rgba(238, 56, 49, 0.12);
-  --shadow-focus-danger: 0 0 0 3px rgba(238, 56, 49, 0.20);
-}/* =============================================================================
-   COMPONENT TOKENS (Layer 4)
-   ============================================================================= */
-
-:root {
-  /* Button Tokens */
-  --button-primary-background: var(--color-accent-primary);
-  --button-primary-background-hover: var(--color-accent-primary-hover);
-  --button-primary-background-active: var(--color-accent-primary-active);
-  --button-primary-text: var(--color-text-inverse);
-  --button-primary-border: var(--color-accent-primary);
-
+  /* Layer 4: Component Tokens */
+  --button-primary-background: #133156;
+  --button-primary-bg: #133156;
+  --button-primary-background-hover: #0090C4;
+  --button-primary-bg-hover: #0090C4;
+  --button-primary-background-active: #133156;
+  --button-primary-bg-active: #133156;
+  --button-primary-text: #ffffff;
+  --button-primary-border: #133156;
+  --button-primary-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --button-primary-shadow-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --button-secondary-background: transparent;
-  --button-secondary-background-hover: var(--color-state-hover);
-  --button-secondary-background-active: var(--color-state-active);
-  --button-secondary-text: var(--color-accent-primary);
-  --button-secondary-border: var(--color-border-primary);
-
-  --button-tertiary-background: transparent;
-  --button-tertiary-background-hover: var(--color-state-hover);
-  --button-tertiary-text: var(--color-text-primary);
-
-  --button-danger-background: var(--color-danger);
-  --button-danger-background-hover: var(--color-danger-emphasis);
-  --button-danger-text: var(--color-text-inverse);
-
-  --button-padding-sm: 0.5rem 1rem;
-  --button-padding-md: 0.75rem 1.5rem;
-  --button-padding-lg: 1rem 2rem;
-  --button-border-radius: 0.375rem;
-  --button-font-weight: var(--font-weight-medium);
-
-  /* Input Tokens */
-  --input-background: var(--color-background-primary);
-  --input-background-disabled: var(--color-background-tertiary);
-  --input-border: var(--color-border-primary);
-  --input-border-hover: var(--color-border-secondary);
-  --input-border-focus: var(--color-border-focus);
-  --input-border-danger: var(--color-border-danger);
-  --input-text: var(--color-text-primary);
-  --input-text-placeholder: var(--color-text-placeholder);
+  --button-secondary-bg: transparent;
+  --button-secondary-background-hover: rgba(229, 229, 229, 0.5);
+  --button-secondary-bg-hover: rgba(229, 229, 229, 0.5);
+  --button-secondary-background-active: rgba(212, 212, 212, 0.7);
+  --button-secondary-bg-active: rgba(212, 212, 212, 0.7);
+  --button-secondary-text: #133156;
+  --button-secondary-border: #0f0f0f;
+  --button-ghost-background: transparent;
+  --button-ghost-bg: transparent;
+  --button-ghost-background-hover: rgba(229, 229, 229, 0.5);
+  --button-ghost-bg-hover: rgba(229, 229, 229, 0.5);
+  --button-ghost-background-active: rgba(212, 212, 212, 0.7);
+  --button-ghost-bg-active: rgba(212, 212, 212, 0.7);
+  --button-ghost-text: #171717;
+  --button-ghost-border: transparent;
+  --button-danger-background: #EE3831;
+  --button-danger-bg: #EE3831;
+  --button-danger-background-hover: #d32f2f;
+  --button-danger-bg-hover: #d32f2f;
+  --button-danger-background-active: #d32f2f;
+  --button-danger-bg-active: #d32f2f;
+  --button-danger-text: #ffffff;
+  --button-danger-border: #EE3831;
+  --button-info-background: #0891b2;
+  --button-info-bg: #0891b2;
+  --button-info-background-hover: #0e7490;
+  --button-info-bg-hover: #0e7490;
+  --button-info-background-active: #0e7490;
+  --button-info-bg-active: #0e7490;
+  --button-info-text: #ffffff;
+  --button-info-border: #0891b2;
+  --button-success-background: #059669;
+  --button-success-bg: #059669;
+  --button-success-background-hover: #047857;
+  --button-success-bg-hover: #047857;
+  --button-success-background-active: #047857;
+  --button-success-bg-active: #047857;
+  --button-success-text: #ffffff;
+  --button-success-border: #059669;
+  --button-warning-background: #d97706;
+  --button-warning-bg: #d97706;
+  --button-warning-background-hover: #b45309;
+  --button-warning-bg-hover: #b45309;
+  --button-warning-background-active: #b45309;
+  --button-warning-bg-active: #b45309;
+  --button-warning-text: #ffffff;
+  --button-warning-border: #d97706;
+  --button-border-radius: 9999px;
+  --button-font-weight-base: 500;
+  --button-font-weight-emphasis: 600;
+  --button-transition: background-color 200ms cubic-bezier(0.4, 0, 0.2, 1), border-color 200ms cubic-bezier(0.4, 0, 0.2, 1), color 200ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --button-focus-ring: 0 0 0 3px rgba(238, 56, 49, 0.12);
+  --button-disabled-opacity: 0.5;
+  --input-background: #ffffff;
+  --input-background-focus: #ffffff;
+  --input-background-disabled: #f5f5f5;
+  --input-text: #171717;
+  --input-text-placeholder: #a3a3a3;
+  --input-text-disabled: #b8b8b8;
+  --input-border: #e5e5e5;
+  --input-border-focus: #EE3831;
+  --input-border-danger: #ee3831;
   --input-padding: 0.75rem 1rem;
   --input-border-radius: 0.375rem;
-
-  /* Card Tokens */
-  --card-background: var(--color-surface-elevated);
-  --card-border: var(--color-border-primary);
-  --card-border-hover: var(--color-border-secondary);
+  --card-background: #ffffff;
+  --card-background-hover: #ffffff;
+  --card-border: #e5e5e5;
+  --card-border-hover: #ececec;
   --card-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   --card-shadow-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --card-border-radius: 0.5rem;
   --card-padding: 1.5rem;
-
-  /* Tab Tokens */
-  --tab-background: transparent;
-  --tab-background-active: var(--color-background-primary);
-  --tab-background-hover: var(--color-state-hover);
-  --tab-text: var(--color-text-secondary);
-  --tab-text-active: var(--color-text-primary);
-  --tab-text-hover: var(--color-text-primary);
-  --tab-border: var(--color-border-primary);
-  --tab-border-active: var(--color-border-focus);
-  --tab-padding: 0.75rem 1.5rem;
-
-  /* Navigation Tokens */
-  --nav-background: var(--color-background-primary);
-  --nav-border: var(--color-border-primary);
-  --nav-link-text: var(--color-text-secondary);
-  --nav-link-text-active: var(--color-text-primary);
-  --nav-link-text-hover: var(--color-text-primary);
-  --nav-link-background-hover: var(--color-state-hover);
-
-  /* Badge Tokens */
-  --badge-background-default: var(--color-background-tertiary);
-  --badge-background-primary: var(--color-accent-primary);
-  --badge-background-success: var(--color-success);
-  --badge-background-warning: var(--color-warning);
-  --badge-background-danger: var(--color-danger);
-  --badge-text-default: var(--color-text-primary);
-  --badge-text-primary: var(--color-text-inverse);
-  --badge-text-success: var(--color-text-inverse);
-  --badge-text-warning: var(--color-text-inverse);
-  --badge-text-danger: var(--color-text-inverse);
-  --badge-padding: 0.25rem 0.75rem;
-  --badge-border-radius: 9999px;
-  --badge-font-size: var(--font-body-xs-size);
-  --badge-font-weight: var(--font-weight-medium);
-
-  /* Modal Tokens */
   --modal-overlay: rgba(0, 0, 0, 0.5);
-  --modal-background: var(--color-background-primary);
+  --modal-background: #ffffff;
   --modal-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   --modal-border-radius: 0.75rem;
-  --modal-border: var(--color-border-primary);
+  --modal-border: #e5e5e5;
+  --nav-background: #f7f7f7;
+  --nav-border: #ececec;
+  --nav-link-text: #525252;
+  --nav-link-text-hover: #171717;
+  --nav-link-text-active: #133156;
+  --nav-link-background-hover: rgba(229, 229, 229, 0.5);
+  --nav-link-background-active: rgba(238, 56, 49, 0.08);
+  --loading-spinner-background: #ffffff;
+  --loading-spinner-brand-color: #EE3831;
+  --loading-spinner-text: #525252;
+  --loading-spinner-simple-border: #ececec;
+  --loading-spinner-secondary-color: #213d70;
 
-  /* Table Tokens */
-  --table-background: var(--color-background-primary);
-  --table-background-header: var(--color-background-secondary);
-  --table-background-row-hover: var(--color-state-hover);
-  --table-border: var(--color-border-primary);
-  --table-text: var(--color-text-primary);
-  --table-text-header: var(--color-text-secondary);
-  --table-padding-cell: 0.75rem 1rem;
+  /* Utility Tokens */
+  --utility-animation-duration-fast: 0.15s;
+  --utility-animation-duration-base: 0.2s;
+  --utility-animation-duration-slow: 0.3s;
+  --utility-animation-duration-slower: 0.5s;
+  --utility-animation-easing-ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --utility-animation-easing-ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --utility-animation-easing-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --utility-size-xs: 20rem;
+  --utility-size-sm: 24rem;
+  --utility-size-md: 28rem;
+  --utility-size-lg: 32rem;
+  --utility-size-xl: 36rem;
+  --utility-size-2xl: 42rem;
+  --utility-size-3xl: 48rem;
+  --utility-size-4xl: 56rem;
+  --utility-size-5xl: 64rem;
+  --utility-size-6xl: 72rem;
+  --utility-size-7xl: 80rem;
+  --utility-size-full: 100%;
+  --utility-size-screen: 100vh;
+  --utility-spacing-0: 0;
+  --utility-spacing-1: 0.25rem;
+  --utility-spacing-2: 0.5rem;
+  --utility-spacing-3: 0.75rem;
+  --utility-spacing-4: 1rem;
+  --utility-spacing-5: 1.25rem;
+  --utility-spacing-6: 1.5rem;
+  --utility-spacing-7: 1.75rem;
+  --utility-spacing-8: 2rem;
+  --utility-spacing-9: 2.25rem;
+  --utility-spacing-10: 2.5rem;
+  --utility-spacing-11: 2.75rem;
+  --utility-spacing-12: 3rem;
+  --utility-spacing-14: 3.5rem;
+  --utility-spacing-16: 4rem;
+  --utility-spacing-20: 5rem;
+  --utility-spacing-24: 6rem;
+  --utility-spacing-28: 7rem;
+  --utility-spacing-32: 8rem;
+  --utility-spacing-36: 9rem;
+  --utility-spacing-40: 10rem;
+  --utility-spacing-44: 11rem;
+  --utility-spacing-48: 12rem;
+  --utility-spacing-52: 13rem;
+  --utility-spacing-56: 14rem;
+  --utility-spacing-60: 15rem;
+  --utility-spacing-64: 16rem;
+  --utility-spacing-72: 18rem;
+  --utility-spacing-80: 20rem;
+  --utility-spacing-96: 24rem;
+  --utility-spacing-px: 1px;
+  --utility-spacing-0-5: 0.125rem;
+  --utility-spacing-1-5: 0.375rem;
+  --utility-spacing-2-5: 0.625rem;
+  --utility-spacing-3-5: 0.875rem;
 
-  /* Typography Component Tokens */
-  --heading-color: var(--color-text-primary);
-  --heading-font-family: var(--font-family-heading);
-  --heading-line-height: var(--line-height-tight);
-  --heading-letter-spacing: var(--letter-spacing-tight);
-
-  --body-color: var(--color-text-primary);
-  --body-font-family: var(--font-family-body);
-  --body-line-height: var(--line-height-normal);
-  --body-letter-spacing: var(--letter-spacing-normal);
-
-  /* Code Tokens */
-  --code-background: var(--color-background-tertiary);
-  --code-background-block: var(--color-background-secondary);
-  --code-text: var(--color-text-primary);
-  --code-border: var(--color-border-primary);
-  --code-font-family: var(--font-family-mono);
-  --code-font-size: var(--font-code-size);
-  --code-padding-inline: 0.25rem 0.375rem;
-  --code-padding-block: 1rem;
-  --code-border-radius: 0.25rem;
 }
 
 /* =============================================================================
-   DARK THEME OVERRIDES
+   M1ST DESIGN SYSTEM - DARK THEME
    ============================================================================= */
 
+.dark,
 [data-theme="dark"] {
-  /* Foundation layer overrides */
-  --color-background-primary: var(--neutral-900);
-  --color-background-secondary: var(--neutral-850);
-  --color-background-tertiary: var(--neutral-800);
-  --color-background-canvas: var(--neutral-900);
-  --color-background-overlay: rgba(23, 23, 23, 0.95);
-
-  /* Surface overrides */
-  --color-surface-primary: var(--neutral-800);
-  --color-surface-secondary: var(--neutral-850);
-  --color-surface-elevated: var(--neutral-750);
-  --color-surface-sunken: var(--neutral-900);
-
-  /* Text overrides */
-  --color-text-primary: var(--neutral-50);
-  --color-text-secondary: var(--neutral-300);
-  --color-text-tertiary: var(--neutral-400);
-  --color-text-placeholder: var(--neutral-500);
-  --color-text-disabled: var(--neutral-600);
-  --color-text-inverse: var(--neutral-900);
-
-  /* Border overrides */
-  --color-border-primary: var(--neutral-700);
-  --color-border-secondary: var(--neutral-750);
-  --color-border-tertiary: var(--neutral-800);
-
-  /* Interactive overrides */
-  --color-accent-primary: var(--neutral-50);
-  --color-accent-primary-hover: var(--neutral-25);
-  --color-accent-primary-active: var(--neutral-100);
-  --color-accent-secondary: var(--neutral-300);
-  --color-accent-secondary-hover: var(--neutral-250);
-  --color-accent-tertiary: var(--neutral-500);
-
-  /* State overrides */
-  --color-state-hover: rgba(115, 115, 115, 0.15);
-  --color-state-active: rgba(163, 163, 163, 0.25);
-  --color-state-focus: rgba(238, 56, 49, 0.20);
+  --component-button-primary-background: #EE3831;
+  --component-button-primary-background-hover: #d32f2f;
+  --component-button-primary-background-active: #b71c1c;
+  --component-button-primary-text: #ffffff;
+  --component-button-primary-border: #EE3831;
+  --component-button-primary-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --component-button-primary-shadow-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --component-button-secondary-background: transparent;
+  --component-button-secondary-background-hover: rgba(255, 255, 255, 0.08);
+  --component-button-secondary-background-active: rgba(255, 255, 255, 0.12);
+  --component-button-secondary-text: #EE3831;
+  --component-button-secondary-border: rgba(255, 255, 255, 0.2);
+  --component-button-tertiary-background: transparent;
+  --component-button-tertiary-background-hover: rgba(255, 255, 255, 0.08);
+  --component-button-tertiary-text: #ffffff;
+  --component-button-danger-background: #EE3831;
+  --component-button-danger-background-hover: #d32f2f;
+  --component-button-danger-text: #ffffff;
+  --component-button-border-radius: 9999px;
+  --component-input-background: #171717;
+  --component-input-background-hover: #1e1e1e;
+  --component-input-background-focus: #1e1e1e;
+  --component-input-border: rgba(255, 255, 255, 0.2);
+  --component-input-border-hover: rgba(255, 255, 255, 0.3);
+  --component-input-border-focus: #EE3831;
+  --component-input-text: #ffffff;
+  --component-input-placeholder: #6b7280;
+  --component-card-background: #171717;
+  --component-card-background-hover: #1e1e1e;
+  --component-card-border: rgba(255, 255, 255, 0.1);
+  --component-card-shadow: rgba(0, 0, 0, 0.8);
+  --component-modal-background: #171717;
+  --component-modal-backdrop: rgba(0, 0, 0, 0.8);
+  --component-modal-border: rgba(255, 255, 255, 0.2);
+  --component-nav-background: #0f0f0f;
+  --component-nav-border: rgba(255, 255, 255, 0.1);
+  --component-nav-link: #a0a0a0;
+  --component-nav-link-hover: #ffffff;
+  --component-nav-link-active: #EE3831;
+  --component-tab-background: transparent;
+  --component-tab-background-active: #171717;
+  --component-tab-background-hover: rgba(255, 255, 255, 0.08);
+  --component-tab-border: rgba(255, 255, 255, 0.2);
+  --component-tab-border-active: #EE3831;
+  --component-tab-text: #a0a0a0;
+  --component-tab-text-active: #ffffff;
+  --component-tab-text-hover: #ffffff;
+  --component-table-background: #171717;
+  --component-table-background-hover: #1e1e1e;
+  --component-table-background-stripe: #0f0f0f;
+  --component-table-border: rgba(255, 255, 255, 0.1);
+  --component-table-header-background: #0f0f0f;
+  --component-table-header-text: #ffffff;
+  --component-badge-background: #1e1e1e;
+  --component-badge-background-success: rgba(34, 197, 94, 0.2);
+  --component-badge-background-warning: rgba(245, 158, 11, 0.2);
+  --component-badge-background-danger: rgba(238, 56, 49, 0.2);
+  --component-badge-background-info: rgba(59, 130, 246, 0.2);
+  --component-badge-text: #ffffff;
+  --component-badge-text-success: #22c55e;
+  --component-badge-text-warning: #f59e0b;
+  --component-badge-text-danger: #EE3831;
+  --component-badge-text-info: #3b82f6;
+  --component-code-background: #0a0a0a;
+  --component-code-background-block: #171717;
+  --component-code-text: #22c55e;
+  --component-code-border: rgba(255, 255, 255, 0.1);
+  --neutral-0: #000000;
+  --neutral-25: #050505;
+  --neutral-50: #0a0a0a;
+  --neutral-75: #0f0f0f;
+  --neutral-100: #171717;
+  --neutral-150: #1e1e1e;
+  --neutral-200: #262626;
+  --neutral-250: #2b2b2b;
+  --neutral-300: #404040;
+  --neutral-350: #434343;
+  --neutral-400: #525252;
+  --neutral-450: #646464;
+  --neutral-500: #737373;
+  --neutral-550: #8b8b8b;
+  --neutral-600: #a3a3a3;
+  --neutral-650: #b8b8b8;
+  --neutral-700: #d4d4d4;
+  --neutral-750: #d9d9d9;
+  --neutral-800: #e5e5e5;
+  --neutral-850: #ececec;
+  --neutral-900: #f5f5f5;
+  --neutral-925: #f7f7f7;
+  --neutral-950: #fafafa;
+  --neutral-975: #fefefd;
+  --neutral-1000: #ffffff;
+  --color-background-primary: #0f0f0f;
+  --color-background-secondary: #171717;
+  --color-background-tertiary: #1e1e1e;
+  --color-background-canvas: #0f0f0f;
+  --color-surface-primary: #171717;
+  --color-surface-secondary: #1e1e1e;
+  --color-surface-elevated: #1e1e1e;
+  --color-surface-sunken: #0a0a0a;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #a0a0a0;
+  --color-text-tertiary: #6b7280;
+  --color-text-placeholder: #6b7280;
+  --color-text-disabled: #4b5563;
+  --color-text-inverse: #121212;
+  --color-border-primary: rgba(255, 255, 255, 0.2);
+  --color-border-secondary: rgba(255, 255, 255, 0.1);
+  --color-border-tertiary: rgba(255, 255, 255, 0.1);
+  --color-border-focus: #EE3831;
+  --color-border-danger: #EE3831;
+  --color-accent-primary: #ffffff;
+  --color-accent-primary-hover: #f5f5f5;
+  --color-accent-primary-active: #ececec;
+  --color-accent-secondary: #a0a0a0;
+  --color-accent-secondary-hover: #ffffff;
+  --color-accent-tertiary: #6b7280;
+  --color-state-hover: rgba(255, 255, 255, 0.08);
+  --color-state-active: rgba(255, 255, 255, 0.12);
+  --color-state-focus: rgba(238, 56, 49, 0.12);
   --color-state-selected: rgba(238, 56, 49, 0.15);
-  --color-state-disabled: rgba(82, 82, 82, 0.4);
-
-  /* Component-specific dark theme adjustments */
-  --input-background: var(--neutral-800);
-  --input-background-disabled: var(--neutral-850);
-  --card-background: var(--neutral-800);
-  --card-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
-  --card-shadow-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
-  --modal-overlay: rgba(0, 0, 0, 0.75);
-  --modal-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
-  --code-background: var(--neutral-850);
-  --code-background-block: var(--neutral-800);
+  --color-state-disabled: rgba(107, 114, 128, 0.4);
+  --color-success: #22c55e;
+  --color-success-emphasis: #16a34a;
+  --color-success-subtle: rgba(34, 197, 94, 0.15);
+  --color-warning: #f59e0b;
+  --color-warning-emphasis: #d97706;
+  --color-warning-subtle: rgba(245, 158, 11, 0.15);
+  --color-danger: #EE3831;
+  --color-danger-emphasis: #d32f2f;
+  --color-danger-subtle: rgba(238, 56, 49, 0.15);
+  --color-info: #3b82f6;
+  --color-info-emphasis: #2563eb;
+  --color-info-subtle: rgba(59, 130, 246, 0.15);
+  --page-background: #0f0f0f;
+  --page-surface: #1e1e1e;
+  --page-surface-elevated: #1e1e1e;
+  --page-surface-sunken: #0a0a0a;
+  --page-text-primary: #ffffff;
+  --page-text-secondary: #a0a0a0;
+  --page-text-muted: #6b7280;
+  --page-text-inverse: #121212;
+  --page-border: rgba(255, 255, 255, 0.2);
+  --page-border-muted: rgba(255, 255, 255, 0.1);
+  --page-focus: rgba(238, 56, 49, 0.12);
+  --page-hover: rgba(255, 255, 255, 0.08);
+  --page-active: rgba(255, 255, 255, 0.12);
+  --page-accent-primary: #ffffff;
+  --page-accent-primary-hover: #f5f5f5;
+  --page-accent-primary-active: #ececec;
+  --page-accent-secondary: #a0a0a0;
+  --page-accent-tertiary: #6b7280;
+  --page-text-accent-hover: #f5f5f5;
+  --page-background-container: #0f0f0f;
+  --page-overlay-backdrop: rgba(0, 0, 0, 0.8);
+  --page-border-control: rgba(255, 255, 255, 0.2);
+  --page-success: #22c55e;
+  --page-success-emphasis: #16a34a;
+  --page-success-subtle: rgba(34, 197, 94, 0.15);
+  --page-warning: #f59e0b;
+  --page-warning-emphasis: #d97706;
+  --page-warning-subtle: rgba(245, 158, 11, 0.15);
+  --page-danger: #EE3831;
+  --page-danger-emphasis: #d32f2f;
+  --page-danger-subtle: rgba(238, 56, 49, 0.15);
+  --page-info: #3b82f6;
+  --page-info-emphasis: #2563eb;
+  --page-info-subtle: rgba(59, 130, 246, 0.15);
 }
 
-/* =============================================================================
-   REDUCED MOTION PREFERENCES
-   ============================================================================= */
-
-@media (prefers-reduced-motion: reduce) {
-  :root {
-    --transition-theme: none;
+/* System preference dark theme */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light):not([data-theme="light"]) {
+    --component-button-primary-background: #EE3831;
+    --component-button-primary-background-hover: #d32f2f;
+    --component-button-primary-background-active: #b71c1c;
+    --component-button-primary-text: #ffffff;
+    --component-button-primary-border: #EE3831;
+    --component-button-primary-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    --component-button-primary-shadow-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    --component-button-secondary-background: transparent;
+    --component-button-secondary-background-hover: rgba(255, 255, 255, 0.08);
+    --component-button-secondary-background-active: rgba(255, 255, 255, 0.12);
+    --component-button-secondary-text: #EE3831;
+    --component-button-secondary-border: rgba(255, 255, 255, 0.2);
+    --component-button-tertiary-background: transparent;
+    --component-button-tertiary-background-hover: rgba(255, 255, 255, 0.08);
+    --component-button-tertiary-text: #ffffff;
+    --component-button-danger-background: #EE3831;
+    --component-button-danger-background-hover: #d32f2f;
+    --component-button-danger-text: #ffffff;
+    --component-button-border-radius: 9999px;
+    --component-input-background: #171717;
+    --component-input-background-hover: #1e1e1e;
+    --component-input-background-focus: #1e1e1e;
+    --component-input-border: rgba(255, 255, 255, 0.2);
+    --component-input-border-hover: rgba(255, 255, 255, 0.3);
+    --component-input-border-focus: #EE3831;
+    --component-input-text: #ffffff;
+    --component-input-placeholder: #6b7280;
+    --component-card-background: #171717;
+    --component-card-background-hover: #1e1e1e;
+    --component-card-border: rgba(255, 255, 255, 0.1);
+    --component-card-shadow: rgba(0, 0, 0, 0.8);
+    --component-modal-background: #171717;
+    --component-modal-backdrop: rgba(0, 0, 0, 0.8);
+    --component-modal-border: rgba(255, 255, 255, 0.2);
+    --component-nav-background: #0f0f0f;
+    --component-nav-border: rgba(255, 255, 255, 0.1);
+    --component-nav-link: #a0a0a0;
+    --component-nav-link-hover: #ffffff;
+    --component-nav-link-active: #EE3831;
+    --component-tab-background: transparent;
+    --component-tab-background-active: #171717;
+    --component-tab-background-hover: rgba(255, 255, 255, 0.08);
+    --component-tab-border: rgba(255, 255, 255, 0.2);
+    --component-tab-border-active: #EE3831;
+    --component-tab-text: #a0a0a0;
+    --component-tab-text-active: #ffffff;
+    --component-tab-text-hover: #ffffff;
+    --component-table-background: #171717;
+    --component-table-background-hover: #1e1e1e;
+    --component-table-background-stripe: #0f0f0f;
+    --component-table-border: rgba(255, 255, 255, 0.1);
+    --component-table-header-background: #0f0f0f;
+    --component-table-header-text: #ffffff;
+    --component-badge-background: #1e1e1e;
+    --component-badge-background-success: rgba(34, 197, 94, 0.2);
+    --component-badge-background-warning: rgba(245, 158, 11, 0.2);
+    --component-badge-background-danger: rgba(238, 56, 49, 0.2);
+    --component-badge-background-info: rgba(59, 130, 246, 0.2);
+    --component-badge-text: #ffffff;
+    --component-badge-text-success: #22c55e;
+    --component-badge-text-warning: #f59e0b;
+    --component-badge-text-danger: #EE3831;
+    --component-badge-text-info: #3b82f6;
+    --component-code-background: #0a0a0a;
+    --component-code-background-block: #171717;
+    --component-code-text: #22c55e;
+    --component-code-border: rgba(255, 255, 255, 0.1);
+    --neutral-0: #000000;
+    --neutral-25: #050505;
+    --neutral-50: #0a0a0a;
+    --neutral-75: #0f0f0f;
+    --neutral-100: #171717;
+    --neutral-150: #1e1e1e;
+    --neutral-200: #262626;
+    --neutral-250: #2b2b2b;
+    --neutral-300: #404040;
+    --neutral-350: #434343;
+    --neutral-400: #525252;
+    --neutral-450: #646464;
+    --neutral-500: #737373;
+    --neutral-550: #8b8b8b;
+    --neutral-600: #a3a3a3;
+    --neutral-650: #b8b8b8;
+    --neutral-700: #d4d4d4;
+    --neutral-750: #d9d9d9;
+    --neutral-800: #e5e5e5;
+    --neutral-850: #ececec;
+    --neutral-900: #f5f5f5;
+    --neutral-925: #f7f7f7;
+    --neutral-950: #fafafa;
+    --neutral-975: #fefefd;
+    --neutral-1000: #ffffff;
+    --color-background-primary: #0f0f0f;
+    --color-background-secondary: #171717;
+    --color-background-tertiary: #1e1e1e;
+    --color-background-canvas: #0f0f0f;
+    --color-surface-primary: #171717;
+    --color-surface-secondary: #1e1e1e;
+    --color-surface-elevated: #1e1e1e;
+    --color-surface-sunken: #0a0a0a;
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #a0a0a0;
+    --color-text-tertiary: #6b7280;
+    --color-text-placeholder: #6b7280;
+    --color-text-disabled: #4b5563;
+    --color-text-inverse: #121212;
+    --color-border-primary: rgba(255, 255, 255, 0.2);
+    --color-border-secondary: rgba(255, 255, 255, 0.1);
+    --color-border-tertiary: rgba(255, 255, 255, 0.1);
+    --color-border-focus: #EE3831;
+    --color-border-danger: #EE3831;
+    --color-accent-primary: #ffffff;
+    --color-accent-primary-hover: #f5f5f5;
+    --color-accent-primary-active: #ececec;
+    --color-accent-secondary: #a0a0a0;
+    --color-accent-secondary-hover: #ffffff;
+    --color-accent-tertiary: #6b7280;
+    --color-state-hover: rgba(255, 255, 255, 0.08);
+    --color-state-active: rgba(255, 255, 255, 0.12);
+    --color-state-focus: rgba(238, 56, 49, 0.12);
+    --color-state-selected: rgba(238, 56, 49, 0.15);
+    --color-state-disabled: rgba(107, 114, 128, 0.4);
+    --color-success: #22c55e;
+    --color-success-emphasis: #16a34a;
+    --color-success-subtle: rgba(34, 197, 94, 0.15);
+    --color-warning: #f59e0b;
+    --color-warning-emphasis: #d97706;
+    --color-warning-subtle: rgba(245, 158, 11, 0.15);
+    --color-danger: #EE3831;
+    --color-danger-emphasis: #d32f2f;
+    --color-danger-subtle: rgba(238, 56, 49, 0.15);
+    --color-info: #3b82f6;
+    --color-info-emphasis: #2563eb;
+    --color-info-subtle: rgba(59, 130, 246, 0.15);
+    --page-background: #0f0f0f;
+    --page-surface: #1e1e1e;
+    --page-surface-elevated: #1e1e1e;
+    --page-surface-sunken: #0a0a0a;
+    --page-text-primary: #ffffff;
+    --page-text-secondary: #a0a0a0;
+    --page-text-muted: #6b7280;
+    --page-text-inverse: #121212;
+    --page-border: rgba(255, 255, 255, 0.2);
+    --page-border-muted: rgba(255, 255, 255, 0.1);
+    --page-focus: rgba(238, 56, 49, 0.12);
+    --page-hover: rgba(255, 255, 255, 0.08);
+    --page-active: rgba(255, 255, 255, 0.12);
+    --page-accent-primary: #ffffff;
+    --page-accent-primary-hover: #f5f5f5;
+    --page-accent-primary-active: #ececec;
+    --page-accent-secondary: #a0a0a0;
+    --page-accent-tertiary: #6b7280;
+    --page-text-accent-hover: #f5f5f5;
+    --page-background-container: #0f0f0f;
+    --page-overlay-backdrop: rgba(0, 0, 0, 0.8);
+    --page-border-control: rgba(255, 255, 255, 0.2);
+    --page-success: #22c55e;
+    --page-success-emphasis: #16a34a;
+    --page-success-subtle: rgba(34, 197, 94, 0.15);
+    --page-warning: #f59e0b;
+    --page-warning-emphasis: #d97706;
+    --page-warning-subtle: rgba(245, 158, 11, 0.15);
+    --page-danger: #EE3831;
+    --page-danger-emphasis: #d32f2f;
+    --page-danger-subtle: rgba(238, 56, 49, 0.15);
+    --page-info: #3b82f6;
+    --page-info-emphasis: #2563eb;
+    --page-info-subtle: rgba(59, 130, 246, 0.15);
   }
 }
-
-/* =============================================================================
-   HIGH CONTRAST PREFERENCES
-   ============================================================================= */
-
-@media (prefers-contrast: high) {
-  :root {
-    --color-border-primary: var(--neutral-900);
-    --color-border-focus: var(--color-brand-primary);
-    --color-text-primary: var(--neutral-900);
-    --shadow-focus: 0 0 0 3px var(--color-brand-primary);
-  }
-
-  [data-theme="dark"] {
-    --color-border-primary: var(--neutral-50);
-    --color-text-primary: var(--neutral-50);
-  }
-}
-
-/* =============================================================================
-   END OF TOKENS
-   ============================================================================= */
