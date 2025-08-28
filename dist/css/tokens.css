@@ -162,8 +162,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Regular.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Regular.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Regular.woff") format("woff"),
        url("../fonts/DIN-2014_Regular.otf") format("opentype");
 }
 
@@ -172,8 +171,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Italic.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Italic.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Italic.woff") format("woff"),
        url("../fonts/DIN-2014_Italic.otf") format("opentype");
 }
 
@@ -183,8 +181,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Light.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Light.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Light.woff") format("woff"),
        url("../fonts/DIN-2014_Light.otf") format("opentype");
 }
 
@@ -193,8 +190,7 @@
   font-style: italic;
   font-weight: 300;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Light-Italic.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Light-Italic.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Light-Italic.woff") format("woff"),
        url("../fonts/DIN-2014_Light-Italic.otf") format("opentype");
 }
 
@@ -204,8 +200,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Demi.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Demi.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Demi.woff") format("woff"),
        url("../fonts/DIN-2014_Demi.otf") format("opentype");
 }
 
@@ -214,8 +209,7 @@
   font-style: italic;
   font-weight: 500;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Demi-Italic.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Demi-Italic.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Demi-Italic.woff") format("woff"),
        url("../fonts/DIN-2014_Demi-Italic.otf") format("opentype");
 }
 
@@ -225,8 +219,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Bold.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Bold.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Bold.woff") format("woff"),
        url("../fonts/DIN-2014_Bold.otf") format("opentype");
 }
 
@@ -235,8 +228,7 @@
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Bold-Italic.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Bold-Italic.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Bold-Italic.woff") format("woff"),
        url("../fonts/DIN-2014_Bold-Italic.otf") format("opentype");
 }
 
@@ -246,8 +238,7 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Extra-Bold.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Extra-Bold.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Extra-Bold.woff") format("woff"),
        url("../fonts/DIN-2014_Extra-Bold.otf") format("opentype");
 }
 
@@ -256,8 +247,7 @@
   font-style: italic;
   font-weight: 800;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Extra-Bold-Italic.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Extra-Bold-Italic.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Extra-Bold-Italic.woff") format("woff"),
        url("../fonts/DIN-2014_Extra-Bold-Italic.otf") format("opentype");
 }
 
@@ -267,8 +257,7 @@
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Extra-Light.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Extra-Light.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Extra-Light.woff") format("woff"),
        url("../fonts/DIN-2014_Extra-Light.otf") format("opentype");
 }
 
@@ -277,8 +266,7 @@
   font-style: italic;
   font-weight: 200;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Extra-Light-Italic.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Extra-Light-Italic.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Extra-Light-Italic.woff") format("woff"),
        url("../fonts/DIN-2014_Extra-Light-Italic.otf") format("opentype");
 }
 
@@ -292,8 +280,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Condensed.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Condensed.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Condensed.woff") format("woff"),
        url("../fonts/DIN-2014_Condensed.otf") format("opentype");
 }
 
@@ -303,8 +290,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Condensed-Light.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Condensed-Light.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Condensed-Light.woff") format("woff"),
        url("../fonts/DIN-2014_Condensed-Light.otf") format("opentype");
 }
 
@@ -314,8 +300,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Condensed-Demi.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Condensed-Demi.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Condensed-Demi.woff") format("woff"),
        url("../fonts/DIN-2014_Condensed-Demi.otf") format("opentype");
 }
 
@@ -325,8 +310,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Condensed-Bold.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Condensed-Bold.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Condensed-Bold.woff") format("woff"),
        url("../fonts/DIN-2014_Condensed-Bold.otf") format("opentype");
 }
 
@@ -336,8 +320,7 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Condensed-ExtraBold.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Condensed-ExtraBold.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Condensed-ExtraBold.woff") format("woff"),
        url("../fonts/DIN-2014_Condensed-ExtraBold.otf") format("opentype");
 }
 
@@ -347,8 +330,7 @@
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Condensed-ExtraLight.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Condensed-ExtraLight.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Condensed-ExtraLight.woff") format("woff"),
        url("../fonts/DIN-2014_Condensed-ExtraLight.otf") format("opentype");
 }
 
@@ -362,8 +344,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Narrow.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Narrow.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Narrow.woff") format("woff"),
        url("../fonts/DIN-2014_Narrow.otf") format("opentype");
 }
 
@@ -373,8 +354,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Narrow-Light.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Narrow-Light.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Narrow-Light.woff") format("woff"),
        url("../fonts/DIN-2014_Narrow-Light.otf") format("opentype");
 }
 
@@ -384,8 +364,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Narrow-Demi.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Narrow-Demi.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Narrow-Demi.woff") format("woff"),
        url("../fonts/DIN-2014_Narrow-Demi.otf") format("opentype");
 }
 
@@ -395,8 +374,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Narrow-Bold.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Narrow-Bold.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Narrow-Bold.woff") format("woff"),
        url("../fonts/DIN-2014_Narrow-Bold.otf") format("opentype");
 }
 
@@ -406,8 +384,7 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Narrow-Extra-Bold.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Narrow-Extra-Bold.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Narrow-Extra-Bold.woff") format("woff"),
        url("../fonts/DIN-2014_Narrow-Extra-Bold.otf") format("opentype");
 }
 
@@ -417,14 +394,13 @@
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url("../fonts/DIN-2014_Narrow-Extra-Light.woff2") format("woff2"),
-       url("../fonts/DIN-2014_Narrow-Extra-Light.woff") format("woff"),
+  src: url("../fonts/DIN-2014_Narrow-Extra-Light.woff") format("woff"),
        url("../fonts/DIN-2014_Narrow-Extra-Light.otf") format("opentype");
 }
 
 /**
  * M1st Design System - CSS Variables
- * Generated on Thu, 28 Aug 2025 18:57:33 GMT
+ * Generated on Thu, 28 Aug 2025 19:11:12 GMT
  * 
  * 4-Layer Token Architecture:
  * Layer 1: Foundation tokens (base colors, typography)

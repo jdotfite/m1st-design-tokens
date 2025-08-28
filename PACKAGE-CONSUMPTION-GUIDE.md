@@ -30,6 +30,7 @@ src: url("../fonts/InterVariable.woff2") format("woff2");
 - ✅ Added `package.json` export for better tooling support
 - ✅ Added `CHANGELOG.md` to distributed files
 - ✅ Improved package structure for consumption
+ - ✅ Added post-build font integrity verification (ensures every referenced font exists)
 
 ## 🧪 Testing Your Package Consumption
 
@@ -105,6 +106,13 @@ node_modules/@members1stfederalcreditunion/design-tokens/
 npm list @members1stfederalcreditunion/design-tokens
 # Should show 1.2.2 or higher
 ```
+
+### **2a. (Optional) Run Font Integrity Check Locally**
+If cloning this repo directly:
+```bash
+npm run verify:fonts
+```
+Expect output ending with `All referenced font files are present.`
 
 ### **3. Clear Cache and Reinstall**
 ```bash
