@@ -6,6 +6,14 @@ All notable changes to this project will be documented in this file.
 
 ## [2.3.1] - 2025-08-29
 
+## [2.3.2] - 2025-08-29
+
+### Changed
+- `page.surface-elevated` light theme updated to `#10141e` (custom elevated surface).
+
+### Notes
+- Light/dark behavior explanation: Newly introduced custom page tokens override both themes because only base (light) layer was changed. Dark overrides remain; see README guidance to differentiate if needed.
+
 ### Changed
 - Page theming: Added `--page-main-nav-background` token; updated light & dark `--page-background` (now #030712) and `--page-surface` (now #080c17) for higher contrast dark layout.
 
