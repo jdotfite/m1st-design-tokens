@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 29 Aug 2025 01:19:37 GMT
+ * Generated on Fri, 29 Aug 2025 19:18:58 GMT
  */
 
 export const BrandPrimary = "#EE3831";
@@ -339,9 +339,10 @@ export const DarkColorDangerSubtle = "rgba(238, 56, 49, 0.15)";
 export const DarkColorInfo = "#3b82f6";
 export const DarkColorInfoEmphasis = "#2563eb";
 export const DarkColorInfoSubtle = "rgba(59, 130, 246, 0.15)";
-export const DarkPageBackground = "#0f0f0f";
-export const DarkPageSurface = "#1e1e1e";
-export const DarkPageSurfaceElevated = "#1e1e1e";
+export const DarkPageMainNavBackground = "#02050e";
+export const DarkPageBackground = "#030712";
+export const DarkPageSurface = "#080c17";
+export const DarkPageSurfaceElevated = "#10141e";
 export const DarkPageSurfaceSunken = "#0a0a0a";
 export const DarkPageTextPrimary = "#ffffff";
 export const DarkPageTextSecondary = "#a0a0a0";
@@ -412,6 +413,7 @@ export const CodeFontSize = "0.875rem";
 export const CodePaddingInline = "0.25rem 0.375rem";
 export const CodePaddingBlock = "1rem";
 export const CodeBorderRadius = "0.25rem";
+export const PageMainNavBackground = "#f7f7f7";
 export const PageBackground = "#ffffff";
 export const PageSurface = "#fefefd";
 export const PageSurfaceElevated = "#ffffff";

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 29 Aug 2025 01:19:37 GMT
+ * Generated on Fri, 29 Aug 2025 19:18:58 GMT
  */
 
 export const BrandPrimary : string;
@@ -339,6 +339,7 @@ export const DarkColorDangerSubtle : string;
 export const DarkColorInfo : string;
 export const DarkColorInfoEmphasis : string;
 export const DarkColorInfoSubtle : string;
+export const DarkPageMainNavBackground : string;
 export const DarkPageBackground : string;
 export const DarkPageSurface : string;
 export const DarkPageSurfaceElevated : string;
@@ -412,6 +413,7 @@ export const CodeFontSize : string;
 export const CodePaddingInline : string;
 export const CodePaddingBlock : string;
 export const CodeBorderRadius : string;
+export const PageMainNavBackground : string;
 export const PageBackground : string;
 export const PageSurface : string;
 export const PageSurfaceElevated : string;

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 29 Aug 2025 01:19:37 GMT
+ * Generated on Fri, 29 Aug 2025 19:18:58 GMT
  */
 
 module.exports = {
@@ -340,9 +340,10 @@ module.exports = {
   "DarkColorInfo": "#3b82f6",
   "DarkColorInfoEmphasis": "#2563eb",
   "DarkColorInfoSubtle": "rgba(59, 130, 246, 0.15)",
-  "DarkPageBackground": "#0f0f0f",
-  "DarkPageSurface": "#1e1e1e",
-  "DarkPageSurfaceElevated": "#1e1e1e",
+  "DarkPageMainNavBackground": "#02050e",
+  "DarkPageBackground": "#030712",
+  "DarkPageSurface": "#080c17",
+  "DarkPageSurfaceElevated": "#10141e",
   "DarkPageSurfaceSunken": "#0a0a0a",
   "DarkPageTextPrimary": "#ffffff",
   "DarkPageTextSecondary": "#a0a0a0",
@@ -413,6 +414,7 @@ module.exports = {
   "CodePaddingInline": "0.25rem 0.375rem",
   "CodePaddingBlock": "1rem",
   "CodeBorderRadius": "0.25rem",
+  "PageMainNavBackground": "#f7f7f7",
   "PageBackground": "#ffffff",
   "PageSurface": "#fefefd",
   "PageSurfaceElevated": "#ffffff",

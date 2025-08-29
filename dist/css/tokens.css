@@ -400,7 +400,7 @@
 
 /**
  * M1st Design System - CSS Variables
- * Generated on Fri, 29 Aug 2025 01:19:37 GMT
+ * Generated on Fri, 29 Aug 2025 19:18:58 GMT
  * 
  * 4-Layer Token Architecture:
  * Layer 1: Foundation tokens (base colors, typography)
@@ -548,6 +548,7 @@
   --color-info-subtle: #cffafe;
 
   /* Layer 3: Page-Level Tokens */
+  --page-main-nav-background: #f7f7f7;
   --page-background: #ffffff;
   --page-surface: #fefefd;
   --page-surface-elevated: #ffffff;
@@ -884,9 +885,10 @@
   --color-info: #3b82f6;
   --color-info-emphasis: #2563eb;
   --color-info-subtle: rgba(59, 130, 246, 0.15);
-  --page-background: #0f0f0f;
-  --page-surface: #1e1e1e;
-  --page-surface-elevated: #1e1e1e;
+  --page-main-nav-background: #02050e;
+  --page-background: #030712;
+  --page-surface: #080c17;
+  --page-surface-elevated: #10141e;
   --page-surface-sunken: #0a0a0a;
   --page-text-primary: #ffffff;
   --page-text-secondary: #a0a0a0;
@@ -1057,9 +1059,10 @@
     --color-info: #3b82f6;
     --color-info-emphasis: #2563eb;
     --color-info-subtle: rgba(59, 130, 246, 0.15);
-    --page-background: #0f0f0f;
-    --page-surface: #1e1e1e;
-    --page-surface-elevated: #1e1e1e;
+    --page-main-nav-background: #02050e;
+    --page-background: #030712;
+    --page-surface: #080c17;
+    --page-surface-elevated: #10141e;
     --page-surface-sunken: #0a0a0a;
     --page-text-primary: #ffffff;
     --page-text-secondary: #a0a0a0;
