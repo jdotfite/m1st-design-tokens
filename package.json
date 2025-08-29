@@ -31,6 +31,7 @@
     "dev": "style-dictionary build --config style-dictionary.config.js --watch",
     "test": "echo \"No tests yet\" && exit 0",
     "strip:bom": "node scripts/strip-bom.js",
+  "prepare": "npm run build:clean",
     "prepublishOnly": "npm run strip:bom && npm run build:clean",
     "fonts:check": "echo \"Checking font files...\" && dir fonts",
     "tokens:update": "npm run build && echo \"Tokens updated with font support!\"",
