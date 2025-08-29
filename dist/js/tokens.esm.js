@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 29 Aug 2025 19:18:58 GMT
+ * Generated on Fri, 29 Aug 2025 19:51:20 GMT
  */
 
 export const BrandPrimary = "#EE3831";
