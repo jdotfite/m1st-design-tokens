@@ -10,6 +10,9 @@ All notable changes to this project will be documented in this file.
 ### Notes
 - No token value changes; this release is purely a distribution / naming change.
 - Old scoped package will no longer receive updates after this version.
+ - Added optional `legacy.css` (post-release patch) providing backwards compatible variable aliases & utility classes.
+   - Import via: `@import "m1st-design-tokens/legacy";` (after updating package to commit including export)
+   - Contents: legacy variable name aliases (e.g. `--font-heading-xl-size`), text transform tokens, extended neutral utility classes, heading/body text utilities, theme transition helpers.
 
 ## [1.3.1] - 2025-08-28
 

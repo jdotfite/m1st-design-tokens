@@ -21,6 +21,7 @@
     "./fonts": "./dist/fonts/",
     "./fonts/inter.css": "./dist/fonts/inter.css",
     "./fonts/din-2014.css": "./dist/fonts/din-2014.css",
+  "./legacy": "./dist/css/legacy.css",
     "./package.json": "./package.json"
   },
   "scripts": {
@@ -30,6 +31,7 @@
     "build:fonts": "npm run build",
     "dev": "style-dictionary build --config style-dictionary.config.js --watch",
     "test": "echo \"No tests yet\" && exit 0",
+  "test:legacy": "node scripts/test-legacy.js",
     "strip:bom": "node scripts/strip-bom.js",
   "prepare": "npm run build:clean",
     "prepublishOnly": "npm run strip:bom && npm run build:clean",
