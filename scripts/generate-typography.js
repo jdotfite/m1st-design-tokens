@@ -16,45 +16,35 @@ function build() {
 
   const now = new Date().toISOString();
 
-  let css = `/* ============================================================================\n   TYPOGRAPHY UTILITIES (generated)\n   Source: build-data/typography-map.json\n   Generated: ${now}\n   Avoids styling raw h1–h6.\n   Import after tokens: @import \"m1st-design-tokens/css\"; @import \"m1st-design-tokens/typography\";\n   ============================================================================ */\n`;
-  css += `\n/* Heading scale utilities */\n`;
-  Object.entries(map.heading).forEach(([k, def]) => {
-    css += `.heading-${k} {\n  font-family: var(--font-family-heading);\n  font-size: var(${def.sizeVar});\n  font-weight: ${def.weight};\n  line-height: ${def.lineHeight};\n  letter-spacing: ${def.letterSpacing};\n}\n`;
-  });
-  css += `\n/* Semantic aliases */\n`;
+  // Tailwind-first approach: provide a stub CSS file for backwards import compatibility only.
+  const stub = `/* Typography utilities removed in v3.0.0 (Tailwind-first).\n * This stub remains so existing @import \"m1st-design-tokens/typography\" does not error.\n * Use Tailwind classes instead: text-display, text-headline, text-title, text-body, text-label or text-heading-xxl..xs. */\n`;
+  const cssOut = path.join(distCssDir, 'typography.css');
+  fs.writeFileSync(cssOut, stub);
+  console.log('[generate-typography] Wrote stub', cssOut);
+
+  const tailwindTheme = {"theme":{"extend":{"fontSize":{},"letterSpacing":{}}}};
+  // Map heading scale under fontSize keys prefixed heading-*
+  Object.entries(map.heading).forEach(([k,d]) => { tailwindTheme.theme.extend.fontSize[`heading-${k}`] = `var(${d.sizeVar})`; });
+  // Semantic aliases
   Object.entries(map.semantics).forEach(([semantic, ref]) => {
     const def = map.heading[ref];
-    css += `.${semantic} {\n  font-family: var(--font-family-heading);\n  font-size: var(${def.sizeVar});\n  font-weight: ${def.weight};\n  line-height: ${def.lineHeight};\n  letter-spacing: ${def.letterSpacing};\n}\n`;
+    tailwindTheme.theme.extend.fontSize[semantic] = `var(${def.sizeVar})`;
   });
-  css += `\n/* Body scale utilities */\n`;
-  Object.entries(map.body).forEach(([k, def]) => {
-    css += `.body-${k} {\n  font-family: var(--font-family-body);\n  font-size: var(${def.sizeVar});\n  font-weight: var(--font-weight-normal);\n  line-height: ${def.lineHeight};\n}\n`;
-  });
-  css += `\n/* Modifiers */\n.is-caps { text-transform: uppercase; letter-spacing: var(--font-letter-spacing-wide); }\n.is-normal-case { text-transform: none; letter-spacing: var(--font-letter-spacing-normal); }\n`;
-  const cssOut = path.join(distCssDir, 'typography.css');
-  fs.writeFileSync(cssOut, css);
-  console.log('[generate-typography] Wrote', cssOut);
-
-  const tailwindTheme = {"theme":{"extend":{"fontSize":{}}}};
-  Object.entries(map.heading).forEach(([k,d]) => { tailwindTheme.theme.extend.fontSize[`heading-${k}`] = `var(${d.sizeVar})`; });
+  // Body scale to semantic keys body-l etc.
   Object.entries(map.body).forEach(([k,d]) => { tailwindTheme.theme.extend.fontSize[`body-${k}`] = `var(${d.sizeVar})`; });
+  // Letter spacing tokens
+  tailwindTheme.theme.extend.letterSpacing = {
+    tight: 'var(--font-letter-spacing-tight)',
+    normal: 'var(--font-letter-spacing-normal)',
+    wide: 'var(--font-letter-spacing-wide)'
+  };
   fs.writeFileSync(path.join(distIntegrationsDir,'tailwind.cjs'),'module.exports = '+JSON.stringify(tailwindTheme,null,2)+'\n');
   console.log('[generate-typography] Wrote dist/integrations/tailwind.cjs');
 
-  let pluginSrc = `/** Generated ${now} */\nmodule.exports = function({ addUtilities }) {\n  const utilities = {\n`;
-  Object.entries(map.heading).forEach(([k, def]) => {
-    pluginSrc += `    '.heading-${k}': { fontFamily: 'var(--font-family-heading)', fontSize: 'var(${def.sizeVar})', fontWeight: '${def.weight}', lineHeight: '${def.lineHeight}', letterSpacing: '${def.letterSpacing}' },\n`;
-  });
-  Object.entries(map.semantics).forEach(([semantic, ref]) => {
-    const def = map.heading[ref];
-    pluginSrc += `    '.${semantic}': { fontFamily: 'var(--font-family-heading)', fontSize: 'var(${def.sizeVar})', fontWeight: '${def.weight}', lineHeight: '${def.lineHeight}', letterSpacing: '${def.letterSpacing}' },\n`;
-  });
-  Object.entries(map.body).forEach(([k, def]) => {
-    pluginSrc += `    '.body-${k}': { fontFamily: 'var(--font-family-body)', fontSize: 'var(${def.sizeVar})', fontWeight: 'var(--font-weight-normal)', lineHeight: '${def.lineHeight}' },\n`;
-  });
-  pluginSrc += `    '.is-caps': { textTransform: 'uppercase', letterSpacing: 'var(--font-letter-spacing-wide)' },\n    '.is-normal-case': { textTransform: 'none', letterSpacing: 'var(--font-letter-spacing-normal)' }\n  };\n  addUtilities(utilities);\n};\n`;
-  fs.writeFileSync(path.join(distIntegrationsDir,'tailwind-plugin.cjs'), pluginSrc);
-  console.log('[generate-typography] Wrote dist/integrations/tailwind-plugin.cjs');
+  // Deprecated plugin (kept to avoid breaking import paths) outputs no utilities.
+  const pluginDeprecated = `/** Deprecated in v3.0.0: typography utilities now rely on Tailwind fontSize + letterSpacing extensions. */\nmodule.exports = function(){ /* no-op */ };\n`;
+  fs.writeFileSync(path.join(distIntegrationsDir,'tailwind-plugin.cjs'), pluginDeprecated);
+  console.log('[generate-typography] Wrote deprecated no-op tailwind-plugin.cjs');
 }
 
 build();
