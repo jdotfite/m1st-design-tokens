@@ -1,4 +1,4 @@
-﻿{
+{
   "button": {
     "primary": {
       "background": { "value": "{page.accent-primary}", "type": "color", "description": "Primary button background" },

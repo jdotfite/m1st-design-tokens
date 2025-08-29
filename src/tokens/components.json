@@ -1,4 +1,4 @@
-﻿{
+{
   "input": {
     "background": { "value": "{color.background.primary}", "type": "color" },
     "background-focus": { "value": "{color.background.primary}", "type": "color" },

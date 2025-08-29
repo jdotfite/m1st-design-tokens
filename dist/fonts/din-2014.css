@@ -1,0 +1,245 @@
+/* =============================================================================
+   DIN-2014 Font Family - Modern @font-face Declarations
+   ============================================================================= */
+
+/* DIN-2014 Regular */
+@font-face {
+  font-family: "DIN-2014";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("DIN-2014_Regular.woff") format("woff"),
+       url("DIN-2014_Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN-2014";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("DIN-2014_Italic.woff") format("woff"),
+       url("DIN-2014_Italic.otf") format("opentype");
+}
+
+/* DIN-2014 Light (300) */
+@font-face {
+  font-family: "DIN-2014";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("DIN-2014_Light.woff") format("woff"),
+       url("DIN-2014_Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN-2014";
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("DIN-2014_Light-Italic.woff") format("woff"),
+       url("DIN-2014_Light-Italic.otf") format("opentype");
+}
+
+/* DIN-2014 Demi (500) */
+@font-face {
+  font-family: "DIN-2014";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("DIN-2014_Demi.woff") format("woff"),
+       url("DIN-2014_Demi.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN-2014";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("DIN-2014_Demi-Italic.woff") format("woff"),
+       url("DIN-2014_Demi-Italic.otf") format("opentype");
+}
+
+/* DIN-2014 Bold (700) */
+@font-face {
+  font-family: "DIN-2014";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("DIN-2014_Bold.woff") format("woff"),
+       url("DIN-2014_Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN-2014";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("DIN-2014_Bold-Italic.woff") format("woff"),
+       url("DIN-2014_Bold-Italic.otf") format("opentype");
+}
+
+/* DIN-2014 Extra Bold (800) */
+@font-face {
+  font-family: "DIN-2014";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("DIN-2014_Extra-Bold.woff") format("woff"),
+       url("DIN-2014_Extra-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN-2014";
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("DIN-2014_Extra-Bold-Italic.woff") format("woff"),
+       url("DIN-2014_Extra-Bold-Italic.otf") format("opentype");
+}
+
+/* DIN-2014 Extra Light (200) */
+@font-face {
+  font-family: "DIN-2014";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("DIN-2014_Extra-Light.woff") format("woff"),
+       url("DIN-2014_Extra-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN-2014";
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url("DIN-2014_Extra-Light-Italic.woff") format("woff"),
+       url("DIN-2014_Extra-Light-Italic.otf") format("opentype");
+}
+
+/* =============================================================================
+   DIN-2014 Condensed Variants
+   ============================================================================= */
+
+/* DIN-2014 Condensed Regular */
+@font-face {
+  font-family: "DIN-2014-Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("DIN-2014_Condensed.woff") format("woff"),
+       url("DIN-2014_Condensed.otf") format("opentype");
+}
+
+/* DIN-2014 Condensed Light */
+@font-face {
+  font-family: "DIN-2014-Condensed";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("DIN-2014_Condensed-Light.woff") format("woff"),
+       url("DIN-2014_Condensed-Light.otf") format("opentype");
+}
+
+/* DIN-2014 Condensed Demi */
+@font-face {
+  font-family: "DIN-2014-Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("DIN-2014_Condensed-Demi.woff") format("woff"),
+       url("DIN-2014_Condensed-Demi.otf") format("opentype");
+}
+
+/* DIN-2014 Condensed Bold */
+@font-face {
+  font-family: "DIN-2014-Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("DIN-2014_Condensed-Bold.woff") format("woff"),
+       url("DIN-2014_Condensed-Bold.otf") format("opentype");
+}
+
+/* DIN-2014 Condensed Extra Bold */
+@font-face {
+  font-family: "DIN-2014-Condensed";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("DIN-2014_Condensed-ExtraBold.woff") format("woff"),
+       url("DIN-2014_Condensed-ExtraBold.otf") format("opentype");
+}
+
+/* DIN-2014 Condensed Extra Light */
+@font-face {
+  font-family: "DIN-2014-Condensed";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("DIN-2014_Condensed-ExtraLight.woff") format("woff"),
+       url("DIN-2014_Condensed-ExtraLight.otf") format("opentype");
+}
+
+/* =============================================================================
+   DIN-2014 Narrow Variants
+   ============================================================================= */
+
+/* DIN-2014 Narrow Regular */
+@font-face {
+  font-family: "DIN-2014-Narrow";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("DIN-2014_Narrow.woff") format("woff"),
+       url("DIN-2014_Narrow.otf") format("opentype");
+}
+
+/* DIN-2014 Narrow Light */
+@font-face {
+  font-family: "DIN-2014-Narrow";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("DIN-2014_Narrow-Light.woff") format("woff"),
+       url("DIN-2014_Narrow-Light.otf") format("opentype");
+}
+
+/* DIN-2014 Narrow Demi */
+@font-face {
+  font-family: "DIN-2014-Narrow";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("DIN-2014_Narrow-Demi.woff") format("woff"),
+       url("DIN-2014_Narrow-Demi.otf") format("opentype");
+}
+
+/* DIN-2014 Narrow Bold */
+@font-face {
+  font-family: "DIN-2014-Narrow";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("DIN-2014_Narrow-Bold.woff") format("woff"),
+       url("DIN-2014_Narrow-Bold.otf") format("opentype");
+}
+
+/* DIN-2014 Narrow Extra Bold */
+@font-face {
+  font-family: "DIN-2014-Narrow";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("DIN-2014_Narrow-Extra-Bold.woff") format("woff"),
+       url("DIN-2014_Narrow-Extra-Bold.otf") format("opentype");
+}
+
+/* DIN-2014 Narrow Extra Light */
+@font-face {
+  font-family: "DIN-2014-Narrow";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("DIN-2014_Narrow-Extra-Light.woff") format("woff"),
+       url("DIN-2014_Narrow-Extra-Light.otf") format("opentype");
+}

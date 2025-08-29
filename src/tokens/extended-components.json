@@ -1,4 +1,4 @@
-﻿{
+{
   "tab": {
     "background": { "value": "transparent", "type": "color" },
     "background-active": { "value": "{color.background.primary}", "type": "color" },
