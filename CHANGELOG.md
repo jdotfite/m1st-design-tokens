@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.2.1] - 2025-08-29
+
+### Fixed
+- `typography.css`: Adjusted `h4` size mapping from `--font-size-heading-m` to `--font-size-heading-xs` (1rem) for improved visual hierarchy. No token values changed.
+
 ## [2.1.0] - 2025-08-28
 
 ### Added

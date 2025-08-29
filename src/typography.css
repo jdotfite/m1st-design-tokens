@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6,
 h1 { font-size: var(--font-size-heading-xxl); line-height: 1.1; font-weight: var(--font-weight-bold); }
 h2 { font-size: var(--font-size-heading-xl); }
 h3 { font-size: var(--font-size-heading-l); }
-h4 { font-size: var(--font-size-heading-m); }
+h4 { font-size: var(--font-size-heading-xs); }
 h5 { font-size: var(--font-size-heading-s); }
 h6 { font-size: var(--font-size-heading-xs); }
 
