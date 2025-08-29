@@ -1,7 +1,8 @@
 {
   "page": {
-    "background": { "value": "{color.background.primary}", "type": "color", "description": "Main page background" },
-    "surface": { "value": "{color.surface.secondary}", "type": "color", "description": "Page content surfaces" },
+    "main-nav-background": { "value": "#02050e", "type": "color", "description": "Primary navigation background" },
+    "background": { "value": "#030712", "type": "color", "description": "Main page background (custom override)" },
+    "surface": { "value": "#080c17", "type": "color", "description": "Page content surfaces (custom override)" },
     "surface-elevated": { "value": "{color.surface.elevated}", "type": "color", "description": "Cards, modals" },
     "surface-sunken": { "value": "{color.surface.sunken}", "type": "color", "description": "Input fields, wells" },
     "text-primary": { "value": "{color.text.primary}", "type": "color", "description": "Main content text" },

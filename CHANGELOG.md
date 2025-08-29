@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ## [2.3.0] - 2025-08-29
 
+## [2.3.1] - 2025-08-29
+
+### Changed
+- Page theming: Added `--page-main-nav-background` token; updated light & dark `--page-background` (now #030712) and `--page-surface` (now #080c17) for higher contrast dark layout.
+
+### Notes
+- Pure token value changes; rebuild required for consumers.
+
 ### Added
 - Generated typography utility layer (no global h1–h6): classes `.heading-xxl` … `.heading-xs`, semantic aliases `.display`, `.headline`, `.title`, `.body`, `.label`, body scale `.body-l|m|s|xs`, modifiers `.is-caps` / `.is-normal-case`.
 - Tailwind integration exports: `m1st-design-tokens/integrations/tailwind` (theme extension) and `m1st-design-tokens/integrations/tailwind-plugin` (utilities plugin).
