@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.3.0] - 2025-08-29
+
+### Added
+- Generated typography utility layer (no global h1–h6): classes `.heading-xxl` … `.heading-xs`, semantic aliases `.display`, `.headline`, `.title`, `.body`, `.label`, body scale `.body-l|m|s|xs`, modifiers `.is-caps` / `.is-normal-case`.
+- Tailwind integration exports: `m1st-design-tokens/integrations/tailwind` (theme extension) and `m1st-design-tokens/integrations/tailwind-plugin` (utilities plugin).
+- Build script `generate-typography` producing CSS + Tailwind artifacts from single `build-data/typography-map.json` source.
+
+### Deprecated
+- `legacy.css` marked deprecated (banner added). Removal planned for v3.0.0. Migrate to new utilities / Tailwind plugin.
+
+### Changed
+- Replaced manual `src/typography.css` + copy step with generated utilities (no direct element selector styling). Uppercase now opt-in.
+
+### Notes
+- No token value changes. Purely additive utilities + restructuring.
+
 ## [2.2.1] - 2025-08-29
 
 ### Fixed

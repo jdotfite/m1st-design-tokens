@@ -252,7 +252,7 @@ StyleDictionary.registerFormat({
       ['xs','var(--font-size-body-xs)','1.3']
     ];
 
-    let css = `/* Legacy alias & utility layer (auto-generated) */\n:root {\n`;
+  let css = `/* LEGACY (DEPRECATED) alias & utility layer (auto-generated)\n * DEPRECATION: Will be removed in v3.0.0. Use typography utilities (heading-*, body-*) or Tailwind plugin. */\n:root {\n`;
     Object.entries(aliasMap).forEach(([oldName,newName]) => {
       css += `  --${oldName}: var(--${newName});\n`;
     });
