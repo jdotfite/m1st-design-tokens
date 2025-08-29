@@ -7,6 +7,15 @@ All notable changes to this project will be documented in this file.
 ### Breaking
 - Removed generated typography utility classes (.heading-*, .display, .headline, .title, .body, .label, .body-*) from CSS output. Tailwind-first approach: use Tailwind class names (e.g. text-display, text-heading-xxl, text-body-m) via theme fontSize extension.
 
+## [3.0.2] - 2025-08-29
+
+### Fixed
+- Added `style` field and expanded subpath export for `./css` (now includes import/require/default) to improve resolution in CSS loaders / older bundler export implementations.
+- Added `sideEffects` list to prevent accidental tree-shaking removal of core CSS and font entrypoints.
+
+### Notes
+- No token value changes.
+
 ### Added
 - Tailwind fontSize & letterSpacing extensions now include heading scale, semantic aliases, body scale, and letter-spacing tokens.
 

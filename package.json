@@ -1,9 +1,10 @@
 {
   "name": "m1st-design-tokens",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Design tokens for the M1st Federal Credit Union design system",
   "main": "dist/js/tokens.js",
   "types": "dist/js/tokens.d.ts",
+  "style": "dist/css/tokens.css",
   "files": [
     "dist/",
     "README.md",
@@ -15,7 +16,11 @@
       "require": "./dist/js/tokens.js",
       "types": "./dist/js/tokens.d.ts"
     },
-    "./css": "./dist/css/tokens.css",
+    "./css": {
+      "import": "./dist/css/tokens.css",
+      "require": "./dist/css/tokens.css",
+      "default": "./dist/css/tokens.css"
+    },
     "./tokens.css": "./dist/css/tokens.css",
     "./tokens": "./dist/tokens.json",
     "./fonts": "./dist/fonts/",
@@ -63,6 +68,13 @@
     "style-dictionary": "^3.8.0",
     "rimraf": "^5.0.0"
   },
+  "sideEffects": [
+    "dist/css/tokens.css",
+    "dist/css/legacy.css",
+    "dist/css/typography.css",
+    "dist/fonts/inter.css",
+    "dist/fonts/din-2014.css"
+  ],
   "peerDependencies": {
     "@types/node": "^18.0.0"
   }
