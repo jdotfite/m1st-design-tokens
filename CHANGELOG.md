@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.1.0] - 2025-08-28
+
+### Added
+- `legacy.css` export providing backward-compatible variable aliases & utility classes (`@import "m1st-design-tokens/legacy";`).
+- Explicit `./legacy` path added to package `exports` map.
+
+### Tooling
+- Added legacy smoke test (`npm run test:legacy`) ensuring aliases/utilities exist.
+- Font verification retained to guarantee all referenced font assets ship.
+- `prepare` script ensures git-based installs build tokens automatically.
+
+### Notes
+- No token value changes; additive compatibility & tooling only.
+
 ## [2.0.0] - 2025-08-28
 
 ### Breaking
