@@ -18,6 +18,12 @@ All notable changes to this project will be documented in this file.
 
 ## [2.0.0] - 2025-08-28
 
+## [2.2.0] - 2025-08-29
+
+### Added
+- Optional `typography.css` export (`@import "m1st-design-tokens/typography";`) mapping h1–h6 + .heading to token scale with uppercase.
+
+
 ### Breaking
 - Renamed package from `@members1stfederalcreditunion/design-tokens` to `m1st-design-tokens` (scope removed). All import paths must update, e.g. `@import "m1st-design-tokens/css";` and `import tokens from "m1st-design-tokens"`.
 

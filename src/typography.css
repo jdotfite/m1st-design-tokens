@@ -1,0 +1,30 @@
+/* Optional typography layer: maps heading elements to token scale.
+   Import AFTER tokens.css: @import "m1st-design-tokens/css"; @import "m1st-design-tokens/typography";
+   Override downstream as needed. */
+h1,h2,h3,h4,h5,h6,
+.heading,.text-heading {
+  font-family: var(--font-family-heading);
+  text-transform: uppercase;
+  letter-spacing: var(--font-letter-spacing-wide);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.2;
+  margin: 0;
+}
+h1 { font-size: var(--font-size-heading-xxl); line-height: 1.1; font-weight: var(--font-weight-bold); }
+h2 { font-size: var(--font-size-heading-xl); }
+h3 { font-size: var(--font-size-heading-l); }
+h4 { font-size: var(--font-size-heading-m); }
+h5 { font-size: var(--font-size-heading-s); }
+h6 { font-size: var(--font-size-heading-xs); }
+
+/* Opt-out utility */
+.heading-normal-case,
+.heading-normal-case h1,
+.heading-normal-case h2,
+.heading-normal-case h3,
+.heading-normal-case h4,
+.heading-normal-case h5,
+.heading-normal-case h6 {
+  text-transform: none;
+  letter-spacing: var(--font-letter-spacing-normal);
+}
