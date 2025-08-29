@@ -47,9 +47,11 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Members1stFederalCreditUnion/m1st-design-tokens.git"
+    "url": "git+https://github.com/Members1stFederalCreditUnion/m1st-design-tokens.git"
   },
-  "publishConfig": {},
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "style-dictionary": "^3.8.0",
     "rimraf": "^5.0.0"
