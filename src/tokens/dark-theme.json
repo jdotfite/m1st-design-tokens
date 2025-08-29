@@ -87,7 +87,7 @@
       "main-nav-background": { "value": "#02050e", "type": "color", "description": "Dark theme primary navigation background" },
       "background": { "value": "#030712", "type": "color", "description": "Dark theme page background (custom override)" },
       "surface": { "value": "#080c17", "type": "color", "description": "Dark theme page surface (custom override)" },
-      "surface-elevated": { "value": "#1e1e1e", "type": "color", "description": "Dark theme elevated surface" },
+  "surface-elevated": { "value": "#10141e", "type": "color", "description": "Dark theme elevated surface (custom)" },
       "surface-sunken": { "value": "#0a0a0a", "type": "color", "description": "Dark theme sunken surface" },
       "text-primary": { "value": "#ffffff", "type": "color", "description": "Dark theme primary text" },
       "text-secondary": { "value": "#a0a0a0", "type": "color", "description": "Dark theme secondary text" },

@@ -8,6 +8,14 @@ All notable changes to this project will be documented in this file.
 
 ## [2.3.2] - 2025-08-29
 
+## [2.3.3] - 2025-08-29
+
+### Fixed
+- Reverted light `page.*` tokens to semantic references; moved custom dark colors (`#02050e`, `#030712`, `#080c17`, `#10141e`) exclusively into dark theme overrides so light/dark differentiation works again.
+
+### Notes
+- No functional change for dark mode visual intent; restores proper light theme brightness.
+
 ### Changed
 - `page.surface-elevated` light theme updated to `#10141e` (custom elevated surface).
 
