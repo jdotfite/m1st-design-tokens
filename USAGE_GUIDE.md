@@ -31,17 +31,46 @@ console.log(tokens.color.brand.primary);
 
 All font-face rules use `font-display: swap` and relative URLs pointing to `../fonts/` which resolve to `dist/fonts/` in the published package (as of v1.3.0).
 
-## Using Typography Tokens
+## Typography (v3+ Tailwind-First)
 
-```css
-.heading { font-family: var(--font-family-heading); }
-.body    { font-family: var(--font-family-body); }
+Typography utilities previously shipped as custom classes (.heading-xxl, etc.). In **v3.0.0** these were removed in favor of Tailwind's native `text-*` utilities extended via tokens.
+
+Tailwind config:
+```js
+const tokens = require('m1st-design-tokens/integrations/tailwind');
+module.exports = {
+   theme: {
+      ...tokens.theme,
+      extend: { ...tokens.theme.extend }
+   }
+};
 ```
 
-Direct usage (fallback chain retained):
+Usage examples:
+```html
+<h1 class="text-display tracking-tight font-bold">Page Title</h1>
+<h2 class="text-headline">Section</h2>
+<h3 class="text-title">Subsection</h3>
+<p class="text-body">Paragraph text...</p>
+<small class="text-label uppercase tracking-wide">LABEL</small>
+```
+
+Scale mapping (tokens → Tailwind utilities):
+- `--font-size-heading-xxl` → `text-heading-xxl` / `text-display`
+- `--font-size-heading-xl`  → `text-heading-xl` / `text-headline`
+- `--font-size-heading-l`   → `text-heading-l` / `text-title`
+- `--font-size-heading-m`   → `text-heading-m` / `text-body` (semantic heading body)
+- `--font-size-heading-xs`  → `text-heading-xs` / `text-label`
+- Body sizes: `--font-size-body-(l|m|s|xs)` → `text-body-(l|m|s|xs)`
+
+Letter spacing (token-backed):
+`tracking-tight`, `tracking-normal`, `tracking-wide` map to corresponding CSS variables.
+
+Uppercase: use Tailwind `uppercase` (former `.is-caps` removed). Normal case: `normal-case`.
+
+Non-Tailwind usage still possible via raw variables:
 ```css
-.custom-heading { font-family: "DIN-2014", var(--font-family-system); }
-.custom-body    { font-family: "Inter", var(--font-family-system); }
+.custom-title { font-size: var(--font-size-heading-l); }
 ```
 
 ## Theming

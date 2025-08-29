@@ -72,42 +72,57 @@ console.log(tokens.font.family.heading); // "DIN-2014"
 }
 ```
 
-### Typography Usage
+### Tailwind Integration (v3+)
 
-The package includes complete typography integration:
+This package is now **Tailwind-first** for typography. Instead of shipping custom heading classes, we extend Tailwind's `fontSize` and `letterSpacing` scales with token-driven CSS variables. That gives you themeable typography using regular Tailwind utilities.
 
-```css
-/* Use token-based font families */
-.heading {
-  font-family: var(--font-family-heading); /* DIN-2014 with fallbacks */
-  font-size: var(--font-size-heading-xl);
-  font-weight: var(--font-weight-bold);
-  text-transform: uppercase; /* DIN-2014 displays best in uppercase */
-}
+Add to `tailwind.config.js`:
 
-.body-text {
-  font-family: var(--font-family-body); /* Inter with fallbacks */
-  font-size: var(--font-size-body-m);
-  font-weight: var(--font-weight-normal);
-  line-height: var(--font-line-height-normal);
-}
+```js
+// tailwind.config.js
+const tokens = require('m1st-design-tokens/integrations/tailwind');
 
-/* Or use fonts directly */
-.custom-heading {
-  font-family: "DIN-2014", var(--font-family-system);
-}
-
-.custom-body {
-  font-family: "Inter", var(--font-family-system);
-}
+module.exports = {
+  theme: {
+    ...tokens.theme,           // supplies extend.fontSize + extend.letterSpacing
+    extend: {
+      ...tokens.theme.extend,  // (optional) add your own extensions after this
+    }
+  }
+};
 ```
 
-**Font Features:**
-- **Inter**: Variable font support (100-900 weight range) + static fallbacks
-- **DIN-2014**: Complete professional family (Light, Regular, Demi, Bold, Extra Bold)
-- **InterDisplay**: Optimized for large text and headings
-- **Performance**: `font-display: swap` for optimal loading
-- **Fallbacks**: System fonts ensure text is always readable
+Use in markup:
+
+```html
+<h1 class="text-display tracking-tight font-bold">Heading</h1>
+<h2 class="text-headline">Section</h2>
+<p class="text-body leading-relaxed">Body copy...</p>
+<span class="text-label uppercase tracking-wide">LABEL</span>
+```
+
+Available font size utilities (examples):
+- `text-heading-xxl` … `text-heading-xs`
+- Semantic aliases: `text-display`, `text-headline`, `text-title`, `text-body`, `text-label`
+- Body scale: `text-body-l|m|s|xs`
+
+Letter-spacing utilities reuse Tailwind's names but are token-backed:
+- `tracking-tight` → `var(--font-letter-spacing-tight)`
+- `tracking-normal` → `var(--font-letter-spacing-normal)`
+- `tracking-wide` → `var(--font-letter-spacing-wide)`
+
+Uppercasing: use Tailwind's `uppercase` / `normal-case` (former custom helpers removed).
+
+If you don't need Tailwind you can still reference raw CSS variables directly:
+```css
+.my-title { font-size: var(--font-size-heading-l); letter-spacing: var(--font-letter-spacing-wide); }
+```
+
+**Font Features (unchanged):**
+- Inter (variable + static) & InterDisplay
+- DIN-2014 full family
+- `font-display: swap` performance strategy
+- System fallbacks for resilience
 
 ## Token Architecture (4 Layers)
 

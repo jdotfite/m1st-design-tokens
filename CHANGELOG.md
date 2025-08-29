@@ -2,8 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2.3.0] - 2025-08-29
--## [3.0.0] - 2025-08-29
+## [3.0.0] - 2025-08-29
 
 ### Breaking
 - Removed generated typography utility classes (.heading-*, .display, .headline, .title, .body, .label, .body-*) from CSS output. Tailwind-first approach: use Tailwind class names (e.g. text-display, text-heading-xxl, text-body-m) via theme fontSize extension.
@@ -22,6 +21,7 @@ All notable changes to this project will be documented in this file.
 - Replace `.heading-xxl` → `text-heading-xxl`; `.display` → `text-display`; `.body-m` → `text-body-m`; uppercase needs `.uppercase`.
 - Remove reliance on removed CSS utilities; ensure Tailwind config imports `m1st-design-tokens/integrations/tailwind`.
 
+## [2.3.0] - 2025-08-29
 
 ### Added
 - Generated typography utility layer (no global h1–h6): classes `.heading-xxl` … `.heading-xs`, semantic aliases `.display`, `.headline`, `.title`, `.body`, `.label`, body scale `.body-l|m|s|xs`, modifiers `.is-caps` / `.is-normal-case`.
