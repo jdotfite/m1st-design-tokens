@@ -45,7 +45,7 @@ Create a simple HTML file in your consuming project:
 <html>
 <head>
     <style>
-        @import "@members1stfederalcreditunion/design-tokens/css";
+    @import "m1st-design-tokens/css";
         
         .test-inter {
             font-family: var(--font-family-body);
@@ -76,16 +76,16 @@ Create a simple HTML file in your consuming project:
 
 ```css
 /* Import everything (fonts + tokens) */
-@import "@members1stfederalcreditunion/design-tokens/css";
+@import "m1st-design-tokens/css";
 
 /* Import just fonts */
-@import "@members1stfederalcreditunion/design-tokens/fonts/inter.css";
-@import "@members1stfederalcreditunion/design-tokens/fonts/din-2014.css";
+@import "m1st-design-tokens/fonts/inter.css";
+@import "m1st-design-tokens/fonts/din-2014.css";
 ```
 
 ```javascript
 // JavaScript import
-import tokens from "@members1stfederalcreditunion/design-tokens";
+import tokens from "m1st-design-tokens";
 console.log(tokens.ColorBrandPrimary); // "#EE3831"
 ```
 
@@ -93,7 +93,7 @@ console.log(tokens.ColorBrandPrimary); // "#EE3831"
 
 ### **1. Check Node Modules Structure**
 ```bash
-node_modules/@members1stfederalcreditunion/design-tokens/
+node_modules/m1st-design-tokens/
 └── dist/
     ├── css/tokens.css
     └── fonts/
@@ -104,7 +104,7 @@ node_modules/@members1stfederalcreditunion/design-tokens/
 
 ### **2. Verify Version**
 ```bash
-npm list @members1stfederalcreditunion/design-tokens
+npm list m1st-design-tokens
 # Should show 1.3.0 or higher
 ```
 
@@ -130,7 +130,7 @@ npm install
 ### **5. TypeScript Issues**
 ```typescript
 // If TypeScript can't find module
-declare module "@members1stfederalcreditunion/design-tokens" {
+declare module "m1st-design-tokens" {
   const tokens: any;
   export default tokens;
 }

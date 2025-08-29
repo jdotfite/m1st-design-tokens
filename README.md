@@ -15,7 +15,7 @@ Design tokens for the M1st Federal Credit Union design system. Central source of
 ## Installation
 
 ```bash
-npm install @members1stfederalcreditunion/design-tokens
+npm install m1st-design-tokens
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ npm install @members1stfederalcreditunion/design-tokens
 Main CSS delivers tokens + all @font-face rules:
 
 ```css
-@import "@members1stfederalcreditunion/design-tokens/css";
+@import "m1st-design-tokens/css";
 ```
 
 Includes:
@@ -40,20 +40,20 @@ Need just fonts (e.g., separate layering)?
 
 ```css
 /* Just Inter fonts */
-@import "@members1stfederalcreditunion/design-tokens/fonts/inter.css";
+@import "m1st-design-tokens/fonts/inter.css";
 
 /* Just DIN-2014 fonts */
-@import "@members1stfederalcreditunion/design-tokens/fonts/din-2014.css";
+@import "m1st-design-tokens/fonts/din-2014.css";
 
 /* Both fonts without tokens */
-@import "@members1stfederalcreditunion/design-tokens/fonts/inter.css";
-@import "@members1stfederalcreditunion/design-tokens/fonts/din-2014.css";
+@import "m1st-design-tokens/fonts/inter.css";
+@import "m1st-design-tokens/fonts/din-2014.css";
 ```
 
 ### JavaScript / TypeScript
 
 ```javascript
-import tokens from "@members1stfederalcreditunion/design-tokens";
+import tokens from "m1st-design-tokens";
 
 // Access token values
 console.log(tokens.color.brand.primary); // "#EE3831"
@@ -63,7 +63,7 @@ console.log(tokens.font.family.heading); // "DIN-2014"
 ### Sass / SCSS
 
 ```scss
-@import "@members1stfederalcreditunion/design-tokens/css";
+@import "m1st-design-tokens/css";
 
 .my-component {
   background-color: var(--color-background-primary);

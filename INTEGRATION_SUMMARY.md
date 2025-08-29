@@ -6,7 +6,7 @@ We have successfully completed the integration of a centralized design tokens sy
 
 ##  What We Built
 
-### 1. Centralized Design Tokens Package (`@members1stfederalcreditunion/design-tokens`)
+### 1. Centralized Design Tokens Package (`m1st-design-tokens`)
 
 **Location**: `C:\_websites\m1st-design-tokens`  
 **GitHub**: https://github.com/Members1stFederalCreditUnion/m1st-design-tokens.git
@@ -136,7 +136,7 @@ npm run dev            # Watch mode
 }
 
 /* After: Centralized tokens */
-@import "@members1stfederalcreditunion/design-tokens/css";
+@import "m1st-design-tokens/css";
 
 :host {
   /* Tokens automatically available */
@@ -195,7 +195,7 @@ m1st-design-components/
     loading-spinner.css      # Original styles
     loading-spinner-updated.css # Tokens integration
  integration-test.html        # Integration demo
- node_modules/@members1stfederalcreditunion/design-tokens/
+ node_modules/m1st-design-tokens/
 ```
 
 ##  Next Steps

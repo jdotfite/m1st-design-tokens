@@ -6,17 +6,17 @@ Unified reference for installing, importing, migrating, and troubleshooting the 
 
 Install:
 ```bash
-npm install @members1stfederalcreditunion/design-tokens
+npm install m1st-design-tokens
 ```
 
 Recommended CSS import (tokens + all @font-face + themes):
 ```css
-@import "@members1stfederalcreditunion/design-tokens/css";
+@import "m1st-design-tokens/css";
 ```
 
 JavaScript / TypeScript:
 ```js
-import tokens from "@members1stfederalcreditunion/design-tokens";
+import tokens from "m1st-design-tokens";
 console.log(tokens.color.brand.primary);
 ```
 
@@ -24,10 +24,10 @@ console.log(tokens.color.brand.primary);
 
 | Goal | Import |
 |------|--------|
-| Everything (fonts + tokens) | `@import "@members1stfederalcreditunion/design-tokens/css";` |
-| Fonts only (Inter) | `@import "@members1stfederalcreditunion/design-tokens/fonts/inter.css";` |
-| Fonts only (DIN‑2014) | `@import "@members1stfederalcreditunion/design-tokens/fonts/din-2014.css";` |
-| Both font families (no tokens) | `@import "@members1stfederalcreditunion/design-tokens/fonts/inter.css";` then `@import "@members1stfederalcreditunion/design-tokens/fonts/din-2014.css";` |
+| Everything (fonts + tokens) | `@import "m1st-design-tokens/css";` |
+| Fonts only (Inter) | `@import "m1st-design-tokens/fonts/inter.css";` |
+| Fonts only (DIN‑2014) | `@import "m1st-design-tokens/fonts/din-2014.css";` |
+| Both font families (no tokens) | `@import "m1st-design-tokens/fonts/inter.css";` then `@import "m1st-design-tokens/fonts/din-2014.css";` |
 
 All font-face rules use `font-display: swap` and relative URLs pointing to `../fonts/` which resolve to `dist/fonts/` in the published package (as of v1.3.0).
 
@@ -50,7 +50,7 @@ Light tokens live under `:root`. Dark overrides activate when you add `[data-the
 
 ## Package Structure (v1.3.0+)
 ```
-@members1stfederalcreditunion/design-tokens/
+node_modules/m1st-design-tokens/
 ├─ dist/
 │  ├─ css/tokens.css        # Fonts + variables + themes
 │  ├─ js/tokens.(js|esm.js) # JS exports
@@ -66,12 +66,12 @@ Light tokens live under `:root`. Dark overrides activate when you add `[data-the
 
 1. Update package:
    ```bash
-   npm install @members1stfederalcreditunion/design-tokens@latest
+   npm install m1st-design-tokens@latest
    ```
 2. Remove legacy external font imports (e.g. Google Fonts, manual DIN includes).
 3. Add unified import:
    ```css
-   @import "@members1stfederalcreditunion/design-tokens/css";
+   @import "m1st-design-tokens/css";
    ```
 4. Replace hard‑coded font-family usages with tokens:
    ```css
@@ -82,11 +82,11 @@ Light tokens live under `:root`. Dark overrides activate when you add `[data-the
 ## Troubleshooting
 
 ### 404 Font Errors
-Check that `node_modules/@members1stfederalcreditunion/design-tokens/dist/fonts/` exists and contains Inter / DIN files. If missing: reinstall dependencies.
+Check that `node_modules/m1st-design-tokens/dist/fonts/` exists and contains Inter / DIN files. If missing: reinstall dependencies.
 
 ### Version Verification
 ```bash
-npm list @members1stfederalcreditunion/design-tokens
+npm list m1st-design-tokens
 # Expect 1.3.0 or higher
 ```
 
@@ -106,7 +106,7 @@ npm install
 ### TypeScript Module Resolution
 If your config cannot resolve the module types (should be rare since d.ts is exported):
 ```ts
-declare module "@members1stfederalcreditunion/design-tokens" { const tokens: any; export default tokens; }
+declare module "m1st-design-tokens" { const tokens: any; export default tokens; }
 ```
 
 ## Font Integrity Check (Repo Dev Only)

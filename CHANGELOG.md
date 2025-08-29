@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0] - 2025-08-28
+
+### Breaking
+- Renamed package from `@members1stfederalcreditunion/design-tokens` to `m1st-design-tokens` (scope removed). All import paths must update, e.g. `@import "m1st-design-tokens/css";` and `import tokens from "m1st-design-tokens"`.
+
+### Notes
+- No token value changes; this release is purely a distribution / naming change.
+- Old scoped package will no longer receive updates after this version.
+
 ## [1.3.1] - 2025-08-28
 
 ### Fixed

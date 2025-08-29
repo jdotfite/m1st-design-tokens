@@ -29,7 +29,7 @@ The M1st Design Token system now includes comprehensive font support with embedd
 
 ### Installation
 ```bash
-npm install @members1stfederalcreditunion/design-tokens
+npm install m1st-design-tokens
 ```
 
 ### Usage Options
@@ -37,24 +37,24 @@ npm install @members1stfederalcreditunion/design-tokens
 #### Option 1: Complete CSS (Recommended)
 Import the main tokens.css file which includes fonts + tokens:
 ```css
-@import "@members1stfederalcreditunion/design-tokens/css";
+@import "m1st-design-tokens/css";
 ```
 
 #### Option 2: Separate Font Import
 Import fonts separately if you need more control:
 ```css
-@import "@members1stfederalcreditunion/design-tokens/fonts/inter.css";
-@import "@members1stfederalcreditunion/design-tokens/fonts/din-2014.css";
-@import "@members1stfederalcreditunion/design-tokens/css";
+@import "m1st-design-tokens/fonts/inter.css";
+@import "m1st-design-tokens/fonts/din-2014.css";
+@import "m1st-design-tokens/css";
 ```
 
 #### Option 3: Individual Font Families
 ```css
 /* Just Inter */
-@import "@members1stfederalcreditunion/design-tokens/fonts/inter.css";
+@import "m1st-design-tokens/fonts/inter.css";
 
 /* Just DIN-2014 */
-@import "@members1stfederalcreditunion/design-tokens/fonts/din-2014.css";
+@import "m1st-design-tokens/fonts/din-2014.css";
 ```
 
 ### Using the Fonts
@@ -93,7 +93,7 @@ Import fonts separately if you need more control:
 
 ### Package Structure
 ```
-@members1stfederalcreditunion/design-tokens/
+node_modules/m1st-design-tokens/
 ├── dist/
 │   ├── css/tokens.css          # Complete CSS with fonts + tokens
 │   ├── js/tokens.js            # JavaScript tokens
@@ -125,7 +125,7 @@ Import fonts separately if you need more control:
 
 ### Step 1: Update Design Tokens
 ```bash
-npm update @members1stfederalcreditunion/design-tokens
+npm update m1st-design-tokens
 ```
 
 ### Step 2: Remove Old Font Imports
@@ -139,7 +139,7 @@ Remove any existing font imports from your project:
 ### Step 3: Use Token CSS
 ```css
 /* REPLACE with */
-@import "@members1stfederalcreditunion/design-tokens/css";
+@import "m1st-design-tokens/css";
 ```
 
 ### Step 4: Update Font References
