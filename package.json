@@ -21,6 +21,7 @@
     "./fonts": "./dist/fonts/",
     "./fonts/inter.css": "./dist/fonts/inter.css",
     "./fonts/din-2014.css": "./dist/fonts/din-2014.css",
+    "./fonts/lora.css": "./dist/fonts/lora.css",
     "./legacy": "./dist/css/legacy.css",
     "./typography": "./dist/css/typography.css",
     "./integrations/tailwind": "./dist/integrations/tailwind.cjs",

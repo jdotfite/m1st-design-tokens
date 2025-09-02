@@ -1,11 +1,11 @@
 ﻿# M1st Design Tokens
 
-Design tokens for the M1st Federal Credit Union design system. Central source of truth for colors, typography, spacing, theming, component styling, and **complete font integration** (Inter + DIN‑2014).
+Design tokens for the M1st Federal Credit Union design system. Central source of truth for colors, typography, spacing, theming, component styling, and **complete font integration** (Inter + DIN‑2014 + Lora).
 
 ## ✨ Features
 
 - 4-layer token architecture (Foundation → Semantic → Page → Component)
-- Complete font system: Inter (variable + static + Display) & DIN‑2014 families
+- Complete font system: Inter (variable + static + Display), DIN‑2014 & Lora serif families
 - Light + dark theme with automatic prefers-color-scheme fallback
 - Output formats: CSS, JS (CJS + ESM), JSON, TypeScript declarations
 - 88+ font assets shipped & referenced with stable relative paths
@@ -100,11 +100,16 @@ The package includes complete typography integration:
 .custom-body {
   font-family: "Inter", var(--font-family-system);
 }
+
+.custom-serif {
+  font-family: "Lora", var(--font-family-system);
+}
 ```
 
 **Font Features:**
 - **Inter**: Variable font support (100-900 weight range) + static fallbacks
 - **DIN-2014**: Complete professional family (Light, Regular, Demi, Bold, Extra Bold)
+- **Lora**: Elegant serif family (Regular, Medium, SemiBold, Bold) + Variable font support
 - **InterDisplay**: Optimized for large text and headings
 - **Performance**: `font-display: swap` for optimal loading
 - **Fallbacks**: System fonts ensure text is always readable

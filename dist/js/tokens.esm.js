@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 29 Aug 2025 20:08:59 GMT
+ * Generated on Tue, 02 Sep 2025 21:31:33 GMT
  */
 
 export const BrandPrimary = "#EE3831";
@@ -451,6 +451,7 @@ export const PageInfoSubtle = "#cffafe";
 export const FontFamilySystem = "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif";
 export const FontFamilyBody = "\"Inter\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif";
 export const FontFamilyHeading = "\"DIN-2014\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif";
+export const FontFamilySerif = "\"Lora\", \"LoraVariable\", Georgia, \"Times New Roman\", Times, serif";
 export const FontFamilyMono = "SFMono-Regular, Monaco, Inconsolata, Liberation Mono, Courier New, monospace";
 export const FontSizeHeadingXxl = "4rem";
 export const FontSizeHeadingXl = "3rem";

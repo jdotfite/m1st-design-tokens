@@ -4,6 +4,7 @@
       "system": { "value": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif", "type": "fontFamilies" },
       "body": { "value": "\"Inter\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif", "type": "fontFamilies" },
       "heading": { "value": "\"DIN-2014\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif", "type": "fontFamilies" },
+      "serif": { "value": "\"Lora\", \"LoraVariable\", Georgia, \"Times New Roman\", Times, serif", "type": "fontFamilies" },
       "mono": { "value": "SFMono-Regular, Monaco, Inconsolata, Liberation Mono, Courier New, monospace", "type": "fontFamilies" }
     },
     "size": {

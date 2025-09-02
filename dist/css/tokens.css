@@ -1,5 +1,5 @@
 /* =============================================================================
-   FONT IMPORTS - Inter & DIN-2014
+   FONT IMPORTS - Inter, DIN-2014 & Lora
    ============================================================================= */
 
 /* Variable fonts usage:
@@ -398,9 +398,101 @@
        url("../fonts/DIN-2014_Narrow-Extra-Light.otf") format("opentype");
 }
 
+/* =============================================================================
+   Lora Font Family - Modern @font-face Declarations
+   ============================================================================= */
+
+/* Variable fonts (modern approach - single file for all weights) */
+@font-face {
+  font-family: "LoraVariable";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../fonts/Lora-Variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "LoraVariable";
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../fonts/Lora-VariableItalic.woff2") format("woff2");
+}
+
+/* Static fonts (fallback for older browsers) */
+
+/* Lora Regular (400) */
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Lora-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Lora-Italic.woff2") format("woff2");
+}
+
+/* Lora Medium (500) */
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/Lora-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/Lora-MediumItalic.woff2") format("woff2");
+}
+
+/* Lora SemiBold (600) */
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/Lora-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/Lora-SemiBoldItalic.woff2") format("woff2");
+}
+
+/* Lora Bold (700) */
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Lora-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Lora-BoldItalic.woff2") format("woff2");
+}
+
+
 /**
  * M1st Design System - CSS Variables
- * Generated on Fri, 29 Aug 2025 20:08:59 GMT
+ * Generated on Tue, 02 Sep 2025 21:31:33 GMT
  * 
  * 4-Layer Token Architecture:
  * Layer 1: Foundation tokens (base colors, typography)
@@ -465,6 +557,7 @@
   --font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
   --font-family-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
   --font-family-heading: "DIN-2014", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+  --font-family-serif: "Lora", "LoraVariable", Georgia, "Times New Roman", Times, serif;
   --font-family-mono: SFMono-Regular, Monaco, Inconsolata, Liberation Mono, Courier New, monospace;
   --font-size-heading-xxl: 4rem;
   --font-size-heading-xl: 3rem;

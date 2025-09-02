@@ -1,0 +1,90 @@
+/* =============================================================================
+   Lora Font Family - Modern @font-face Declarations
+   ============================================================================= */
+
+/* Variable fonts (modern approach - single file for all weights) */
+@font-face {
+  font-family: "LoraVariable";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("Lora-Variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "LoraVariable";
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("Lora-VariableItalic.woff2") format("woff2");
+}
+
+/* Static fonts (fallback for older browsers) */
+
+/* Lora Regular (400) */
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Lora-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Lora-Italic.woff2") format("woff2");
+}
+
+/* Lora Medium (500) */
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("Lora-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("Lora-MediumItalic.woff2") format("woff2");
+}
+
+/* Lora SemiBold (600) */
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("Lora-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("Lora-SemiBoldItalic.woff2") format("woff2");
+}
+
+/* Lora Bold (700) */
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Lora-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Lora-BoldItalic.woff2") format("woff2");
+}

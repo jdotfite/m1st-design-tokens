@@ -13,18 +13,22 @@ StyleDictionary.registerFormat({
     try {
       let interCSS = fs.readFileSync(path.join(__dirname, "fonts", "inter.css"), "utf8");
       let dinCSS = fs.readFileSync(path.join(__dirname, "fonts", "din-2014.css"), "utf8");
+      let loraCSS = fs.readFileSync(path.join(__dirname, "fonts", "lora.css"), "utf8");
       
       // Fix relative paths to point to the fonts directory
       interCSS = interCSS.replace(/url\("([^"]+)"\)/g, 'url("../fonts/$1")');
       dinCSS = dinCSS.replace(/url\("([^"]+)"\)/g, 'url("../fonts/$1")');
+      loraCSS = loraCSS.replace(/url\("([^"]+)"\)/g, 'url("../fonts/$1")');
       
       fontCSS = `/* =============================================================================
-   FONT IMPORTS - Inter & DIN-2014
+   FONT IMPORTS - Inter, DIN-2014 & Lora
    ============================================================================= */
 
 ${interCSS}
 
 ${dinCSS}
+
+${loraCSS}
 
 `;
     } catch (error) {
