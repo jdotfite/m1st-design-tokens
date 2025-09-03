@@ -42,7 +42,15 @@
     "fonts:check": "echo \"Checking font files...\" && dir fonts",
     "tokens:update": "npm run build && echo \"Tokens updated with font support!\"",
     "verify:fonts": "node scripts/verify-fonts.js",
-    "generate:typography": "node scripts/generate-typography.js"
+    "generate:typography": "node scripts/generate-typography.js",
+    "version:patch": "npm version patch && git push && git push --tags",
+    "version:minor": "npm version minor && git push && git push --tags",
+    "version:major": "npm version major && git push && git push --tags",
+    "release:patch": "npm run build:clean && npm run version:patch",
+    "release:minor": "npm run build:clean && npm run version:minor",
+    "release:major": "npm run build:clean && npm run version:major",
+    "release": "node scripts/release.js",
+    "release:auto": "node scripts/release.js"
   },
   "keywords": [
     "design-tokens",
