@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Sep 2025 13:04:06 GMT
+ * Generated on Wed, 03 Sep 2025 13:29:06 GMT
  */
 
 export const BrandPrimary = "#EE3831";
@@ -41,8 +41,8 @@ export const ButtonSecondaryBackgroundHover = "#e5e5e5";
 export const ButtonSecondaryBgHover = "#e5e5e5";
 export const ButtonSecondaryBackgroundActive = "#d4d4d4";
 export const ButtonSecondaryBgActive = "#d4d4d4";
-export const ButtonSecondaryText = "#133156";
-export const ButtonSecondaryBorder = "#0f0f0f";
+export const ButtonSecondaryText = "#c2cfd2";
+export const ButtonSecondaryBorder = "#373a41";
 export const ButtonGhostBackground = "transparent";
 export const ButtonGhostBg = "transparent";
 export const ButtonGhostBackgroundHover = "#e5e5e5";
@@ -114,6 +114,8 @@ export const Neutral925 = "#0f0f0f";
 export const Neutral950 = "#0a0a0a";
 export const Neutral975 = "#050505";
 export const Neutral1000 = "#000000";
+export const SecondaryButtonBorder = "#373a41";
+export const SecondaryButtonText = "#c2cfd2";
 export const ColorBrandPrimary = "#EE3831";
 export const ColorAccentRed = "#E71C23";
 export const ColorAccentGreen = "#55A444";

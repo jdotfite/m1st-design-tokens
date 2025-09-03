@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Sep 2025 13:04:06 GMT
+ * Generated on Wed, 03 Sep 2025 13:29:06 GMT
  */
 
 module.exports = {
@@ -42,8 +42,8 @@ module.exports = {
   "ButtonSecondaryBgHover": "#e5e5e5",
   "ButtonSecondaryBackgroundActive": "#d4d4d4",
   "ButtonSecondaryBgActive": "#d4d4d4",
-  "ButtonSecondaryText": "#133156",
-  "ButtonSecondaryBorder": "#0f0f0f",
+  "ButtonSecondaryText": "#c2cfd2",
+  "ButtonSecondaryBorder": "#373a41",
   "ButtonGhostBackground": "transparent",
   "ButtonGhostBg": "transparent",
   "ButtonGhostBackgroundHover": "#e5e5e5",
@@ -115,6 +115,8 @@ module.exports = {
   "Neutral950": "#0a0a0a",
   "Neutral975": "#050505",
   "Neutral1000": "#000000",
+  "SecondaryButtonBorder": "#373a41",
+  "SecondaryButtonText": "#c2cfd2",
   "ColorBrandPrimary": "#EE3831",
   "ColorAccentRed": "#E71C23",
   "ColorAccentGreen": "#55A444",

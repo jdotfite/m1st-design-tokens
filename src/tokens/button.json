@@ -19,8 +19,8 @@
       "bg-hover": { "value": "{page.hover}", "type": "color", "description": "Secondary button hover background (alias)" },
       "background-active": { "value": "{page.active}", "type": "color", "description": "Secondary button active background" },
       "bg-active": { "value": "{page.active}", "type": "color", "description": "Secondary button active background (alias)" },
-      "text": { "value": "{page.accent-primary}", "type": "color", "description": "Secondary button text color" },
-      "border": { "value": "{neutral.925}", "type": "color", "description": "Secondary button border" }
+      "text": { "value": "{secondary-button.text}", "type": "color", "description": "Secondary button text color" },
+      "border": { "value": "{secondary-button.border}", "type": "color", "description": "Secondary button border" }
     },
     "ghost": {
       "background": { "value": "transparent", "type": "color", "description": "Ghost button background" },

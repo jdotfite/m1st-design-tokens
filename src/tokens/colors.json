@@ -26,6 +26,10 @@
     "975": { "value": "#050505", "type": "color" },
     "1000": { "value": "#000000", "type": "color" }
   },
+  "secondary-button": {
+    "border": { "value": "#373a41", "type": "color", "description": "Secondary button border color" },
+    "text": { "value": "#c2cfd2", "type": "color", "description": "Secondary button text color" }
+  },
   "color": {
     "brand": {
       "primary": { "value": "{brand.primary}", "type": "color", "description": "M1st brand red - references base token" }

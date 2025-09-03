@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Sep 2025 13:04:06 GMT
+ * Generated on Wed, 03 Sep 2025 13:29:06 GMT
  */
 
 export const BrandPrimary : string;
@@ -114,6 +114,8 @@ export const Neutral925 : string;
 export const Neutral950 : string;
 export const Neutral975 : string;
 export const Neutral1000 : string;
+export const SecondaryButtonBorder : string;
+export const SecondaryButtonText : string;
 export const ColorBrandPrimary : string;
 export const ColorAccentRed : string;
 export const ColorAccentGreen : string;
