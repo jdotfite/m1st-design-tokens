@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Sep 2025 00:31:41 GMT
+ * Generated on Wed, 03 Sep 2025 01:07:17 GMT
  */
 
 module.exports = {
@@ -312,7 +312,7 @@ module.exports = {
   "DarkColorTextPlaceholder": "#6b7280",
   "DarkColorTextDisabled": "#4b5563",
   "DarkColorTextInverse": "#121212",
-  "DarkColorBorderPrimary": "#1c1e25",
+  "DarkColorBorderPrimary": "#22262f",
   "DarkColorBorderSecondary": "rgba(255, 255, 255, 0.1)",
   "DarkColorBorderTertiary": "rgba(255, 255, 255, 0.1)",
   "DarkColorBorderFocus": "#EE3831",
@@ -341,7 +341,7 @@ module.exports = {
   "DarkColorInfoEmphasis": "#2563eb",
   "DarkColorInfoSubtle": "rgba(59, 130, 246, 0.15)",
   "DarkPageMainNavBackground": "#02050e",
-  "DarkPageBackground": "#070a10",
+  "DarkPageBackground": "#0c0e12",
   "DarkPageSurface": "#080c17",
   "DarkPageSurfaceElevated": "#10141e",
   "DarkPageSurfaceSunken": "#0a0a0a",
@@ -349,7 +349,7 @@ module.exports = {
   "DarkPageTextSecondary": "#a0a0a0",
   "DarkPageTextMuted": "#6b7280",
   "DarkPageTextInverse": "#121212",
-  "DarkPageBorder": "#1c1e25",
+  "DarkPageBorder": "#22262f",
   "DarkPageBorderMuted": "rgba(255, 255, 255, 0.1)",
   "DarkPageFocus": "rgba(238, 56, 49, 0.12)",
   "DarkPageHover": "rgba(255, 255, 255, 0.08)",
@@ -362,7 +362,7 @@ module.exports = {
   "DarkPageTextAccentHover": "#f5f5f5",
   "DarkPageBackgroundContainer": "#0f0f0f",
   "DarkPageOverlayBackdrop": "rgba(0, 0, 0, 0.8)",
-  "DarkPageBorderControl": "#1c1e25",
+  "DarkPageBorderControl": "#22262f",
   "DarkPageSuccess": "#22c55e",
   "DarkPageSuccessEmphasis": "#16a34a",
   "DarkPageSuccessSubtle": "rgba(34, 197, 94, 0.15)",

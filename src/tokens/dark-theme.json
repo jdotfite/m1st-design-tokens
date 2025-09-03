@@ -49,7 +49,7 @@
         "inverse": { "value": "#121212", "type": "color", "description": "Dark theme inverse text" }
       },
       "border": {
-        "primary": { "value": "#1c1e25", "type": "color", "description": "Dark theme primary border" },
+        "primary": { "value": "#22262f", "type": "color", "description": "Dark theme primary border" },
         "secondary": { "value": "rgba(255, 255, 255, 0.1)", "type": "color", "description": "Dark theme secondary border" },
         "tertiary": { "value": "rgba(255, 255, 255, 0.1)", "type": "color", "description": "Dark theme tertiary border" },
         "focus": { "value": "#EE3831", "type": "color", "description": "Dark theme focus border" },
@@ -85,7 +85,7 @@
     },
     "page": {
       "main-nav-background": { "value": "#02050e", "type": "color", "description": "Dark theme primary navigation background" },
-      "background": { "value": "#070a10", "type": "color", "description": "Dark theme page background (custom override)" },
+      "background": { "value": "#0c0e12", "type": "color", "description": "Dark theme page background (custom override)" },
       "surface": { "value": "#080c17", "type": "color", "description": "Dark theme page surface (custom override)" },
   "surface-elevated": { "value": "#10141e", "type": "color", "description": "Dark theme elevated surface (custom)" },
       "surface-sunken": { "value": "#0a0a0a", "type": "color", "description": "Dark theme sunken surface" },
@@ -93,7 +93,7 @@
       "text-secondary": { "value": "#a0a0a0", "type": "color", "description": "Dark theme secondary text" },
       "text-muted": { "value": "#6b7280", "type": "color", "description": "Dark theme muted text" },
       "text-inverse": { "value": "#121212", "type": "color", "description": "Dark theme inverse text" },
-      "border": { "value": "#1c1e25", "type": "color", "description": "Dark theme border" },
+      "border": { "value": "#22262f", "type": "color", "description": "Dark theme border" },
       "border-muted": { "value": "rgba(255, 255, 255, 0.1)", "type": "color", "description": "Dark theme muted border" },
       "focus": { "value": "rgba(238, 56, 49, 0.12)", "type": "color", "description": "Dark theme focus" },
       "hover": { "value": "rgba(255, 255, 255, 0.08)", "type": "color", "description": "Dark theme hover" },
@@ -106,7 +106,7 @@
       "text-accent-hover": { "value": "#f5f5f5", "type": "color", "description": "Dark theme text accent hover" },
       "background-container": { "value": "#0f0f0f", "type": "color", "description": "Dark theme container background" },
       "overlay-backdrop": { "value": "rgba(0, 0, 0, 0.8)", "type": "color", "description": "Dark theme overlay backdrop" },
-      "border-control": { "value": "#1c1e25", "type": "color", "description": "Dark theme control border" },
+      "border-control": { "value": "#22262f", "type": "color", "description": "Dark theme control border" },
       "success": { "value": "#22c55e", "type": "color", "description": "Dark theme success" },
       "success-emphasis": { "value": "#16a34a", "type": "color", "description": "Dark theme success emphasis" },
       "success-subtle": { "value": "rgba(34, 197, 94, 0.15)", "type": "color", "description": "Dark theme success subtle" },

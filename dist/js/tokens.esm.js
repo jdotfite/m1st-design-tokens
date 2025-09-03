@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Sep 2025 00:31:41 GMT
+ * Generated on Wed, 03 Sep 2025 01:07:17 GMT
  */
 
 export const BrandPrimary = "#EE3831";
@@ -311,7 +311,7 @@ export const DarkColorTextTertiary = "#6b7280";
 export const DarkColorTextPlaceholder = "#6b7280";
 export const DarkColorTextDisabled = "#4b5563";
 export const DarkColorTextInverse = "#121212";
-export const DarkColorBorderPrimary = "#1c1e25";
+export const DarkColorBorderPrimary = "#22262f";
 export const DarkColorBorderSecondary = "rgba(255, 255, 255, 0.1)";
 export const DarkColorBorderTertiary = "rgba(255, 255, 255, 0.1)";
 export const DarkColorBorderFocus = "#EE3831";
@@ -340,7 +340,7 @@ export const DarkColorInfo = "#3b82f6";
 export const DarkColorInfoEmphasis = "#2563eb";
 export const DarkColorInfoSubtle = "rgba(59, 130, 246, 0.15)";
 export const DarkPageMainNavBackground = "#02050e";
-export const DarkPageBackground = "#070a10";
+export const DarkPageBackground = "#0c0e12";
 export const DarkPageSurface = "#080c17";
 export const DarkPageSurfaceElevated = "#10141e";
 export const DarkPageSurfaceSunken = "#0a0a0a";
@@ -348,7 +348,7 @@ export const DarkPageTextPrimary = "#ffffff";
 export const DarkPageTextSecondary = "#a0a0a0";
 export const DarkPageTextMuted = "#6b7280";
 export const DarkPageTextInverse = "#121212";
-export const DarkPageBorder = "#1c1e25";
+export const DarkPageBorder = "#22262f";
 export const DarkPageBorderMuted = "rgba(255, 255, 255, 0.1)";
 export const DarkPageFocus = "rgba(238, 56, 49, 0.12)";
 export const DarkPageHover = "rgba(255, 255, 255, 0.08)";
@@ -361,7 +361,7 @@ export const DarkPageAccentTertiary = "#6b7280";
 export const DarkPageTextAccentHover = "#f5f5f5";
 export const DarkPageBackgroundContainer = "#0f0f0f";
 export const DarkPageOverlayBackdrop = "rgba(0, 0, 0, 0.8)";
-export const DarkPageBorderControl = "#1c1e25";
+export const DarkPageBorderControl = "#22262f";
 export const DarkPageSuccess = "#22c55e";
 export const DarkPageSuccessEmphasis = "#16a34a";
 export const DarkPageSuccessSubtle = "rgba(34, 197, 94, 0.15)";
