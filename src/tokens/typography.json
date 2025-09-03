@@ -8,6 +8,11 @@
       "mono": { "value": "SFMono-Regular, Monaco, Inconsolata, Liberation Mono, Courier New, monospace", "type": "fontFamilies" }
     },
     "size": {
+      "display": {
+        "xl": { "value": "6rem", "type": "fontSizes", "description": "Extra large display text for hero sections" },
+        "l": { "value": "5rem", "type": "fontSizes", "description": "Large display text for major headlines" },
+        "m": { "value": "4.5rem", "type": "fontSizes", "description": "Medium display text for featured content" }
+      },
       "heading": {
         "xxl": { "value": "4rem", "type": "fontSizes" },
         "xl": { "value": "3rem", "type": "fontSizes" },

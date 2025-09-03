@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Sep 2025 01:07:45 GMT
+ * Generated on Wed, 03 Sep 2025 01:22:55 GMT
  */
 
 module.exports = {
@@ -454,6 +454,9 @@ module.exports = {
   "FontFamilyHeading": "\"DIN-2014\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif",
   "FontFamilySerif": "\"Lora\", \"LoraVariable\", Georgia, \"Times New Roman\", Times, serif",
   "FontFamilyMono": "SFMono-Regular, Monaco, Inconsolata, Liberation Mono, Courier New, monospace",
+  "FontSizeDisplayXl": "6rem",
+  "FontSizeDisplayL": "5rem",
+  "FontSizeDisplayM": "4.5rem",
   "FontSizeHeadingXxl": "4rem",
   "FontSizeHeadingXl": "3rem",
   "FontSizeHeadingL": "2.25rem",

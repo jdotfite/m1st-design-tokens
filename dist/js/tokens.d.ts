@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Sep 2025 01:07:45 GMT
+ * Generated on Wed, 03 Sep 2025 01:22:55 GMT
  */
 
 export const BrandPrimary : string;
@@ -453,6 +453,9 @@ export const FontFamilyBody : string;
 export const FontFamilyHeading : string;
 export const FontFamilySerif : string;
 export const FontFamilyMono : string;
+export const FontSizeDisplayXl : string;
+export const FontSizeDisplayL : string;
+export const FontSizeDisplayM : string;
 export const FontSizeHeadingXxl : string;
 export const FontSizeHeadingXl : string;
 export const FontSizeHeadingL : string;

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Sep 2025 01:07:45 GMT
+ * Generated on Wed, 03 Sep 2025 01:22:55 GMT
  */
 
 export const BrandPrimary = "#EE3831";
@@ -453,6 +453,9 @@ export const FontFamilyBody = "\"Inter\", -apple-system, BlinkMacSystemFont, \"S
 export const FontFamilyHeading = "\"DIN-2014\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif";
 export const FontFamilySerif = "\"Lora\", \"LoraVariable\", Georgia, \"Times New Roman\", Times, serif";
 export const FontFamilyMono = "SFMono-Regular, Monaco, Inconsolata, Liberation Mono, Courier New, monospace";
+export const FontSizeDisplayXl = "6rem";
+export const FontSizeDisplayL = "5rem";
+export const FontSizeDisplayM = "4.5rem";
 export const FontSizeHeadingXxl = "4rem";
 export const FontSizeHeadingXl = "3rem";
 export const FontSizeHeadingL = "2.25rem";
