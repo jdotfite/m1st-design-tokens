@@ -77,9 +77,28 @@ function bumpVersion(type = null) {
   console.log(`🚀 Performing ${type} version bump...`);
 
   try {
+    // Check if working directory is clean, if not, commit pending changes
+    try {
+      execSync('git diff --exit-code', { stdio: 'ignore' });
+      execSync('git diff --cached --exit-code', { stdio: 'ignore' });
+    } catch (error) {
+      console.log('📝 Committing pending build changes...');
+      execSync('git add .', { stdio: 'inherit' });
+      execSync('git commit -m "chore: update generated files for release"', { stdio: 'inherit' });
+    }
+
     // Clean build first
     console.log('🧹 Running clean build...');
     execSync('npm run build:clean', { stdio: 'inherit' });
+
+    // Commit any new build artifacts
+    try {
+      execSync('git diff --exit-code', { stdio: 'ignore' });
+    } catch (error) {
+      console.log('📝 Committing build artifacts...');
+      execSync('git add .', { stdio: 'inherit' });
+      execSync('git commit -m "chore: update build artifacts for release"', { stdio: 'inherit' });
+    }
 
     // Bump version and push
     console.log(`📈 Bumping ${type} version...`);
