@@ -492,7 +492,7 @@
 
 /**
  * M1st Design System - CSS Variables
- * Generated on Wed, 03 Sep 2025 01:23:18 GMT
+ * Generated on Wed, 03 Sep 2025 12:55:22 GMT
  * 
  * 4-Layer Token Architecture:
  * Layer 1: Foundation tokens (base colors, typography)
@@ -983,7 +983,7 @@
   --color-info-subtle: rgba(59, 130, 246, 0.15);
   --page-main-nav-background: #02050e;
   --page-background: #0c0e12;
-  --page-surface: #080c17;
+  --page-surface: #0a0b0e;
   --page-surface-elevated: #10141e;
   --page-surface-sunken: #0a0a0a;
   --page-text-primary: #ffffff;
@@ -1157,7 +1157,7 @@
     --color-info-subtle: rgba(59, 130, 246, 0.15);
     --page-main-nav-background: #02050e;
     --page-background: #0c0e12;
-    --page-surface: #080c17;
+    --page-surface: #0a0b0e;
     --page-surface-elevated: #10141e;
     --page-surface-sunken: #0a0a0a;
     --page-text-primary: #ffffff;

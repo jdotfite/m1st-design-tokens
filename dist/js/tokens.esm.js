@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Sep 2025 01:23:18 GMT
+ * Generated on Wed, 03 Sep 2025 12:55:23 GMT
  */
 
 export const BrandPrimary = "#EE3831";
@@ -341,7 +341,7 @@ export const DarkColorInfoEmphasis = "#2563eb";
 export const DarkColorInfoSubtle = "rgba(59, 130, 246, 0.15)";
 export const DarkPageMainNavBackground = "#02050e";
 export const DarkPageBackground = "#0c0e12";
-export const DarkPageSurface = "#080c17";
+export const DarkPageSurface = "#0a0b0e";
 export const DarkPageSurfaceElevated = "#10141e";
 export const DarkPageSurfaceSunken = "#0a0a0a";
 export const DarkPageTextPrimary = "#ffffff";
