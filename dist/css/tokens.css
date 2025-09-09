@@ -492,7 +492,7 @@
 
 /**
  * M1st Design System - CSS Variables
- * Generated on Tue, 09 Sep 2025 14:32:35 GMT
+ * Generated on Tue, 09 Sep 2025 15:43:26 GMT
  * 
  * 4-Layer Token Architecture:
  * Layer 1: Foundation tokens (base colors, typography)
@@ -697,7 +697,7 @@
   --button-secondary-bg-hover: rgba(229, 229, 229, 0.5);
   --button-secondary-background-active: rgba(212, 212, 212, 0.7);
   --button-secondary-bg-active: rgba(212, 212, 212, 0.7);
-  --button-secondary-text: #c2cfd2;
+  --button-secondary-text: #ffffff;
   --button-secondary-border: #373a41;
   --button-ghost-background: transparent;
   --button-ghost-bg: transparent;
@@ -855,9 +855,9 @@
   --component-button-primary-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
   --component-button-primary-shadow-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
   --component-button-secondary-background: transparent;
-  --component-button-secondary-background-hover: rgba(255, 255, 255, 0.08);
+  --component-button-secondary-background-hover: #0e1218;
   --component-button-secondary-background-active: rgba(255, 255, 255, 0.12);
-  --component-button-secondary-text: #EE3831;
+  --component-button-secondary-text: #ffffff;
   --component-button-secondary-border: rgba(255, 255, 255, 0.2);
   --component-button-tertiary-background: transparent;
   --component-button-tertiary-background-hover: rgba(255, 255, 255, 0.08);
@@ -991,7 +991,7 @@
   --page-text-muted: #6b7280;
   --page-text-inverse: #121212;
   --page-border: #22262f;
-  --page-border-muted: rgba(255, 255, 255, 0.1);
+  --page-border-muted: #353b43;
   --page-focus: rgba(238, 56, 49, 0.12);
   --page-hover: rgba(255, 255, 255, 0.08);
   --page-active: rgba(255, 255, 255, 0.12);
@@ -1029,9 +1029,9 @@
     --component-button-primary-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
     --component-button-primary-shadow-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
     --component-button-secondary-background: transparent;
-    --component-button-secondary-background-hover: rgba(255, 255, 255, 0.08);
+    --component-button-secondary-background-hover: #0e1218;
     --component-button-secondary-background-active: rgba(255, 255, 255, 0.12);
-    --component-button-secondary-text: #EE3831;
+    --component-button-secondary-text: #ffffff;
     --component-button-secondary-border: rgba(255, 255, 255, 0.2);
     --component-button-tertiary-background: transparent;
     --component-button-tertiary-background-hover: rgba(255, 255, 255, 0.08);
@@ -1165,7 +1165,7 @@
     --page-text-muted: #6b7280;
     --page-text-inverse: #121212;
     --page-border: #22262f;
-    --page-border-muted: rgba(255, 255, 255, 0.1);
+    --page-border-muted: #353b43;
     --page-focus: rgba(238, 56, 49, 0.12);
     --page-hover: rgba(255, 255, 255, 0.08);
     --page-active: rgba(255, 255, 255, 0.12);

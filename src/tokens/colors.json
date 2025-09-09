@@ -28,7 +28,7 @@
   },
   "secondary-button": {
     "border": { "value": "#373a41", "type": "color", "description": "Secondary button border color" },
-    "text": { "value": "#c2cfd2", "type": "color", "description": "Secondary button text color" }
+    "text": { "value": "#ffffff", "type": "color", "description": "Secondary button text color" }
   },
   "color": {
     "brand": {

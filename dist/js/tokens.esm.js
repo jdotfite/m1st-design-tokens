@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Sep 2025 14:32:35 GMT
+ * Generated on Tue, 09 Sep 2025 15:43:26 GMT
  */
 
 export const BrandPrimary = "#EE3831";
@@ -41,7 +41,7 @@ export const ButtonSecondaryBackgroundHover = "#e5e5e5";
 export const ButtonSecondaryBgHover = "#e5e5e5";
 export const ButtonSecondaryBackgroundActive = "#d4d4d4";
 export const ButtonSecondaryBgActive = "#d4d4d4";
-export const ButtonSecondaryText = "#c2cfd2";
+export const ButtonSecondaryText = "#ffffff";
 export const ButtonSecondaryBorder = "#373a41";
 export const ButtonGhostBackground = "transparent";
 export const ButtonGhostBg = "transparent";
@@ -115,7 +115,7 @@ export const Neutral950 = "#0a0a0a";
 export const Neutral975 = "#050505";
 export const Neutral1000 = "#000000";
 export const SecondaryButtonBorder = "#373a41";
-export const SecondaryButtonText = "#c2cfd2";
+export const SecondaryButtonText = "#ffffff";
 export const ColorBrandPrimary = "#EE3831";
 export const ColorAccentRed = "#E71C23";
 export const ColorAccentGreen = "#55A444";
@@ -215,9 +215,9 @@ export const DarkComponentButtonPrimaryBorder = "#EE3831";
 export const DarkComponentButtonPrimaryShadow = "0 1px 2px 0 rgba(0, 0, 0, 0.3)";
 export const DarkComponentButtonPrimaryShadowHover = "0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3)";
 export const DarkComponentButtonSecondaryBackground = "transparent";
-export const DarkComponentButtonSecondaryBackgroundHover = "rgba(255, 255, 255, 0.08)";
+export const DarkComponentButtonSecondaryBackgroundHover = "#0e1218";
 export const DarkComponentButtonSecondaryBackgroundActive = "rgba(255, 255, 255, 0.12)";
-export const DarkComponentButtonSecondaryText = "#EE3831";
+export const DarkComponentButtonSecondaryText = "#ffffff";
 export const DarkComponentButtonSecondaryBorder = "rgba(255, 255, 255, 0.2)";
 export const DarkComponentButtonTertiaryBackground = "transparent";
 export const DarkComponentButtonTertiaryBackgroundHover = "rgba(255, 255, 255, 0.08)";
@@ -351,7 +351,7 @@ export const DarkPageTextSecondary = "#a0a0a0";
 export const DarkPageTextMuted = "#6b7280";
 export const DarkPageTextInverse = "#121212";
 export const DarkPageBorder = "#22262f";
-export const DarkPageBorderMuted = "rgba(255, 255, 255, 0.1)";
+export const DarkPageBorderMuted = "#353b43";
 export const DarkPageFocus = "rgba(238, 56, 49, 0.12)";
 export const DarkPageHover = "rgba(255, 255, 255, 0.08)";
 export const DarkPageActive = "rgba(255, 255, 255, 0.12)";

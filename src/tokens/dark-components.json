@@ -13,9 +13,9 @@
         },
         "secondary": {
           "background": { "value": "transparent", "type": "color" },
-          "background-hover": { "value": "rgba(255, 255, 255, 0.08)", "type": "color" },
+          "background-hover": { "value": "{dark.page.surface}", "type": "color" },
           "background-active": { "value": "rgba(255, 255, 255, 0.12)", "type": "color" },
-          "text": { "value": "#EE3831", "type": "color" },
+          "text": { "value": "#ffffff", "type": "color" },
           "border": { "value": "rgba(255, 255, 255, 0.2)", "type": "color" }
         },
         "tertiary": {

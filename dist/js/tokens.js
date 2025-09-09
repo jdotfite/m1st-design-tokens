@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Sep 2025 14:32:35 GMT
+ * Generated on Tue, 09 Sep 2025 15:43:26 GMT
  */
 
 module.exports = {
@@ -42,7 +42,7 @@ module.exports = {
   "ButtonSecondaryBgHover": "#e5e5e5",
   "ButtonSecondaryBackgroundActive": "#d4d4d4",
   "ButtonSecondaryBgActive": "#d4d4d4",
-  "ButtonSecondaryText": "#c2cfd2",
+  "ButtonSecondaryText": "#ffffff",
   "ButtonSecondaryBorder": "#373a41",
   "ButtonGhostBackground": "transparent",
   "ButtonGhostBg": "transparent",
@@ -116,7 +116,7 @@ module.exports = {
   "Neutral975": "#050505",
   "Neutral1000": "#000000",
   "SecondaryButtonBorder": "#373a41",
-  "SecondaryButtonText": "#c2cfd2",
+  "SecondaryButtonText": "#ffffff",
   "ColorBrandPrimary": "#EE3831",
   "ColorAccentRed": "#E71C23",
   "ColorAccentGreen": "#55A444",
@@ -216,9 +216,9 @@ module.exports = {
   "DarkComponentButtonPrimaryShadow": "0 1px 2px 0 rgba(0, 0, 0, 0.3)",
   "DarkComponentButtonPrimaryShadowHover": "0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3)",
   "DarkComponentButtonSecondaryBackground": "transparent",
-  "DarkComponentButtonSecondaryBackgroundHover": "rgba(255, 255, 255, 0.08)",
+  "DarkComponentButtonSecondaryBackgroundHover": "#0e1218",
   "DarkComponentButtonSecondaryBackgroundActive": "rgba(255, 255, 255, 0.12)",
-  "DarkComponentButtonSecondaryText": "#EE3831",
+  "DarkComponentButtonSecondaryText": "#ffffff",
   "DarkComponentButtonSecondaryBorder": "rgba(255, 255, 255, 0.2)",
   "DarkComponentButtonTertiaryBackground": "transparent",
   "DarkComponentButtonTertiaryBackgroundHover": "rgba(255, 255, 255, 0.08)",
@@ -352,7 +352,7 @@ module.exports = {
   "DarkPageTextMuted": "#6b7280",
   "DarkPageTextInverse": "#121212",
   "DarkPageBorder": "#22262f",
-  "DarkPageBorderMuted": "rgba(255, 255, 255, 0.1)",
+  "DarkPageBorderMuted": "#353b43",
   "DarkPageFocus": "rgba(238, 56, 49, 0.12)",
   "DarkPageHover": "rgba(255, 255, 255, 0.08)",
   "DarkPageActive": "rgba(255, 255, 255, 0.12)",

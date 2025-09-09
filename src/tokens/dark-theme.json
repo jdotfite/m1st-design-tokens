@@ -94,7 +94,7 @@
       "text-muted": { "value": "#6b7280", "type": "color", "description": "Dark theme muted text" },
       "text-inverse": { "value": "#121212", "type": "color", "description": "Dark theme inverse text" },
       "border": { "value": "#22262f", "type": "color", "description": "Dark theme border" },
-      "border-muted": { "value": "rgba(255, 255, 255, 0.1)", "type": "color", "description": "Dark theme muted border" },
+      "border-muted": { "value": "#353b43", "type": "color", "description": "Dark theme muted border" },
       "focus": { "value": "rgba(238, 56, 49, 0.12)", "type": "color", "description": "Dark theme focus" },
       "hover": { "value": "rgba(255, 255, 255, 0.08)", "type": "color", "description": "Dark theme hover" },
       "active": { "value": "rgba(255, 255, 255, 0.12)", "type": "color", "description": "Dark theme active" },
