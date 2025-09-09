@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Sep 2025 20:44:23 GMT
+ * Generated on Tue, 09 Sep 2025 20:47:17 GMT
  */
 
 module.exports = {
@@ -217,11 +217,13 @@ module.exports = {
   "DarkComponentButtonPrimaryBorderActive": "#122b4b",
   "DarkComponentButtonPrimaryShadow": "0 1px 2px 0 rgba(0, 0, 0, 0.3)",
   "DarkComponentButtonPrimaryShadowHover": "0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3)",
-  "DarkComponentButtonSecondaryBackground": "transparent",
-  "DarkComponentButtonSecondaryBackgroundHover": "#0e1218",
-  "DarkComponentButtonSecondaryBackgroundActive": "rgba(255, 255, 255, 0.12)",
+  "DarkComponentButtonSecondaryBackground": "#262c36",
+  "DarkComponentButtonSecondaryBackgroundHover": "#262c36",
+  "DarkComponentButtonSecondaryBackgroundActive": "#262c36",
   "DarkComponentButtonSecondaryText": "#ffffff",
-  "DarkComponentButtonSecondaryBorder": "rgba(255, 255, 255, 0.2)",
+  "DarkComponentButtonSecondaryBorder": "#3d444d",
+  "DarkComponentButtonSecondaryBorderHover": "#3d444d",
+  "DarkComponentButtonSecondaryBorderActive": "#3d444d",
   "DarkComponentButtonTertiaryBackground": "transparent",
   "DarkComponentButtonTertiaryBackgroundHover": "rgba(255, 255, 255, 0.08)",
   "DarkComponentButtonTertiaryText": "#ffffff",

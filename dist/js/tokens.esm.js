@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Sep 2025 20:44:23 GMT
+ * Generated on Tue, 09 Sep 2025 20:47:17 GMT
  */
 
 export const BrandPrimary = "#EE3831";
@@ -216,11 +216,13 @@ export const DarkComponentButtonPrimaryBorderHover = "#122b4b";
 export const DarkComponentButtonPrimaryBorderActive = "#122b4b";
 export const DarkComponentButtonPrimaryShadow = "0 1px 2px 0 rgba(0, 0, 0, 0.3)";
 export const DarkComponentButtonPrimaryShadowHover = "0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3)";
-export const DarkComponentButtonSecondaryBackground = "transparent";
-export const DarkComponentButtonSecondaryBackgroundHover = "#0e1218";
-export const DarkComponentButtonSecondaryBackgroundActive = "rgba(255, 255, 255, 0.12)";
+export const DarkComponentButtonSecondaryBackground = "#262c36";
+export const DarkComponentButtonSecondaryBackgroundHover = "#262c36";
+export const DarkComponentButtonSecondaryBackgroundActive = "#262c36";
 export const DarkComponentButtonSecondaryText = "#ffffff";
-export const DarkComponentButtonSecondaryBorder = "rgba(255, 255, 255, 0.2)";
+export const DarkComponentButtonSecondaryBorder = "#3d444d";
+export const DarkComponentButtonSecondaryBorderHover = "#3d444d";
+export const DarkComponentButtonSecondaryBorderActive = "#3d444d";
 export const DarkComponentButtonTertiaryBackground = "transparent";
 export const DarkComponentButtonTertiaryBackgroundHover = "rgba(255, 255, 255, 0.08)";
 export const DarkComponentButtonTertiaryText = "#ffffff";

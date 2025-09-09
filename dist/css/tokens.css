@@ -492,7 +492,7 @@
 
 /**
  * M1st Design System - CSS Variables
- * Generated on Tue, 09 Sep 2025 20:44:23 GMT
+ * Generated on Tue, 09 Sep 2025 20:47:17 GMT
  * 
  * 4-Layer Token Architecture:
  * Layer 1: Foundation tokens (base colors, typography)
@@ -856,11 +856,13 @@
   --component-button-primary-border-active: #122b4b;
   --component-button-primary-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
   --component-button-primary-shadow-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
-  --component-button-secondary-background: transparent;
-  --component-button-secondary-background-hover: #0e1218;
-  --component-button-secondary-background-active: rgba(255, 255, 255, 0.12);
+  --component-button-secondary-background: #262c36;
+  --component-button-secondary-background-hover: #262c36;
+  --component-button-secondary-background-active: #262c36;
   --component-button-secondary-text: #ffffff;
-  --component-button-secondary-border: rgba(255, 255, 255, 0.2);
+  --component-button-secondary-border: #3d444d;
+  --component-button-secondary-border-hover: #3d444d;
+  --component-button-secondary-border-active: #3d444d;
   --component-button-tertiary-background: transparent;
   --component-button-tertiary-background-hover: rgba(255, 255, 255, 0.08);
   --component-button-tertiary-text: #ffffff;
@@ -1032,11 +1034,13 @@
     --component-button-primary-border-active: #122b4b;
     --component-button-primary-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
     --component-button-primary-shadow-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
-    --component-button-secondary-background: transparent;
-    --component-button-secondary-background-hover: #0e1218;
-    --component-button-secondary-background-active: rgba(255, 255, 255, 0.12);
+    --component-button-secondary-background: #262c36;
+    --component-button-secondary-background-hover: #262c36;
+    --component-button-secondary-background-active: #262c36;
     --component-button-secondary-text: #ffffff;
-    --component-button-secondary-border: rgba(255, 255, 255, 0.2);
+    --component-button-secondary-border: #3d444d;
+    --component-button-secondary-border-hover: #3d444d;
+    --component-button-secondary-border-active: #3d444d;
     --component-button-tertiary-background: transparent;
     --component-button-tertiary-background-hover: rgba(255, 255, 255, 0.08);
     --component-button-tertiary-text: #ffffff;

@@ -14,11 +14,13 @@
           "shadow-hover": { "value": "0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3)", "type": "shadow" }
         },
         "secondary": {
-          "background": { "value": "transparent", "type": "color" },
-          "background-hover": { "value": "{dark.page.surface}", "type": "color" },
-          "background-active": { "value": "rgba(255, 255, 255, 0.12)", "type": "color" },
+          "background": { "value": "#262c36", "type": "color" },
+          "background-hover": { "value": "#262c36", "type": "color" },
+          "background-active": { "value": "#262c36", "type": "color" },
           "text": { "value": "#ffffff", "type": "color" },
-          "border": { "value": "rgba(255, 255, 255, 0.2)", "type": "color" }
+          "border": { "value": "#3d444d", "type": "color" },
+          "border-hover": { "value": "#3d444d", "type": "color" },
+          "border-active": { "value": "#3d444d", "type": "color" }
         },
         "tertiary": {
           "background": { "value": "transparent", "type": "color" },
