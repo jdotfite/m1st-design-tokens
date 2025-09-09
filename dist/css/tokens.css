@@ -492,7 +492,7 @@
 
 /**
  * M1st Design System - CSS Variables
- * Generated on Tue, 09 Sep 2025 21:20:08 GMT
+ * Generated on Tue, 09 Sep 2025 21:51:10 GMT
  * 
  * 4-Layer Token Architecture:
  * Layer 1: Foundation tokens (base colors, typography)
@@ -1036,6 +1036,7 @@
   --button-primary-bg-active: #14345c;
   --button-primary-border-hover: #14345c;
   --button-primary-border-active: #14345c;
+  --button-ghost-text: #ffffff;
 }
 
 /* System preference dark theme */
@@ -1228,5 +1229,6 @@
     --button-primary-bg-active: #14345c;
     --button-primary-border-hover: #14345c;
     --button-primary-border-active: #14345c;
+    --button-ghost-text: #ffffff;
   }
 }

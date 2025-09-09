@@ -138,6 +138,9 @@
         "bg-active": { "value": "{blue.primary-hover-dark}", "type": "color", "description": "Dark theme primary button active background (alias)" },
         "border-hover": { "value": "{blue.primary-hover-dark}", "type": "color", "description": "Dark theme primary button hover border" },
         "border-active": { "value": "{blue.primary-hover-dark}", "type": "color", "description": "Dark theme primary button active border" }
+      },
+      "ghost": {
+        "text": { "value": "#ffffff", "type": "color", "description": "Dark theme ghost button text" }
       }
     }
   }

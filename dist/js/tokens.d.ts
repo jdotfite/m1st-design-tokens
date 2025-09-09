@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Sep 2025 21:20:08 GMT
+ * Generated on Tue, 09 Sep 2025 21:51:10 GMT
  */
 
 export const BrandPrimary : string;
@@ -406,6 +406,7 @@ export const DarkButtonPrimaryBackgroundActive : string;
 export const DarkButtonPrimaryBgActive : string;
 export const DarkButtonPrimaryBorderHover : string;
 export const DarkButtonPrimaryBorderActive : string;
+export const DarkButtonGhostText : string;
 export const TabBackground : string;
 export const TabBackgroundActive : string;
 export const TabBackgroundHover : string;

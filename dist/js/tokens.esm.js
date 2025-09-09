@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Sep 2025 21:20:08 GMT
+ * Generated on Tue, 09 Sep 2025 21:51:10 GMT
  */
 
 export const BrandPrimary = "#EE3831";
@@ -406,6 +406,7 @@ export const DarkButtonPrimaryBackgroundActive = "#14345c";
 export const DarkButtonPrimaryBgActive = "#14345c";
 export const DarkButtonPrimaryBorderHover = "#14345c";
 export const DarkButtonPrimaryBorderActive = "#14345c";
+export const DarkButtonGhostText = "#ffffff";
 export const TabBackground = "transparent";
 export const TabBackgroundActive = "#ffffff";
 export const TabBackgroundHover = "#e5e5e5";
