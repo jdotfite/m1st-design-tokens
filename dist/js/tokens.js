@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Sep 2025 13:29:40 GMT
+ * Generated on Tue, 09 Sep 2025 14:32:18 GMT
  */
 
 module.exports = {
@@ -343,8 +343,8 @@ module.exports = {
   "DarkColorInfoEmphasis": "#2563eb",
   "DarkColorInfoSubtle": "rgba(59, 130, 246, 0.15)",
   "DarkPageMainNavBackground": "#02050e",
-  "DarkPageBackground": "#0c0e12",
-  "DarkPageSurface": "#13161b",
+  "DarkPageBackground": "#05080d",
+  "DarkPageSurface": "#0e1218",
   "DarkPageSurfaceElevated": "#10141e",
   "DarkPageSurfaceSunken": "#0a0a0a",
   "DarkPageTextPrimary": "#ffffff",
