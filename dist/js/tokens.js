@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Sep 2025 21:07:05 GMT
+ * Generated on Tue, 09 Sep 2025 21:20:08 GMT
  */
 
 module.exports = {
@@ -393,6 +393,20 @@ module.exports = {
   "DarkPageInfo": "#3b82f6",
   "DarkPageInfoEmphasis": "#2563eb",
   "DarkPageInfoSubtle": "rgba(59, 130, 246, 0.15)",
+  "DarkButtonSecondaryBackground": "#262c36",
+  "DarkButtonSecondaryBg": "#262c36",
+  "DarkButtonSecondaryBackgroundHover": "#2a313c",
+  "DarkButtonSecondaryBgHover": "#2a313c",
+  "DarkButtonSecondaryBackgroundActive": "#2a313c",
+  "DarkButtonSecondaryBgActive": "#2a313c",
+  "DarkButtonSecondaryText": "#ffffff",
+  "DarkButtonSecondaryBorder": "#3d444d",
+  "DarkButtonPrimaryBackgroundHover": "#14345c",
+  "DarkButtonPrimaryBgHover": "#14345c",
+  "DarkButtonPrimaryBackgroundActive": "#14345c",
+  "DarkButtonPrimaryBgActive": "#14345c",
+  "DarkButtonPrimaryBorderHover": "#14345c",
+  "DarkButtonPrimaryBorderActive": "#14345c",
   "TabBackground": "transparent",
   "TabBackgroundActive": "#ffffff",
   "TabBackgroundHover": "#e5e5e5",

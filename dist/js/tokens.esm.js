@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Sep 2025 21:07:05 GMT
+ * Generated on Tue, 09 Sep 2025 21:20:08 GMT
  */
 
 export const BrandPrimary = "#EE3831";
@@ -392,6 +392,20 @@ export const DarkPageDangerSubtle = "rgba(238, 56, 49, 0.15)";
 export const DarkPageInfo = "#3b82f6";
 export const DarkPageInfoEmphasis = "#2563eb";
 export const DarkPageInfoSubtle = "rgba(59, 130, 246, 0.15)";
+export const DarkButtonSecondaryBackground = "#262c36";
+export const DarkButtonSecondaryBg = "#262c36";
+export const DarkButtonSecondaryBackgroundHover = "#2a313c";
+export const DarkButtonSecondaryBgHover = "#2a313c";
+export const DarkButtonSecondaryBackgroundActive = "#2a313c";
+export const DarkButtonSecondaryBgActive = "#2a313c";
+export const DarkButtonSecondaryText = "#ffffff";
+export const DarkButtonSecondaryBorder = "#3d444d";
+export const DarkButtonPrimaryBackgroundHover = "#14345c";
+export const DarkButtonPrimaryBgHover = "#14345c";
+export const DarkButtonPrimaryBackgroundActive = "#14345c";
+export const DarkButtonPrimaryBgActive = "#14345c";
+export const DarkButtonPrimaryBorderHover = "#14345c";
+export const DarkButtonPrimaryBorderActive = "#14345c";
 export const TabBackground = "transparent";
 export const TabBackgroundActive = "#ffffff";
 export const TabBackgroundHover = "#e5e5e5";

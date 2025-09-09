@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Sep 2025 21:07:05 GMT
+ * Generated on Tue, 09 Sep 2025 21:20:08 GMT
  */
 
 export const BrandPrimary : string;
@@ -392,6 +392,20 @@ export const DarkPageDangerSubtle : string;
 export const DarkPageInfo : string;
 export const DarkPageInfoEmphasis : string;
 export const DarkPageInfoSubtle : string;
+export const DarkButtonSecondaryBackground : string;
+export const DarkButtonSecondaryBg : string;
+export const DarkButtonSecondaryBackgroundHover : string;
+export const DarkButtonSecondaryBgHover : string;
+export const DarkButtonSecondaryBackgroundActive : string;
+export const DarkButtonSecondaryBgActive : string;
+export const DarkButtonSecondaryText : string;
+export const DarkButtonSecondaryBorder : string;
+export const DarkButtonPrimaryBackgroundHover : string;
+export const DarkButtonPrimaryBgHover : string;
+export const DarkButtonPrimaryBackgroundActive : string;
+export const DarkButtonPrimaryBgActive : string;
+export const DarkButtonPrimaryBorderHover : string;
+export const DarkButtonPrimaryBorderActive : string;
 export const TabBackground : string;
 export const TabBackgroundActive : string;
 export const TabBackgroundHover : string;

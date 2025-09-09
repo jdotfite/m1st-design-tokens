@@ -119,6 +119,26 @@
       "info": { "value": "#3b82f6", "type": "color", "description": "Dark theme info" },
       "info-emphasis": { "value": "#2563eb", "type": "color", "description": "Dark theme info emphasis" },
       "info-subtle": { "value": "rgba(59, 130, 246, 0.15)", "type": "color", "description": "Dark theme info subtle" }
+    },
+    "button": {
+      "secondary": {
+        "background": { "value": "{gray.dark-secondary-bg}", "type": "color", "description": "Dark theme secondary button background" },
+        "bg": { "value": "{gray.dark-secondary-bg}", "type": "color", "description": "Dark theme secondary button background (alias)" },
+        "background-hover": { "value": "{gray.dark-secondary-bg-hover}", "type": "color", "description": "Dark theme secondary button hover background" },
+        "bg-hover": { "value": "{gray.dark-secondary-bg-hover}", "type": "color", "description": "Dark theme secondary button hover background (alias)" },
+        "background-active": { "value": "{gray.dark-secondary-bg-hover}", "type": "color", "description": "Dark theme secondary button active background" },
+        "bg-active": { "value": "{gray.dark-secondary-bg-hover}", "type": "color", "description": "Dark theme secondary button active background (alias)" },
+        "text": { "value": "#ffffff", "type": "color", "description": "Dark theme secondary button text" },
+        "border": { "value": "{gray.dark-secondary-border}", "type": "color", "description": "Dark theme secondary button border" }
+      },
+      "primary": {
+        "background-hover": { "value": "{blue.primary-hover-dark}", "type": "color", "description": "Dark theme primary button hover background" },
+        "bg-hover": { "value": "{blue.primary-hover-dark}", "type": "color", "description": "Dark theme primary button hover background (alias)" },
+        "background-active": { "value": "{blue.primary-hover-dark}", "type": "color", "description": "Dark theme primary button active background" },
+        "bg-active": { "value": "{blue.primary-hover-dark}", "type": "color", "description": "Dark theme primary button active background (alias)" },
+        "border-hover": { "value": "{blue.primary-hover-dark}", "type": "color", "description": "Dark theme primary button hover border" },
+        "border-active": { "value": "{blue.primary-hover-dark}", "type": "color", "description": "Dark theme primary button active border" }
+      }
     }
   }
 }

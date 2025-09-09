@@ -492,7 +492,7 @@
 
 /**
  * M1st Design System - CSS Variables
- * Generated on Tue, 09 Sep 2025 21:07:05 GMT
+ * Generated on Tue, 09 Sep 2025 21:20:08 GMT
  * 
  * 4-Layer Token Architecture:
  * Layer 1: Foundation tokens (base colors, typography)
@@ -1022,6 +1022,20 @@
   --page-info: #3b82f6;
   --page-info-emphasis: #2563eb;
   --page-info-subtle: rgba(59, 130, 246, 0.15);
+  --button-secondary-background: #262c36;
+  --button-secondary-bg: #262c36;
+  --button-secondary-background-hover: #2a313c;
+  --button-secondary-bg-hover: #2a313c;
+  --button-secondary-background-active: #2a313c;
+  --button-secondary-bg-active: #2a313c;
+  --button-secondary-text: #ffffff;
+  --button-secondary-border: #3d444d;
+  --button-primary-background-hover: #14345c;
+  --button-primary-bg-hover: #14345c;
+  --button-primary-background-active: #14345c;
+  --button-primary-bg-active: #14345c;
+  --button-primary-border-hover: #14345c;
+  --button-primary-border-active: #14345c;
 }
 
 /* System preference dark theme */
@@ -1200,5 +1214,19 @@
     --page-info: #3b82f6;
     --page-info-emphasis: #2563eb;
     --page-info-subtle: rgba(59, 130, 246, 0.15);
+    --button-secondary-background: #262c36;
+    --button-secondary-bg: #262c36;
+    --button-secondary-background-hover: #2a313c;
+    --button-secondary-bg-hover: #2a313c;
+    --button-secondary-background-active: #2a313c;
+    --button-secondary-bg-active: #2a313c;
+    --button-secondary-text: #ffffff;
+    --button-secondary-border: #3d444d;
+    --button-primary-background-hover: #14345c;
+    --button-primary-bg-hover: #14345c;
+    --button-primary-background-active: #14345c;
+    --button-primary-bg-active: #14345c;
+    --button-primary-border-hover: #14345c;
+    --button-primary-border-active: #14345c;
   }
 }
