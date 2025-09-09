@@ -4,10 +4,12 @@
       "button": {
         "primary": {
           "background": { "value": "#EE3831", "type": "color" },
-          "background-hover": { "value": "#d32f2f", "type": "color" },
-          "background-active": { "value": "#b71c1c", "type": "color" },
+          "background-hover": { "value": "#122b4b", "type": "color" },
+          "background-active": { "value": "#122b4b", "type": "color" },
           "text": { "value": "#ffffff", "type": "color" },
           "border": { "value": "#EE3831", "type": "color" },
+          "border-hover": { "value": "#122b4b", "type": "color" },
+          "border-active": { "value": "#122b4b", "type": "color" },
           "shadow": { "value": "0 1px 2px 0 rgba(0, 0, 0, 0.3)", "type": "shadow" },
           "shadow-hover": { "value": "0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3)", "type": "shadow" }
         },

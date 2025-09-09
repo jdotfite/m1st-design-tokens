@@ -492,7 +492,7 @@
 
 /**
  * M1st Design System - CSS Variables
- * Generated on Tue, 09 Sep 2025 15:44:07 GMT
+ * Generated on Tue, 09 Sep 2025 20:44:23 GMT
  * 
  * 4-Layer Token Architecture:
  * Layer 1: Foundation tokens (base colors, typography)
@@ -691,14 +691,14 @@
   --button-primary-border: #133156;
   --button-primary-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --button-primary-shadow-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --button-secondary-background: transparent;
-  --button-secondary-bg: transparent;
-  --button-secondary-background-hover: rgba(229, 229, 229, 0.5);
-  --button-secondary-bg-hover: rgba(229, 229, 229, 0.5);
-  --button-secondary-background-active: rgba(212, 212, 212, 0.7);
-  --button-secondary-bg-active: rgba(212, 212, 212, 0.7);
-  --button-secondary-text: #ffffff;
-  --button-secondary-border: #373a41;
+  --button-secondary-background: #eff2f5;
+  --button-secondary-bg: #eff2f5;
+  --button-secondary-background-hover: #e6eaef;
+  --button-secondary-bg-hover: #e6eaef;
+  --button-secondary-background-active: #e6eaef;
+  --button-secondary-bg-active: #e6eaef;
+  --button-secondary-text: #171717;
+  --button-secondary-border: #d1d9e0;
   --button-ghost-background: transparent;
   --button-ghost-bg: transparent;
   --button-ghost-background-hover: rgba(229, 229, 229, 0.5);
@@ -848,10 +848,12 @@
 .dark,
 [data-theme="dark"] {
   --component-button-primary-background: #EE3831;
-  --component-button-primary-background-hover: #d32f2f;
-  --component-button-primary-background-active: #b71c1c;
+  --component-button-primary-background-hover: #122b4b;
+  --component-button-primary-background-active: #122b4b;
   --component-button-primary-text: #ffffff;
   --component-button-primary-border: #EE3831;
+  --component-button-primary-border-hover: #122b4b;
+  --component-button-primary-border-active: #122b4b;
   --component-button-primary-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
   --component-button-primary-shadow-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
   --component-button-secondary-background: transparent;
@@ -1022,10 +1024,12 @@
 @media (prefers-color-scheme: dark) {
   :root:not(.light):not([data-theme="light"]) {
     --component-button-primary-background: #EE3831;
-    --component-button-primary-background-hover: #d32f2f;
-    --component-button-primary-background-active: #b71c1c;
+    --component-button-primary-background-hover: #122b4b;
+    --component-button-primary-background-active: #122b4b;
     --component-button-primary-text: #ffffff;
     --component-button-primary-border: #EE3831;
+    --component-button-primary-border-hover: #122b4b;
+    --component-button-primary-border-active: #122b4b;
     --component-button-primary-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
     --component-button-primary-shadow-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
     --component-button-secondary-background: transparent;

@@ -27,8 +27,8 @@
     "1000": { "value": "#000000", "type": "color" }
   },
   "secondary-button": {
-    "border": { "value": "#373a41", "type": "color", "description": "Secondary button border color" },
-    "text": { "value": "#ffffff", "type": "color", "description": "Secondary button text color" }
+    "border": { "value": "#d1d9e0", "type": "color", "description": "Secondary button border color" },
+    "text": { "value": "{color.text.primary}", "type": "color", "description": "Secondary button text color" }
   },
   "color": {
     "brand": {

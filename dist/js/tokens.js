@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Sep 2025 15:44:07 GMT
+ * Generated on Tue, 09 Sep 2025 20:44:23 GMT
  */
 
 module.exports = {
@@ -36,14 +36,14 @@ module.exports = {
   "ButtonPrimaryBorder": "#133156",
   "ButtonPrimaryShadow": "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
   "ButtonPrimaryShadowHover": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-  "ButtonSecondaryBackground": "transparent",
-  "ButtonSecondaryBg": "transparent",
-  "ButtonSecondaryBackgroundHover": "#e5e5e5",
-  "ButtonSecondaryBgHover": "#e5e5e5",
-  "ButtonSecondaryBackgroundActive": "#d4d4d4",
-  "ButtonSecondaryBgActive": "#d4d4d4",
-  "ButtonSecondaryText": "#ffffff",
-  "ButtonSecondaryBorder": "#373a41",
+  "ButtonSecondaryBackground": "#eff2f5",
+  "ButtonSecondaryBg": "#eff2f5",
+  "ButtonSecondaryBackgroundHover": "#e6eaef",
+  "ButtonSecondaryBgHover": "#e6eaef",
+  "ButtonSecondaryBackgroundActive": "#e6eaef",
+  "ButtonSecondaryBgActive": "#e6eaef",
+  "ButtonSecondaryText": "#171717",
+  "ButtonSecondaryBorder": "#d1d9e0",
   "ButtonGhostBackground": "transparent",
   "ButtonGhostBg": "transparent",
   "ButtonGhostBackgroundHover": "#e5e5e5",
@@ -115,8 +115,8 @@ module.exports = {
   "Neutral950": "#0a0a0a",
   "Neutral975": "#050505",
   "Neutral1000": "#000000",
-  "SecondaryButtonBorder": "#373a41",
-  "SecondaryButtonText": "#ffffff",
+  "SecondaryButtonBorder": "#d1d9e0",
+  "SecondaryButtonText": "#171717",
   "ColorBrandPrimary": "#EE3831",
   "ColorAccentRed": "#E71C23",
   "ColorAccentGreen": "#55A444",
@@ -209,10 +209,12 @@ module.exports = {
   "LoadingSpinnerSimpleBorder": "#ececec",
   "LoadingSpinnerSecondaryColor": "#213d70",
   "DarkComponentButtonPrimaryBackground": "#EE3831",
-  "DarkComponentButtonPrimaryBackgroundHover": "#d32f2f",
-  "DarkComponentButtonPrimaryBackgroundActive": "#b71c1c",
+  "DarkComponentButtonPrimaryBackgroundHover": "#122b4b",
+  "DarkComponentButtonPrimaryBackgroundActive": "#122b4b",
   "DarkComponentButtonPrimaryText": "#ffffff",
   "DarkComponentButtonPrimaryBorder": "#EE3831",
+  "DarkComponentButtonPrimaryBorderHover": "#122b4b",
+  "DarkComponentButtonPrimaryBorderActive": "#122b4b",
   "DarkComponentButtonPrimaryShadow": "0 1px 2px 0 rgba(0, 0, 0, 0.3)",
   "DarkComponentButtonPrimaryShadowHover": "0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3)",
   "DarkComponentButtonSecondaryBackground": "transparent",

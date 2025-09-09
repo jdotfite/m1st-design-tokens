@@ -13,12 +13,12 @@
       "shadow-hover": { "value": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)", "type": "boxShadow", "description": "Primary button hover shadow" }
     },
     "secondary": {
-      "background": { "value": "transparent", "type": "color", "description": "Secondary button background" },
-      "bg": { "value": "transparent", "type": "color", "description": "Secondary button background (alias)" },
-      "background-hover": { "value": "{page.hover}", "type": "color", "description": "Secondary button hover background" },
-      "bg-hover": { "value": "{page.hover}", "type": "color", "description": "Secondary button hover background (alias)" },
-      "background-active": { "value": "{page.active}", "type": "color", "description": "Secondary button active background" },
-      "bg-active": { "value": "{page.active}", "type": "color", "description": "Secondary button active background (alias)" },
+      "background": { "value": "#eff2f5", "type": "color", "description": "Secondary button background" },
+      "bg": { "value": "#eff2f5", "type": "color", "description": "Secondary button background (alias)" },
+      "background-hover": { "value": "#e6eaef", "type": "color", "description": "Secondary button hover background" },
+      "bg-hover": { "value": "#e6eaef", "type": "color", "description": "Secondary button hover background (alias)" },
+      "background-active": { "value": "#e6eaef", "type": "color", "description": "Secondary button active background" },
+      "bg-active": { "value": "#e6eaef", "type": "color", "description": "Secondary button active background (alias)" },
       "text": { "value": "{secondary-button.text}", "type": "color", "description": "Secondary button text color" },
       "border": { "value": "{secondary-button.border}", "type": "color", "description": "Secondary button border" }
     },
