@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Sep 2025 21:56:21 GMT
+ * Generated on Tue, 09 Sep 2025 21:58:38 GMT
  */
 
 export const BrandPrimary = "#EE3831";
@@ -159,7 +159,7 @@ export const ColorBackgroundCanvas = "#ffffff";
 export const ColorBackgroundOverlay = "#ffffff";
 export const ColorSurfacePrimary = "#f7f7f7";
 export const ColorSurfaceSecondary = "#fefefd";
-export const ColorSurfaceElevated = "#ffffff";
+export const ColorSurfaceElevated = "#f6f8fa";
 export const ColorSurfaceSunken = "#f7f7f7";
 export const ColorBorderPrimary = "#e5e5e5";
 export const ColorBorderSecondary = "#ececec";
@@ -194,8 +194,8 @@ export const InputBorderFocus = "#EE3831";
 export const InputBorderDanger = "#ee3831";
 export const InputPadding = "0.75rem 1rem";
 export const InputBorderRadius = "0.375rem";
-export const CardBackground = "#ffffff";
-export const CardBackgroundHover = "#ffffff";
+export const CardBackground = "#f6f8fa";
+export const CardBackgroundHover = "#f6f8fa";
 export const CardBorder = "#e5e5e5";
 export const CardBorderHover = "#ececec";
 export const CardShadow = "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)";
@@ -449,7 +449,7 @@ export const CodeBorderRadius = "0.25rem";
 export const PageMainNavBackground = "#f7f7f7";
 export const PageBackground = "#ffffff";
 export const PageSurface = "#fefefd";
-export const PageSurfaceElevated = "#ffffff";
+export const PageSurfaceElevated = "#f6f8fa";
 export const PageSurfaceSunken = "#f7f7f7";
 export const PageTextPrimary = "#171717";
 export const PageTextSecondary = "#525252";

@@ -85,7 +85,7 @@
     "surface": {
       "primary": { "value": "{neutral.75}", "type": "color", "description": "Primary surface color" },
       "secondary": { "value": "{neutral.25}", "type": "color", "description": "Secondary surface color" },
-      "elevated": { "value": "{neutral.0}", "type": "color", "description": "Elevated surface color" },
+      "elevated": { "value": "#f6f8fa", "type": "color", "description": "Elevated surface color" },
       "sunken": { "value": "{neutral.75}", "type": "color", "description": "Sunken surface color" }
     },
     "border": {

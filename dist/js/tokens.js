@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Sep 2025 21:56:21 GMT
+ * Generated on Tue, 09 Sep 2025 21:58:38 GMT
  */
 
 module.exports = {
@@ -160,7 +160,7 @@ module.exports = {
   "ColorBackgroundOverlay": "#ffffff",
   "ColorSurfacePrimary": "#f7f7f7",
   "ColorSurfaceSecondary": "#fefefd",
-  "ColorSurfaceElevated": "#ffffff",
+  "ColorSurfaceElevated": "#f6f8fa",
   "ColorSurfaceSunken": "#f7f7f7",
   "ColorBorderPrimary": "#e5e5e5",
   "ColorBorderSecondary": "#ececec",
@@ -195,8 +195,8 @@ module.exports = {
   "InputBorderDanger": "#ee3831",
   "InputPadding": "0.75rem 1rem",
   "InputBorderRadius": "0.375rem",
-  "CardBackground": "#ffffff",
-  "CardBackgroundHover": "#ffffff",
+  "CardBackground": "#f6f8fa",
+  "CardBackgroundHover": "#f6f8fa",
   "CardBorder": "#e5e5e5",
   "CardBorderHover": "#ececec",
   "CardShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
@@ -450,7 +450,7 @@ module.exports = {
   "PageMainNavBackground": "#f7f7f7",
   "PageBackground": "#ffffff",
   "PageSurface": "#fefefd",
-  "PageSurfaceElevated": "#ffffff",
+  "PageSurfaceElevated": "#f6f8fa",
   "PageSurfaceSunken": "#f7f7f7",
   "PageTextPrimary": "#171717",
   "PageTextSecondary": "#525252",
