@@ -26,8 +26,22 @@
     "975": { "value": "#050505", "type": "color" },
     "1000": { "value": "#000000", "type": "color" }
   },
+  "blue": {
+    "primary-hover-light": { "value": "#122d4f", "type": "color", "description": "Primary blue hover state for light theme" },
+    "primary-hover-dark": { "value": "#14345c", "type": "color", "description": "Primary blue hover state for dark theme" }
+  },
+  "gray": {
+    "secondary-bg": { "value": "#eff2f5", "type": "color", "description": "Secondary button background" },
+    "secondary-bg-hover": { "value": "#e6eaef", "type": "color", "description": "Secondary button hover background" },
+    "secondary-border": { "value": "#d1d9e0", "type": "color", "description": "Secondary button border" },
+    "dark-secondary-bg": { "value": "#262c36", "type": "color", "description": "Dark theme secondary button background" },
+    "dark-secondary-bg-hover": { "value": "#2a313c", "type": "color", "description": "Dark theme secondary button hover background" },
+    "dark-secondary-border": { "value": "#3d444d", "type": "color", "description": "Dark theme secondary button border" }
+  },
   "secondary-button": {
-    "border": { "value": "#d1d9e0", "type": "color", "description": "Secondary button border color" },
+    "background": { "value": "{gray.secondary-bg}", "type": "color", "description": "Secondary button background color" },
+    "background-hover": { "value": "{gray.secondary-bg-hover}", "type": "color", "description": "Secondary button hover background color" },
+    "border": { "value": "{gray.secondary-border}", "type": "color", "description": "Secondary button border color" },
     "text": { "value": "{color.text.primary}", "type": "color", "description": "Secondary button text color" }
   },
   "color": {

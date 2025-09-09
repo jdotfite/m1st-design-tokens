@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Sep 2025 20:51:20 GMT
+ * Generated on Tue, 09 Sep 2025 21:07:05 GMT
  */
 
 export const BrandPrimary : string;
@@ -33,6 +33,8 @@ export const ButtonPrimaryBackgroundActive : string;
 export const ButtonPrimaryBgActive : string;
 export const ButtonPrimaryText : string;
 export const ButtonPrimaryBorder : string;
+export const ButtonPrimaryBorderHover : string;
+export const ButtonPrimaryBorderActive : string;
 export const ButtonPrimaryShadow : string;
 export const ButtonPrimaryShadowHover : string;
 export const ButtonSecondaryBackground : string;
@@ -114,6 +116,16 @@ export const Neutral925 : string;
 export const Neutral950 : string;
 export const Neutral975 : string;
 export const Neutral1000 : string;
+export const BluePrimaryHoverLight : string;
+export const BluePrimaryHoverDark : string;
+export const GraySecondaryBg : string;
+export const GraySecondaryBgHover : string;
+export const GraySecondaryBorder : string;
+export const GrayDarkSecondaryBg : string;
+export const GrayDarkSecondaryBgHover : string;
+export const GrayDarkSecondaryBorder : string;
+export const SecondaryButtonBackground : string;
+export const SecondaryButtonBackgroundHover : string;
 export const SecondaryButtonBorder : string;
 export const SecondaryButtonText : string;
 export const ColorBrandPrimary : string;

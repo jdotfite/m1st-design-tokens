@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Sep 2025 20:51:20 GMT
+ * Generated on Tue, 09 Sep 2025 21:07:05 GMT
  */
 
 export const BrandPrimary = "#EE3831";
@@ -27,12 +27,14 @@ export const ShadowFocus = "0 0 0 3px rgba(238, 56, 49, 0.12)";
 export const ShadowFocusDanger = "0 0 0 3px rgba(238, 56, 49, 0.20)";
 export const ButtonPrimaryBackground = "#133156";
 export const ButtonPrimaryBg = "#133156";
-export const ButtonPrimaryBackgroundHover = "#0090C4";
-export const ButtonPrimaryBgHover = "#0090C4";
-export const ButtonPrimaryBackgroundActive = "#133156";
-export const ButtonPrimaryBgActive = "#133156";
+export const ButtonPrimaryBackgroundHover = "#122d4f";
+export const ButtonPrimaryBgHover = "#122d4f";
+export const ButtonPrimaryBackgroundActive = "#122d4f";
+export const ButtonPrimaryBgActive = "#122d4f";
 export const ButtonPrimaryText = "#ffffff";
 export const ButtonPrimaryBorder = "#133156";
+export const ButtonPrimaryBorderHover = "#122d4f";
+export const ButtonPrimaryBorderActive = "#122d4f";
 export const ButtonPrimaryShadow = "0 1px 2px 0 rgba(0, 0, 0, 0.05)";
 export const ButtonPrimaryShadowHover = "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)";
 export const ButtonSecondaryBackground = "#eff2f5";
@@ -114,6 +116,16 @@ export const Neutral925 = "#0f0f0f";
 export const Neutral950 = "#0a0a0a";
 export const Neutral975 = "#050505";
 export const Neutral1000 = "#000000";
+export const BluePrimaryHoverLight = "#122d4f";
+export const BluePrimaryHoverDark = "#14345c";
+export const GraySecondaryBg = "#eff2f5";
+export const GraySecondaryBgHover = "#e6eaef";
+export const GraySecondaryBorder = "#d1d9e0";
+export const GrayDarkSecondaryBg = "#262c36";
+export const GrayDarkSecondaryBgHover = "#2a313c";
+export const GrayDarkSecondaryBorder = "#3d444d";
+export const SecondaryButtonBackground = "#eff2f5";
+export const SecondaryButtonBackgroundHover = "#e6eaef";
 export const SecondaryButtonBorder = "#d1d9e0";
 export const SecondaryButtonText = "#171717";
 export const ColorBrandPrimary = "#EE3831";
@@ -208,17 +220,17 @@ export const LoadingSpinnerText = "#525252";
 export const LoadingSpinnerSimpleBorder = "#ececec";
 export const LoadingSpinnerSecondaryColor = "#213d70";
 export const DarkComponentButtonPrimaryBackground = "#EE3831";
-export const DarkComponentButtonPrimaryBackgroundHover = "#122b4b";
-export const DarkComponentButtonPrimaryBackgroundActive = "#122b4b";
+export const DarkComponentButtonPrimaryBackgroundHover = "#14345c";
+export const DarkComponentButtonPrimaryBackgroundActive = "#14345c";
 export const DarkComponentButtonPrimaryText = "#ffffff";
 export const DarkComponentButtonPrimaryBorder = "#EE3831";
-export const DarkComponentButtonPrimaryBorderHover = "#122b4b";
-export const DarkComponentButtonPrimaryBorderActive = "#122b4b";
+export const DarkComponentButtonPrimaryBorderHover = "#14345c";
+export const DarkComponentButtonPrimaryBorderActive = "#14345c";
 export const DarkComponentButtonPrimaryShadow = "0 1px 2px 0 rgba(0, 0, 0, 0.3)";
 export const DarkComponentButtonPrimaryShadowHover = "0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3)";
 export const DarkComponentButtonSecondaryBackground = "#262c36";
-export const DarkComponentButtonSecondaryBackgroundHover = "#262c36";
-export const DarkComponentButtonSecondaryBackgroundActive = "#262c36";
+export const DarkComponentButtonSecondaryBackgroundHover = "#2a313c";
+export const DarkComponentButtonSecondaryBackgroundActive = "#2a313c";
 export const DarkComponentButtonSecondaryText = "#ffffff";
 export const DarkComponentButtonSecondaryBorder = "#3d444d";
 export const DarkComponentButtonSecondaryBorderHover = "#3d444d";

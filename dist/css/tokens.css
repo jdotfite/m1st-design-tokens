@@ -492,7 +492,7 @@
 
 /**
  * M1st Design System - CSS Variables
- * Generated on Tue, 09 Sep 2025 20:51:20 GMT
+ * Generated on Tue, 09 Sep 2025 21:07:05 GMT
  * 
  * 4-Layer Token Architecture:
  * Layer 1: Foundation tokens (base colors, typography)
@@ -683,12 +683,14 @@
   /* Layer 4: Component Tokens */
   --button-primary-background: #133156;
   --button-primary-bg: #133156;
-  --button-primary-background-hover: #0090C4;
-  --button-primary-bg-hover: #0090C4;
-  --button-primary-background-active: #133156;
-  --button-primary-bg-active: #133156;
+  --button-primary-background-hover: #122d4f;
+  --button-primary-bg-hover: #122d4f;
+  --button-primary-background-active: #122d4f;
+  --button-primary-bg-active: #122d4f;
   --button-primary-text: #ffffff;
   --button-primary-border: #133156;
+  --button-primary-border-hover: #122d4f;
+  --button-primary-border-active: #122d4f;
   --button-primary-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --button-primary-shadow-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --button-secondary-background: #eff2f5;
@@ -848,17 +850,17 @@
 .dark,
 [data-theme="dark"] {
   --component-button-primary-background: #EE3831;
-  --component-button-primary-background-hover: #122b4b;
-  --component-button-primary-background-active: #122b4b;
+  --component-button-primary-background-hover: #14345c;
+  --component-button-primary-background-active: #14345c;
   --component-button-primary-text: #ffffff;
   --component-button-primary-border: #EE3831;
-  --component-button-primary-border-hover: #122b4b;
-  --component-button-primary-border-active: #122b4b;
+  --component-button-primary-border-hover: #14345c;
+  --component-button-primary-border-active: #14345c;
   --component-button-primary-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
   --component-button-primary-shadow-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
   --component-button-secondary-background: #262c36;
-  --component-button-secondary-background-hover: #262c36;
-  --component-button-secondary-background-active: #262c36;
+  --component-button-secondary-background-hover: #2a313c;
+  --component-button-secondary-background-active: #2a313c;
   --component-button-secondary-text: #ffffff;
   --component-button-secondary-border: #3d444d;
   --component-button-secondary-border-hover: #3d444d;
@@ -1026,17 +1028,17 @@
 @media (prefers-color-scheme: dark) {
   :root:not(.light):not([data-theme="light"]) {
     --component-button-primary-background: #EE3831;
-    --component-button-primary-background-hover: #122b4b;
-    --component-button-primary-background-active: #122b4b;
+    --component-button-primary-background-hover: #14345c;
+    --component-button-primary-background-active: #14345c;
     --component-button-primary-text: #ffffff;
     --component-button-primary-border: #EE3831;
-    --component-button-primary-border-hover: #122b4b;
-    --component-button-primary-border-active: #122b4b;
+    --component-button-primary-border-hover: #14345c;
+    --component-button-primary-border-active: #14345c;
     --component-button-primary-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
     --component-button-primary-shadow-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
     --component-button-secondary-background: #262c36;
-    --component-button-secondary-background-hover: #262c36;
-    --component-button-secondary-background-active: #262c36;
+    --component-button-secondary-background-hover: #2a313c;
+    --component-button-secondary-background-active: #2a313c;
     --component-button-secondary-text: #ffffff;
     --component-button-secondary-border: #3d444d;
     --component-button-secondary-border-hover: #3d444d;
