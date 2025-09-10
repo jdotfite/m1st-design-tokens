@@ -53,8 +53,8 @@
         "primary": { "value": "#22262f", "type": "color", "description": "Dark theme primary border" },
         "secondary": { "value": "rgba(255, 255, 255, 0.1)", "type": "color", "description": "Dark theme secondary border" },
         "tertiary": { "value": "rgba(255, 255, 255, 0.1)", "type": "color", "description": "Dark theme tertiary border" },
-        "focus": { "value": "#EE3831", "type": "color", "description": "Dark theme focus border" },
-        "danger": { "value": "#EE3831", "type": "color", "description": "Dark theme danger border" }
+        "focus": { "value": "{brand.primary}", "type": "color", "description": "Dark theme focus border" },
+        "danger": { "value": "{brand.primary}", "type": "color", "description": "Dark theme danger border" }
       },
       "accent": {
         "primary": { "value": "#ffffff", "type": "color", "description": "Dark theme primary accent (white text/buttons)" },
@@ -67,22 +67,22 @@
       "state": {
         "hover": { "value": "rgba(255, 255, 255, 0.08)", "type": "color", "description": "Dark theme hover state" },
         "active": { "value": "rgba(255, 255, 255, 0.12)", "type": "color", "description": "Dark theme active state" },
-        "focus": { "value": "rgba(238, 56, 49, 0.12)", "type": "color", "description": "Dark theme focus state" },
-        "selected": { "value": "rgba(238, 56, 49, 0.15)", "type": "color", "description": "Dark theme selected state" },
+        "focus": { "value": "rgba(229, 5, 6, 0.12)", "type": "color", "description": "Dark theme focus state" },
+        "selected": { "value": "rgba(229, 5, 6, 0.15)", "type": "color", "description": "Dark theme selected state" },
         "disabled": { "value": "rgba(107, 114, 128, 0.4)", "type": "color", "description": "Dark theme disabled state" }
       },
-      "success": { "value": "#22c55e", "type": "color", "description": "Dark theme success" },
-      "success-emphasis": { "value": "#16a34a", "type": "color", "description": "Dark theme success emphasis" },
-      "success-subtle": { "value": "rgba(34, 197, 94, 0.15)", "type": "color", "description": "Dark theme success subtle" },
-      "warning": { "value": "#f59e0b", "type": "color", "description": "Dark theme warning" },
-      "warning-emphasis": { "value": "#d97706", "type": "color", "description": "Dark theme warning emphasis" },
-      "warning-subtle": { "value": "rgba(245, 158, 11, 0.15)", "type": "color", "description": "Dark theme warning subtle" },
-      "danger": { "value": "#EE3831", "type": "color", "description": "Dark theme danger" },
-      "danger-emphasis": { "value": "#d32f2f", "type": "color", "description": "Dark theme danger emphasis" },
-      "danger-subtle": { "value": "rgba(238, 56, 49, 0.15)", "type": "color", "description": "Dark theme danger subtle" },
-      "info": { "value": "#3b82f6", "type": "color", "description": "Dark theme info" },
-      "info-emphasis": { "value": "#2563eb", "type": "color", "description": "Dark theme info emphasis" },
-      "info-subtle": { "value": "rgba(59, 130, 246, 0.15)", "type": "color", "description": "Dark theme info subtle" }
+      "success": { "value": "{status-dark.success}", "type": "color", "description": "Dark theme success" },
+      "success-emphasis": { "value": "{status-dark.success-emphasis}", "type": "color", "description": "Dark theme success emphasis" },
+      "success-subtle": { "value": "{status-dark.success-subtle}", "type": "color", "description": "Dark theme success subtle" },
+      "warning": { "value": "{status-dark.warning}", "type": "color", "description": "Dark theme warning" },
+      "warning-emphasis": { "value": "{status-dark.warning-emphasis}", "type": "color", "description": "Dark theme warning emphasis" },
+      "warning-subtle": { "value": "{status-dark.warning-subtle}", "type": "color", "description": "Dark theme warning subtle" },
+      "danger": { "value": "{brand.primary}", "type": "color", "description": "Dark theme danger" },
+      "danger-emphasis": { "value": "{status-dark.danger-emphasis}", "type": "color", "description": "Dark theme danger emphasis" },
+      "danger-subtle": { "value": "{status-dark.danger-subtle}", "type": "color", "description": "Dark theme danger subtle" },
+      "info": { "value": "{status-dark.info}", "type": "color", "description": "Dark theme info" },
+      "info-emphasis": { "value": "{status-dark.info-emphasis}", "type": "color", "description": "Dark theme info emphasis" },
+      "info-subtle": { "value": "{status-dark.info-subtle}", "type": "color", "description": "Dark theme info subtle" }
     },
     "page": {
       "main-nav-background": { "value": "#02050e", "type": "color", "description": "Dark theme primary navigation background" },
@@ -96,7 +96,7 @@
       "text-inverse": { "value": "#121212", "type": "color", "description": "Dark theme inverse text" },
       "border": { "value": "#22262f", "type": "color", "description": "Dark theme border" },
       "border-muted": { "value": "#353b43", "type": "color", "description": "Dark theme muted border" },
-      "focus": { "value": "rgba(238, 56, 49, 0.12)", "type": "color", "description": "Dark theme focus" },
+      "focus": { "value": "rgba(229, 5, 6, 0.12)", "type": "color", "description": "Dark theme focus" },
       "hover": { "value": "rgba(255, 255, 255, 0.08)", "type": "color", "description": "Dark theme hover" },
       "active": { "value": "rgba(255, 255, 255, 0.12)", "type": "color", "description": "Dark theme active" },
       "accent-primary": { "value": "#ffffff", "type": "color", "description": "Dark theme primary accent" },
@@ -114,9 +114,9 @@
       "warning": { "value": "#f59e0b", "type": "color", "description": "Dark theme warning" },
       "warning-emphasis": { "value": "#d97706", "type": "color", "description": "Dark theme warning emphasis" },
       "warning-subtle": { "value": "rgba(245, 158, 11, 0.15)", "type": "color", "description": "Dark theme warning subtle" },
-      "danger": { "value": "#EE3831", "type": "color", "description": "Dark theme danger" },
+      "danger": { "value": "{brand.primary}", "type": "color", "description": "Dark theme danger" },
       "danger-emphasis": { "value": "#d32f2f", "type": "color", "description": "Dark theme danger emphasis" },
-      "danger-subtle": { "value": "rgba(238, 56, 49, 0.15)", "type": "color", "description": "Dark theme danger subtle" },
+      "danger-subtle": { "value": "rgba(229, 5, 6, 0.15)", "type": "color", "description": "Dark theme danger subtle" },
       "info": { "value": "#3b82f6", "type": "color", "description": "Dark theme info" },
       "info-emphasis": { "value": "#2563eb", "type": "color", "description": "Dark theme info emphasis" },
       "info-subtle": { "value": "rgba(59, 130, 246, 0.15)", "type": "color", "description": "Dark theme info subtle" }

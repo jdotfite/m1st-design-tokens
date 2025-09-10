@@ -1,6 +1,6 @@
 {
   "brand": {
-    "primary": { "value": "#EE3831", "type": "color", "description": "M1st brand red - matches M logo" }
+    "primary": { "value": "#E50506", "type": "color", "description": "M1st brand digital red" }
   },
   "accent": {
     "red": { "value": "#E71C23", "type": "color", "description": "Vibrant red accent" },
@@ -13,6 +13,32 @@
     "purple": { "value": "#7C2984", "type": "color", "description": "Rich purple accent" },
     "magenta": { "value": "#AD1F63", "type": "color", "description": "Bold magenta accent" },
     "dark-red": { "value": "#BF0000", "type": "color", "description": "Dark red accent" }
+  },
+  "status": {
+    "success": { "value": "#059669", "type": "color", "description": "Success green" },
+    "success-emphasis": { "value": "#047857", "type": "color", "description": "Success green emphasis" },
+    "success-subtle": { "value": "#d1fae5", "type": "color", "description": "Success green subtle" },
+    "warning": { "value": "#d97706", "type": "color", "description": "Warning amber" },
+    "warning-emphasis": { "value": "#b45309", "type": "color", "description": "Warning amber emphasis" },
+    "warning-subtle": { "value": "#fef3c7", "type": "color", "description": "Warning amber subtle" },
+    "danger-emphasis": { "value": "#d32f2f", "type": "color", "description": "Danger red emphasis" },
+    "danger-subtle": { "value": "#fee2e2", "type": "color", "description": "Danger red subtle" },
+    "info": { "value": "#0891b2", "type": "color", "description": "Info cyan" },
+    "info-emphasis": { "value": "#0e7490", "type": "color", "description": "Info cyan emphasis" },
+    "info-subtle": { "value": "#cffafe", "type": "color", "description": "Info cyan subtle" }
+  },
+  "status-dark": {
+    "success": { "value": "#22c55e", "type": "color", "description": "Dark theme success green" },
+    "success-emphasis": { "value": "#16a34a", "type": "color", "description": "Dark theme success emphasis" },
+    "success-subtle": { "value": "rgba(34, 197, 94, 0.2)", "type": "color", "description": "Dark theme success subtle" },
+    "warning": { "value": "#f59e0b", "type": "color", "description": "Dark theme warning amber" },
+    "warning-emphasis": { "value": "#d97706", "type": "color", "description": "Dark theme warning emphasis" },
+    "warning-subtle": { "value": "rgba(245, 158, 11, 0.2)", "type": "color", "description": "Dark theme warning subtle" },
+    "danger-emphasis": { "value": "#d32f2f", "type": "color", "description": "Dark theme danger emphasis" },
+    "danger-subtle": { "value": "rgba(229, 5, 6, 0.2)", "type": "color", "description": "Dark theme danger subtle" },
+    "info": { "value": "#3b82f6", "type": "color", "description": "Dark theme info blue" },
+    "info-emphasis": { "value": "#2563eb", "type": "color", "description": "Dark theme info emphasis" },
+    "info-subtle": { "value": "rgba(59, 130, 246, 0.2)", "type": "color", "description": "Dark theme info subtle" }
   },
   "space": {
     "xs": { "value": "0.25rem", "type": "spacing" },
@@ -30,7 +56,7 @@
     }
   },
   "shadow": {
-    "focus": { "value": "0 0 0 3px rgba(238, 56, 49, 0.12)", "type": "boxShadow" },
-    "focus-danger": { "value": "0 0 0 3px rgba(238, 56, 49, 0.20)", "type": "boxShadow" }
+    "focus": { "value": "0 0 0 3px rgba(229, 5, 6, 0.12)", "type": "boxShadow" },
+    "focus-danger": { "value": "0 0 0 3px rgba(229, 5, 6, 0.20)", "type": "boxShadow" }
   }
 }

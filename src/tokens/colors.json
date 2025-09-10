@@ -93,26 +93,26 @@
       "secondary": { "value": "{neutral.150}", "type": "color", "description": "Secondary border color" },
       "tertiary": { "value": "{neutral.100}", "type": "color", "description": "Tertiary border color" },
       "focus": { "value": "{color.brand.primary}", "type": "color", "description": "Focus border color" },
-      "danger": { "value": "#EE3831", "type": "color", "description": "Danger border color" }
+      "danger": { "value": "{color.brand.primary}", "type": "color", "description": "Danger border color" }
     },
     "state": {
-      "hover": { "value": "rgba(229, 229, 229, 0.5)", "type": "color", "description": "Hover state color" },
-      "active": { "value": "rgba(212, 212, 212, 0.7)", "type": "color", "description": "Active state color" },
-      "focus": { "value": "rgba(238, 56, 49, 0.12)", "type": "color", "description": "Focus state color" },
-      "selected": { "value": "rgba(238, 56, 49, 0.08)", "type": "color", "description": "Selected state color" },
-      "disabled": { "value": "rgba(163, 163, 163, 0.4)", "type": "color", "description": "Disabled state color" }
+      "hover": { "value": "rgba(229, 229, 229, 0.5)", "type": "color", "description": "Hover state color - neutral.200 with 50% opacity" },
+      "active": { "value": "rgba(212, 212, 212, 0.7)", "type": "color", "description": "Active state color - neutral.300 with 70% opacity" },
+      "focus": { "value": "rgba(229, 5, 6, 0.12)", "type": "color", "description": "Focus state color - brand.primary with 12% opacity" },
+      "selected": { "value": "rgba(229, 5, 6, 0.08)", "type": "color", "description": "Selected state color - brand.primary with 8% opacity" },
+      "disabled": { "value": "rgba(163, 163, 163, 0.4)", "type": "color", "description": "Disabled state color - neutral.400 with 40% opacity" }
     },
-    "success": { "value": "#059669", "type": "color", "description": "Success color" },
-    "success-emphasis": { "value": "#047857", "type": "color", "description": "Success emphasis color" },
-    "success-subtle": { "value": "#d1fae5", "type": "color", "description": "Subtle success color" },
-    "warning": { "value": "#d97706", "type": "color", "description": "Warning color" },
-    "warning-emphasis": { "value": "#b45309", "type": "color", "description": "Warning emphasis color" },
-    "warning-subtle": { "value": "#fef3c7", "type": "color", "description": "Subtle warning color" },
+    "success": { "value": "{status.success}", "type": "color", "description": "Success color" },
+    "success-emphasis": { "value": "{status.success-emphasis}", "type": "color", "description": "Success emphasis color" },
+    "success-subtle": { "value": "{status.success-subtle}", "type": "color", "description": "Subtle success color" },
+    "warning": { "value": "{status.warning}", "type": "color", "description": "Warning color" },
+    "warning-emphasis": { "value": "{status.warning-emphasis}", "type": "color", "description": "Warning emphasis color" },
+    "warning-subtle": { "value": "{status.warning-subtle}", "type": "color", "description": "Subtle warning color" },
     "danger": { "value": "{color.brand.primary}", "type": "color", "description": "Danger color" },
-    "danger-emphasis": { "value": "#d32f2f", "type": "color", "description": "Danger emphasis color" },
-    "danger-subtle": { "value": "#fee2e2", "type": "color", "description": "Subtle danger color" },
-    "info": { "value": "#0891b2", "type": "color", "description": "Info color" },
-    "info-emphasis": { "value": "#0e7490", "type": "color", "description": "Info emphasis color" },
-    "info-subtle": { "value": "#cffafe", "type": "color", "description": "Subtle info color" }
+    "danger-emphasis": { "value": "{status.danger-emphasis}", "type": "color", "description": "Danger emphasis color" },
+    "danger-subtle": { "value": "{status.danger-subtle}", "type": "color", "description": "Subtle danger color" },
+    "info": { "value": "{status.info}", "type": "color", "description": "Info color" },
+    "info-emphasis": { "value": "{status.info-emphasis}", "type": "color", "description": "Info emphasis color" },
+    "info-subtle": { "value": "{status.info-subtle}", "type": "color", "description": "Subtle info color" }
   }
 }

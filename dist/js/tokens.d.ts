@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Sep 2025 13:34:48 GMT
+ * Generated on Wed, 10 Sep 2025 13:53:50 GMT
  */
 
 export const BrandPrimary : string;
@@ -14,6 +14,28 @@ export const AccentBlueDark : string;
 export const AccentPurple : string;
 export const AccentMagenta : string;
 export const AccentDarkRed : string;
+export const StatusSuccess : string;
+export const StatusSuccessEmphasis : string;
+export const StatusSuccessSubtle : string;
+export const StatusWarning : string;
+export const StatusWarningEmphasis : string;
+export const StatusWarningSubtle : string;
+export const StatusDangerEmphasis : string;
+export const StatusDangerSubtle : string;
+export const StatusInfo : string;
+export const StatusInfoEmphasis : string;
+export const StatusInfoSubtle : string;
+export const StatusDarkSuccess : string;
+export const StatusDarkSuccessEmphasis : string;
+export const StatusDarkSuccessSubtle : string;
+export const StatusDarkWarning : string;
+export const StatusDarkWarningEmphasis : string;
+export const StatusDarkWarningSubtle : string;
+export const StatusDarkDangerEmphasis : string;
+export const StatusDarkDangerSubtle : string;
+export const StatusDarkInfo : string;
+export const StatusDarkInfoEmphasis : string;
+export const StatusDarkInfoSubtle : string;
 export const SpaceXs : string;
 export const SpaceSm : string;
 export const SpaceMd : string;
