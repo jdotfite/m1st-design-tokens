@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Sep 2025 13:27:11 GMT
+ * Generated on Wed, 10 Sep 2025 13:34:48 GMT
  */
 
 export const BrandPrimary : string;
@@ -93,6 +93,7 @@ export const ButtonDisabledOpacity : string;
 export const Neutral0 : string;
 export const Neutral25 : string;
 export const Neutral50 : string;
+export const Neutral60 : string;
 export const Neutral75 : string;
 export const Neutral100 : string;
 export const Neutral150 : string;
@@ -291,6 +292,7 @@ export const DarkComponentCodeBorder : string;
 export const DarkNeutral0 : string;
 export const DarkNeutral25 : string;
 export const DarkNeutral50 : string;
+export const DarkNeutral60 : string;
 export const DarkNeutral75 : string;
 export const DarkNeutral100 : string;
 export const DarkNeutral150 : string;

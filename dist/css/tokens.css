@@ -492,7 +492,7 @@
 
 /**
  * M1st Design System - CSS Variables
- * Generated on Wed, 10 Sep 2025 13:27:11 GMT
+ * Generated on Wed, 10 Sep 2025 13:34:48 GMT
  * 
  * 4-Layer Token Architecture:
  * Layer 1: Foundation tokens (base colors, typography)
@@ -531,6 +531,7 @@
   --neutral-0: #ffffff;
   --neutral-25: #fefefd;
   --neutral-50: #fafafa;
+  --neutral-60: #f6f8fa;
   --neutral-75: #f7f7f7;
   --neutral-100: #f5f5f5;
   --neutral-150: #ececec;
@@ -921,6 +922,7 @@
   --neutral-0: #000000;
   --neutral-25: #050505;
   --neutral-50: #0a0a0a;
+  --neutral-60: #0c0c0c;
   --neutral-75: #0f0f0f;
   --neutral-100: #171717;
   --neutral-150: #1e1e1e;
@@ -1114,6 +1116,7 @@
     --neutral-0: #000000;
     --neutral-25: #050505;
     --neutral-50: #0a0a0a;
+    --neutral-60: #0c0c0c;
     --neutral-75: #0f0f0f;
     --neutral-100: #171717;
     --neutral-150: #1e1e1e;

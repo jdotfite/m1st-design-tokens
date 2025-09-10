@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Sep 2025 13:27:11 GMT
+ * Generated on Wed, 10 Sep 2025 13:34:48 GMT
  */
 
 module.exports = {
@@ -94,6 +94,7 @@ module.exports = {
   "Neutral0": "#ffffff",
   "Neutral25": "#fefefd",
   "Neutral50": "#fafafa",
+  "Neutral60": "#f6f8fa",
   "Neutral75": "#f7f7f7",
   "Neutral100": "#f5f5f5",
   "Neutral150": "#ececec",
@@ -292,6 +293,7 @@ module.exports = {
   "DarkNeutral0": "#000000",
   "DarkNeutral25": "#050505",
   "DarkNeutral50": "#0a0a0a",
+  "DarkNeutral60": "#0c0c0c",
   "DarkNeutral75": "#0f0f0f",
   "DarkNeutral100": "#171717",
   "DarkNeutral150": "#1e1e1e",

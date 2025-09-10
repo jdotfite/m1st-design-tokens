@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Sep 2025 13:27:11 GMT
+ * Generated on Wed, 10 Sep 2025 13:34:48 GMT
  */
 
 export const BrandPrimary = "#EE3831";
@@ -93,6 +93,7 @@ export const ButtonDisabledOpacity = "0.5";
 export const Neutral0 = "#ffffff";
 export const Neutral25 = "#fefefd";
 export const Neutral50 = "#fafafa";
+export const Neutral60 = "#f6f8fa";
 export const Neutral75 = "#f7f7f7";
 export const Neutral100 = "#f5f5f5";
 export const Neutral150 = "#ececec";
@@ -291,6 +292,7 @@ export const DarkComponentCodeBorder = "rgba(255, 255, 255, 0.1)";
 export const DarkNeutral0 = "#000000";
 export const DarkNeutral25 = "#050505";
 export const DarkNeutral50 = "#0a0a0a";
+export const DarkNeutral60 = "#0c0c0c";
 export const DarkNeutral75 = "#0f0f0f";
 export const DarkNeutral100 = "#171717";
 export const DarkNeutral150 = "#1e1e1e";

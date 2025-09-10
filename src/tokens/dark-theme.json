@@ -4,6 +4,7 @@
       "0": { "value": "#000000", "type": "color" },
       "25": { "value": "#050505", "type": "color" },
       "50": { "value": "#0a0a0a", "type": "color" },
+      "60": { "value": "#0c0c0c", "type": "color" },
       "75": { "value": "#0f0f0f", "type": "color" },
       "100": { "value": "#171717", "type": "color" },
       "150": { "value": "#1e1e1e", "type": "color" },
