@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Sep 2025 16:22:03 GMT
+ * Generated on Wed, 10 Sep 2025 16:44:47 GMT
  */
 
 module.exports = {
@@ -182,10 +182,10 @@ module.exports = {
   "ColorTextDisabled": "#b8b8b8",
   "ColorTextInverse": "#ffffff",
   "ColorBackgroundPrimary": "#05080d",
-  "ColorBackgroundSecondary": "#fafafa",
-  "ColorBackgroundTertiary": "#f5f5f5",
+  "ColorBackgroundSecondary": "#0e1218",
+  "ColorBackgroundTertiary": "#10141e",
   "ColorBackgroundCanvas": "#05080d",
-  "ColorBackgroundOverlay": "#ffffff",
+  "ColorBackgroundOverlay": "#000000",
   "ColorSurfacePrimary": "#02050e",
   "ColorSurfaceSecondary": "#0e1218",
   "ColorSurfaceElevated": "#10141e",
@@ -214,7 +214,7 @@ module.exports = {
   "ColorInfoSubtle": "#cffafe",
   "InputBackground": "#05080d",
   "InputBackgroundFocus": "#05080d",
-  "InputBackgroundDisabled": "#f5f5f5",
+  "InputBackgroundDisabled": "#10141e",
   "InputText": "#171717",
   "InputTextPlaceholder": "#a3a3a3",
   "InputTextDisabled": "#b8b8b8",
@@ -447,13 +447,13 @@ module.exports = {
   "TabBorderActive": "#E50506",
   "TabPadding": "0.75rem 1.5rem",
   "TableBackground": "#05080d",
-  "TableBackgroundHeader": "#fafafa",
+  "TableBackgroundHeader": "#0e1218",
   "TableBackgroundRowHover": "#e5e5e5",
   "TableBorder": "#e5e5e5",
   "TableText": "#171717",
   "TableTextHeader": "#525252",
   "TablePaddingCell": "0.75rem 1rem",
-  "BadgeBackgroundDefault": "#f5f5f5",
+  "BadgeBackgroundDefault": "#10141e",
   "BadgeBackgroundPrimary": "#133156",
   "BadgeBackgroundSuccess": "#059669",
   "BadgeBackgroundWarning": "#d97706",
@@ -467,8 +467,8 @@ module.exports = {
   "BadgeBorderRadius": "9999px",
   "BadgeFontSize": "0.75rem",
   "BadgeFontWeight": "500",
-  "CodeBackground": "#f5f5f5",
-  "CodeBackgroundBlock": "#fafafa",
+  "CodeBackground": "#10141e",
+  "CodeBackgroundBlock": "#0e1218",
   "CodeText": "#171717",
   "CodeBorder": "#e5e5e5",
   "CodeFontFamily": "SFMono-Regular, Monaco, Inconsolata, Liberation Mono, Courier New, monospace",

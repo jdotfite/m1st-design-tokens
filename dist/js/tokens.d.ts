@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Sep 2025 16:22:03 GMT
+ * Generated on Wed, 10 Sep 2025 16:44:47 GMT
  */
 
 export const BrandPrimary : string;

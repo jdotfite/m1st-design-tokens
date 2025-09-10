@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Sep 2025 16:22:03 GMT
+ * Generated on Wed, 10 Sep 2025 16:44:47 GMT
  */
 
 export const BrandPrimary = "#E50506";
@@ -181,10 +181,10 @@ export const ColorTextPlaceholder = "#a3a3a3";
 export const ColorTextDisabled = "#b8b8b8";
 export const ColorTextInverse = "#ffffff";
 export const ColorBackgroundPrimary = "#05080d";
-export const ColorBackgroundSecondary = "#fafafa";
-export const ColorBackgroundTertiary = "#f5f5f5";
+export const ColorBackgroundSecondary = "#0e1218";
+export const ColorBackgroundTertiary = "#10141e";
 export const ColorBackgroundCanvas = "#05080d";
-export const ColorBackgroundOverlay = "#ffffff";
+export const ColorBackgroundOverlay = "#000000";
 export const ColorSurfacePrimary = "#02050e";
 export const ColorSurfaceSecondary = "#0e1218";
 export const ColorSurfaceElevated = "#10141e";
@@ -213,7 +213,7 @@ export const ColorInfoEmphasis = "#0e7490";
 export const ColorInfoSubtle = "#cffafe";
 export const InputBackground = "#05080d";
 export const InputBackgroundFocus = "#05080d";
-export const InputBackgroundDisabled = "#f5f5f5";
+export const InputBackgroundDisabled = "#10141e";
 export const InputText = "#171717";
 export const InputTextPlaceholder = "#a3a3a3";
 export const InputTextDisabled = "#b8b8b8";
@@ -446,13 +446,13 @@ export const TabBorder = "#e5e5e5";
 export const TabBorderActive = "#E50506";
 export const TabPadding = "0.75rem 1.5rem";
 export const TableBackground = "#05080d";
-export const TableBackgroundHeader = "#fafafa";
+export const TableBackgroundHeader = "#0e1218";
 export const TableBackgroundRowHover = "#e5e5e5";
 export const TableBorder = "#e5e5e5";
 export const TableText = "#171717";
 export const TableTextHeader = "#525252";
 export const TablePaddingCell = "0.75rem 1rem";
-export const BadgeBackgroundDefault = "#f5f5f5";
+export const BadgeBackgroundDefault = "#10141e";
 export const BadgeBackgroundPrimary = "#133156";
 export const BadgeBackgroundSuccess = "#059669";
 export const BadgeBackgroundWarning = "#d97706";
@@ -466,8 +466,8 @@ export const BadgePadding = "0.25rem 0.75rem";
 export const BadgeBorderRadius = "9999px";
 export const BadgeFontSize = "0.75rem";
 export const BadgeFontWeight = "500";
-export const CodeBackground = "#f5f5f5";
-export const CodeBackgroundBlock = "#fafafa";
+export const CodeBackground = "#10141e";
+export const CodeBackgroundBlock = "#0e1218";
 export const CodeText = "#171717";
 export const CodeBorder = "#e5e5e5";
 export const CodeFontFamily = "SFMono-Regular, Monaco, Inconsolata, Liberation Mono, Courier New, monospace";
