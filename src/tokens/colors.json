@@ -77,17 +77,17 @@
       "inverse": { "value": "{neutral.0}", "type": "color", "description": "Text on dark backgrounds" }
     },
     "background": {
-      "primary": { "value": "{dark-theme.page-background}", "type": "color", "description": "Main app background" },
-      "secondary": { "value": "{dark-theme.surface}", "type": "color", "description": "Content area background" },
-      "tertiary": { "value": "{dark-theme.surface-elevated}", "type": "color", "description": "Card and component backgrounds" },
-      "canvas": { "value": "{dark-theme.page-background}", "type": "color", "description": "Main canvas background" },
-      "overlay": { "value": "rgba(0, 0, 0, 0.8)", "type": "color", "description": "Modal overlay background" }
+      "primary": { "value": "{neutral.0}", "type": "color", "description": "Main app background" },
+      "secondary": { "value": "{neutral.50}", "type": "color", "description": "Content area background" },
+      "tertiary": { "value": "{neutral.100}", "type": "color", "description": "Card and component backgrounds" },
+      "canvas": { "value": "{neutral.0}", "type": "color", "description": "Main canvas background" },
+      "overlay": { "value": "rgba(255, 255, 255, 0.95)", "type": "color", "description": "Modal overlay background" }
     },
     "surface": {
-      "primary": { "value": "{dark-theme.nav-background}", "type": "color", "description": "Navigation and primary surfaces" },
-      "secondary": { "value": "{dark-theme.surface}", "type": "color", "description": "Content and secondary surfaces" },
-      "elevated": { "value": "{dark-theme.surface-elevated}", "type": "color", "description": "Cards, modals, and elevated surfaces" },
-      "sunken": { "value": "{dark-theme.surface-sunken}", "type": "color", "description": "Input fields, wells, and sunken surfaces" }
+      "primary": { "value": "{neutral.75}", "type": "color", "description": "Navigation and primary surfaces" },
+      "secondary": { "value": "{neutral.25}", "type": "color", "description": "Content and secondary surfaces" },
+      "elevated": { "value": "{neutral.60}", "type": "color", "description": "Cards, modals, and elevated surfaces" },
+      "sunken": { "value": "{neutral.75}", "type": "color", "description": "Input fields, wells, and sunken surfaces" }
     },
     "border": {
       "primary": { "value": "{neutral.200}", "type": "color", "description": "Primary border color" },

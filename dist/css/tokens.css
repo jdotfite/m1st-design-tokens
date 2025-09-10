@@ -492,7 +492,7 @@
 
 /**
  * M1st Design System - CSS Variables
- * Generated on Wed, 10 Sep 2025 16:45:30 GMT
+ * Generated on Wed, 10 Sep 2025 16:54:56 GMT
  * 
  * 4-Layer Token Architecture:
  * Layer 1: Foundation tokens (base colors, typography)
@@ -612,15 +612,15 @@
   --color-text-placeholder: #a3a3a3;
   --color-text-disabled: #b8b8b8;
   --color-text-inverse: #ffffff;
-  --color-background-primary: #05080d;
-  --color-background-secondary: #0e1218;
-  --color-background-tertiary: #10141e;
-  --color-background-canvas: #05080d;
-  --color-background-overlay: rgba(0, 0, 0, 0.8);
-  --color-surface-primary: #02050e;
-  --color-surface-secondary: #0e1218;
-  --color-surface-elevated: #10141e;
-  --color-surface-sunken: #0a0a0a;
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #fafafa;
+  --color-background-tertiary: #f5f5f5;
+  --color-background-canvas: #ffffff;
+  --color-background-overlay: rgba(255, 255, 255, 0.95);
+  --color-surface-primary: #f7f7f7;
+  --color-surface-secondary: #fefefd;
+  --color-surface-elevated: #f6f8fa;
+  --color-surface-sunken: #f7f7f7;
   --color-border-primary: #e5e5e5;
   --color-border-secondary: #ececec;
   --color-border-tertiary: #f5f5f5;
@@ -645,11 +645,11 @@
   --color-info-subtle: #cffafe;
 
   /* Layer 3: Page-Level Tokens */
-  --page-main-nav-background: #02050e;
-  --page-background: #05080d;
-  --page-surface: #0e1218;
-  --page-surface-elevated: #10141e;
-  --page-surface-sunken: #0a0a0a;
+  --page-main-nav-background: #f7f7f7;
+  --page-background: #ffffff;
+  --page-surface: #fefefd;
+  --page-surface-elevated: #f6f8fa;
+  --page-surface-sunken: #f7f7f7;
   --page-text-primary: #171717;
   --page-text-secondary: #525252;
   --page-text-muted: #737373;
@@ -665,7 +665,7 @@
   --page-accent-secondary: #525252;
   --page-accent-tertiary: #a3a3a3;
   --page-text-accent-hover: #0178B5;
-  --page-background-container: #05080d;
+  --page-background-container: #ffffff;
   --page-overlay-backdrop: rgba(0, 0, 0, 0.6);
   --page-border-control: #e5e5e5;
   --page-success: #059669;
@@ -748,9 +748,9 @@
   --button-transition: background-color 200ms cubic-bezier(0.4, 0, 0.2, 1), border-color 200ms cubic-bezier(0.4, 0, 0.2, 1), color 200ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
   --button-focus-ring: 0 0 0 3px rgba(229, 5, 6, 0.12);
   --button-disabled-opacity: 0.5;
-  --input-background: #05080d;
-  --input-background-focus: #05080d;
-  --input-background-disabled: #10141e;
+  --input-background: #ffffff;
+  --input-background-focus: #ffffff;
+  --input-background-disabled: #f5f5f5;
   --input-text: #171717;
   --input-text-placeholder: #a3a3a3;
   --input-text-disabled: #b8b8b8;
@@ -759,8 +759,8 @@
   --input-border-danger: #E50506;
   --input-padding: 0.75rem 1rem;
   --input-border-radius: 0.375rem;
-  --card-background: #10141e;
-  --card-background-hover: #10141e;
+  --card-background: #f6f8fa;
+  --card-background-hover: #f6f8fa;
   --card-border: #e5e5e5;
   --card-border-hover: #ececec;
   --card-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
@@ -768,18 +768,18 @@
   --card-border-radius: 0.5rem;
   --card-padding: 1.5rem;
   --modal-overlay: rgba(0, 0, 0, 0.5);
-  --modal-background: #05080d;
+  --modal-background: #ffffff;
   --modal-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   --modal-border-radius: 0.75rem;
   --modal-border: #e5e5e5;
-  --nav-background: #02050e;
+  --nav-background: #f7f7f7;
   --nav-border: #ececec;
   --nav-link-text: #525252;
   --nav-link-text-hover: #171717;
   --nav-link-text-active: #133156;
   --nav-link-background-hover: rgba(229, 229, 229, 0.5);
   --nav-link-background-active: rgba(229, 5, 6, 0.08);
-  --loading-spinner-background: #05080d;
+  --loading-spinner-background: #ffffff;
   --loading-spinner-brand-color: #E50506;
   --loading-spinner-text: #525252;
   --loading-spinner-simple-border: #ececec;
@@ -948,9 +948,10 @@
   --neutral-975: #fefefd;
   --neutral-1000: #ffffff;
   --color-background-primary: #05080d;
-  --color-background-secondary: #171717;
-  --color-background-tertiary: #1e1e1e;
+  --color-background-secondary: #0e1218;
+  --color-background-tertiary: #10141e;
   --color-background-canvas: #05080d;
+  --color-background-overlay: rgba(0, 0, 0, 0.8);
   --color-surface-primary: #02050e;
   --color-surface-secondary: #0e1218;
   --color-surface-elevated: #10141e;
@@ -1142,9 +1143,10 @@
     --neutral-975: #fefefd;
     --neutral-1000: #ffffff;
     --color-background-primary: #05080d;
-    --color-background-secondary: #171717;
-    --color-background-tertiary: #1e1e1e;
+    --color-background-secondary: #0e1218;
+    --color-background-tertiary: #10141e;
     --color-background-canvas: #05080d;
+    --color-background-overlay: rgba(0, 0, 0, 0.8);
     --color-surface-primary: #02050e;
     --color-surface-secondary: #0e1218;
     --color-surface-elevated: #10141e;

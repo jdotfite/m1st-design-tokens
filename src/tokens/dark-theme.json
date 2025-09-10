@@ -31,9 +31,10 @@
     "color": {
       "background": {
         "primary": { "value": "{dark-theme.page-background}", "type": "color", "description": "Dark theme main background" },
-        "secondary": { "value": "#171717", "type": "color", "description": "Dark theme secondary background" },
-        "tertiary": { "value": "#1e1e1e", "type": "color", "description": "Dark theme tertiary background" },
-        "canvas": { "value": "{dark-theme.page-background}", "type": "color", "description": "Dark theme canvas" }
+        "secondary": { "value": "{dark-theme.surface}", "type": "color", "description": "Dark theme secondary background" },
+        "tertiary": { "value": "{dark-theme.surface-elevated}", "type": "color", "description": "Dark theme tertiary background" },
+        "canvas": { "value": "{dark-theme.page-background}", "type": "color", "description": "Dark theme canvas" },
+        "overlay": { "value": "rgba(0, 0, 0, 0.8)", "type": "color", "description": "Dark theme modal overlay" }
       },
       "surface": {
         "primary": { "value": "{dark-theme.nav-background}", "type": "color", "description": "Dark theme primary surface" },

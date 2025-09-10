@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Sep 2025 16:45:30 GMT
+ * Generated on Wed, 10 Sep 2025 16:54:56 GMT
  */
 
 export const BrandPrimary : string;
@@ -348,6 +348,7 @@ export const DarkColorBackgroundPrimary : string;
 export const DarkColorBackgroundSecondary : string;
 export const DarkColorBackgroundTertiary : string;
 export const DarkColorBackgroundCanvas : string;
+export const DarkColorBackgroundOverlay : string;
 export const DarkColorSurfacePrimary : string;
 export const DarkColorSurfaceSecondary : string;
 export const DarkColorSurfaceElevated : string;
