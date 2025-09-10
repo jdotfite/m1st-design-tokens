@@ -1,19 +1,20 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Sep 2025 13:56:52 GMT
+ * Generated on Wed, 10 Sep 2025 14:14:21 GMT
  */
 
 export const BrandPrimary = "#E50506";
 export const AccentRed = "#E71C23";
+export const AccentRedDark = "#BF0000";
 export const AccentGreen = "#55A444";
 export const AccentOrange = "#F37124";
 export const AccentYellow = "#FEC20F";
 export const AccentTeal = "#095F7F";
+export const AccentTealDark = "#004F51";
 export const AccentBlueLight = "#0178B5";
 export const AccentBlueDark = "#133156";
 export const AccentPurple = "#7C2984";
 export const AccentMagenta = "#AD1F63";
-export const AccentDarkRed = "#BF0000";
 export const StatusSuccess = "#059669";
 export const StatusSuccessEmphasis = "#047857";
 export const StatusSuccessSubtle = "#d1fae5";
@@ -138,29 +139,30 @@ export const Neutral925 = "#0f0f0f";
 export const Neutral950 = "#0a0a0a";
 export const Neutral975 = "#050505";
 export const Neutral1000 = "#000000";
-export const BluePrimaryHoverLight = "#122d4f";
-export const BluePrimaryHoverDark = "#14345c";
+export const BluePrimaryLightHover = "#122d4f";
+export const BluePrimaryDarkHover = "#14345c";
 export const GraySecondaryBg = "#eff2f5";
 export const GraySecondaryBgHover = "#e6eaef";
 export const GraySecondaryBorder = "#d1d9e0";
-export const GrayDarkSecondaryBg = "#262c36";
-export const GrayDarkSecondaryBgHover = "#2a313c";
-export const GrayDarkSecondaryBorder = "#3d444d";
+export const GraySecondaryDarkBg = "#262c36";
+export const GraySecondaryDarkBgHover = "#2a313c";
+export const GraySecondaryDarkBorder = "#3d444d";
 export const SecondaryButtonBackground = "#eff2f5";
 export const SecondaryButtonBackgroundHover = "#e6eaef";
 export const SecondaryButtonBorder = "#d1d9e0";
 export const SecondaryButtonText = "#171717";
 export const ColorBrandPrimary = "#E50506";
 export const ColorAccentRed = "#E71C23";
+export const ColorAccentRedDark = "#BF0000";
 export const ColorAccentGreen = "#55A444";
 export const ColorAccentOrange = "#F37124";
 export const ColorAccentYellow = "#FEC20F";
 export const ColorAccentTeal = "#095F7F";
+export const ColorAccentTealDark = "#004F51";
 export const ColorAccentBlueLight = "#0178B5";
 export const ColorAccentBlueDark = "#133156";
 export const ColorAccentPurple = "#7C2984";
 export const ColorAccentMagenta = "#AD1F63";
-export const ColorAccentDarkRed = "#BF0000";
 export const ColorAccentPrimary = "#133156";
 export const ColorAccentPrimaryHover = "#0178B5";
 export const ColorAccentPrimaryActive = "#133156";

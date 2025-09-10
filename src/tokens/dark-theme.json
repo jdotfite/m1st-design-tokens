@@ -123,22 +123,22 @@
     },
     "button": {
       "secondary": {
-        "background": { "value": "{gray.dark-secondary-bg}", "type": "color", "description": "Dark theme secondary button background" },
-        "bg": { "value": "{gray.dark-secondary-bg}", "type": "color", "description": "Dark theme secondary button background (alias)" },
-        "background-hover": { "value": "{gray.dark-secondary-bg-hover}", "type": "color", "description": "Dark theme secondary button hover background" },
-        "bg-hover": { "value": "{gray.dark-secondary-bg-hover}", "type": "color", "description": "Dark theme secondary button hover background (alias)" },
-        "background-active": { "value": "{gray.dark-secondary-bg-hover}", "type": "color", "description": "Dark theme secondary button active background" },
-        "bg-active": { "value": "{gray.dark-secondary-bg-hover}", "type": "color", "description": "Dark theme secondary button active background (alias)" },
+        "background": { "value": "{gray.secondary-dark-bg}", "type": "color", "description": "Dark theme secondary button background" },
+        "bg": { "value": "{gray.secondary-dark-bg}", "type": "color", "description": "Dark theme secondary button background (alias)" },
+        "background-hover": { "value": "{gray.secondary-dark-bg-hover}", "type": "color", "description": "Dark theme secondary button hover background" },
+        "bg-hover": { "value": "{gray.secondary-dark-bg-hover}", "type": "color", "description": "Dark theme secondary button hover background (alias)" },
+        "background-active": { "value": "{gray.secondary-dark-bg-hover}", "type": "color", "description": "Dark theme secondary button active background" },
+        "bg-active": { "value": "{gray.secondary-dark-bg-hover}", "type": "color", "description": "Dark theme secondary button active background (alias)" },
         "text": { "value": "#ffffff", "type": "color", "description": "Dark theme secondary button text" },
-        "border": { "value": "{gray.dark-secondary-border}", "type": "color", "description": "Dark theme secondary button border" }
+        "border": { "value": "{gray.secondary-dark-border}", "type": "color", "description": "Dark theme secondary button border" }
       },
       "primary": {
-        "background-hover": { "value": "{blue.primary-hover-dark}", "type": "color", "description": "Dark theme primary button hover background" },
-        "bg-hover": { "value": "{blue.primary-hover-dark}", "type": "color", "description": "Dark theme primary button hover background (alias)" },
-        "background-active": { "value": "{blue.primary-hover-dark}", "type": "color", "description": "Dark theme primary button active background" },
-        "bg-active": { "value": "{blue.primary-hover-dark}", "type": "color", "description": "Dark theme primary button active background (alias)" },
-        "border-hover": { "value": "{blue.primary-hover-dark}", "type": "color", "description": "Dark theme primary button hover border" },
-        "border-active": { "value": "{blue.primary-hover-dark}", "type": "color", "description": "Dark theme primary button active border" }
+        "background-hover": { "value": "{blue.primary-dark-hover}", "type": "color", "description": "Dark theme primary button hover background" },
+        "bg-hover": { "value": "{blue.primary-dark-hover}", "type": "color", "description": "Dark theme primary button hover background (alias)" },
+        "background-active": { "value": "{blue.primary-dark-hover}", "type": "color", "description": "Dark theme primary button active background" },
+        "bg-active": { "value": "{blue.primary-dark-hover}", "type": "color", "description": "Dark theme primary button active background (alias)" },
+        "border-hover": { "value": "{blue.primary-dark-hover}", "type": "color", "description": "Dark theme primary button hover border" },
+        "border-active": { "value": "{blue.primary-dark-hover}", "type": "color", "description": "Dark theme primary button active border" }
       },
       "ghost": {
         "text": { "value": "#ffffff", "type": "color", "description": "Dark theme ghost button text" }

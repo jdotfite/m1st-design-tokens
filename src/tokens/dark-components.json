@@ -4,23 +4,23 @@
       "button": {
         "primary": {
           "background": { "value": "{brand.primary}", "type": "color" },
-          "background-hover": { "value": "{blue.primary-hover-dark}", "type": "color" },
-          "background-active": { "value": "{blue.primary-hover-dark}", "type": "color" },
+          "background-hover": { "value": "{blue.primary-dark-hover}", "type": "color" },
+          "background-active": { "value": "{blue.primary-dark-hover}", "type": "color" },
           "text": { "value": "#ffffff", "type": "color" },
           "border": { "value": "{brand.primary}", "type": "color" },
-          "border-hover": { "value": "{blue.primary-hover-dark}", "type": "color" },
-          "border-active": { "value": "{blue.primary-hover-dark}", "type": "color" },
+          "border-hover": { "value": "{blue.primary-dark-hover}", "type": "color" },
+          "border-active": { "value": "{blue.primary-dark-hover}", "type": "color" },
           "shadow": { "value": "0 1px 2px 0 rgba(0, 0, 0, 0.3)", "type": "shadow" },
           "shadow-hover": { "value": "0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3)", "type": "shadow" }
         },
         "secondary": {
-          "background": { "value": "{gray.dark-secondary-bg}", "type": "color" },
-          "background-hover": { "value": "{gray.dark-secondary-bg-hover}", "type": "color" },
-          "background-active": { "value": "{gray.dark-secondary-bg-hover}", "type": "color" },
+          "background": { "value": "{gray.secondary-dark-bg}", "type": "color" },
+          "background-hover": { "value": "{gray.secondary-dark-bg-hover}", "type": "color" },
+          "background-active": { "value": "{gray.secondary-dark-bg-hover}", "type": "color" },
           "text": { "value": "#ffffff", "type": "color" },
-          "border": { "value": "{gray.dark-secondary-border}", "type": "color" },
-          "border-hover": { "value": "{gray.dark-secondary-border}", "type": "color" },
-          "border-active": { "value": "{gray.dark-secondary-border}", "type": "color" }
+          "border": { "value": "{gray.secondary-dark-border}", "type": "color" },
+          "border-hover": { "value": "{gray.secondary-dark-border}", "type": "color" },
+          "border-active": { "value": "{gray.secondary-dark-border}", "type": "color" }
         },
         "tertiary": {
           "background": { "value": "transparent", "type": "color" },

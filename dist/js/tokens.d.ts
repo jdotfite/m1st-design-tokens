@@ -1,19 +1,20 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Sep 2025 13:56:52 GMT
+ * Generated on Wed, 10 Sep 2025 14:14:21 GMT
  */
 
 export const BrandPrimary : string;
 export const AccentRed : string;
+export const AccentRedDark : string;
 export const AccentGreen : string;
 export const AccentOrange : string;
 export const AccentYellow : string;
 export const AccentTeal : string;
+export const AccentTealDark : string;
 export const AccentBlueLight : string;
 export const AccentBlueDark : string;
 export const AccentPurple : string;
 export const AccentMagenta : string;
-export const AccentDarkRed : string;
 export const StatusSuccess : string;
 export const StatusSuccessEmphasis : string;
 export const StatusSuccessSubtle : string;
@@ -138,29 +139,30 @@ export const Neutral925 : string;
 export const Neutral950 : string;
 export const Neutral975 : string;
 export const Neutral1000 : string;
-export const BluePrimaryHoverLight : string;
-export const BluePrimaryHoverDark : string;
+export const BluePrimaryLightHover : string;
+export const BluePrimaryDarkHover : string;
 export const GraySecondaryBg : string;
 export const GraySecondaryBgHover : string;
 export const GraySecondaryBorder : string;
-export const GrayDarkSecondaryBg : string;
-export const GrayDarkSecondaryBgHover : string;
-export const GrayDarkSecondaryBorder : string;
+export const GraySecondaryDarkBg : string;
+export const GraySecondaryDarkBgHover : string;
+export const GraySecondaryDarkBorder : string;
 export const SecondaryButtonBackground : string;
 export const SecondaryButtonBackgroundHover : string;
 export const SecondaryButtonBorder : string;
 export const SecondaryButtonText : string;
 export const ColorBrandPrimary : string;
 export const ColorAccentRed : string;
+export const ColorAccentRedDark : string;
 export const ColorAccentGreen : string;
 export const ColorAccentOrange : string;
 export const ColorAccentYellow : string;
 export const ColorAccentTeal : string;
+export const ColorAccentTealDark : string;
 export const ColorAccentBlueLight : string;
 export const ColorAccentBlueDark : string;
 export const ColorAccentPurple : string;
 export const ColorAccentMagenta : string;
-export const ColorAccentDarkRed : string;
 export const ColorAccentPrimary : string;
 export const ColorAccentPrimaryHover : string;
 export const ColorAccentPrimaryActive : string;

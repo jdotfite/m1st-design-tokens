@@ -4,15 +4,16 @@
   },
   "accent": {
     "red": { "value": "#E71C23", "type": "color", "description": "Vibrant red accent" },
+    "red-dark": { "value": "#BF0000", "type": "color", "description": "Dark red accent" },
     "green": { "value": "#55A444", "type": "color", "description": "Fresh green accent" },
     "orange": { "value": "#F37124", "type": "color", "description": "Energetic orange accent" },
     "yellow": { "value": "#FEC20F", "type": "color", "description": "Warm yellow accent" },
     "teal": { "value": "#095F7F", "type": "color", "description": "Sophisticated teal accent" },
+    "teal-dark": { "value": "#004F51", "type": "color", "description": "Deep teal accent" },
     "blue-light": { "value": "#0178B5", "type": "color", "description": "Light blue accent" },
     "blue-dark": { "value": "#133156", "type": "color", "description": "Deep blue accent" },
     "purple": { "value": "#7C2984", "type": "color", "description": "Rich purple accent" },
-    "magenta": { "value": "#AD1F63", "type": "color", "description": "Bold magenta accent" },
-    "dark-red": { "value": "#BF0000", "type": "color", "description": "Dark red accent" }
+    "magenta": { "value": "#AD1F63", "type": "color", "description": "Bold magenta accent" }
   },
   "status": {
     "success": { "value": "#059669", "type": "color", "description": "Success green" },

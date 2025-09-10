@@ -492,7 +492,7 @@
 
 /**
  * M1st Design System - CSS Variables
- * Generated on Wed, 10 Sep 2025 13:56:52 GMT
+ * Generated on Wed, 10 Sep 2025 14:14:21 GMT
  * 
  * 4-Layer Token Architecture:
  * Layer 1: Foundation tokens (base colors, typography)
@@ -509,15 +509,16 @@
   /* Layer 1: Foundation Tokens */
   --brand-primary: #E50506;
   --accent-red: #E71C23;
+  --accent-red-dark: #BF0000;
   --accent-green: #55A444;
   --accent-orange: #F37124;
   --accent-yellow: #FEC20F;
   --accent-teal: #095F7F;
+  --accent-teal-dark: #004F51;
   --accent-blue-light: #0178B5;
   --accent-blue-dark: #133156;
   --accent-purple: #7C2984;
   --accent-magenta: #AD1F63;
-  --accent-dark-red: #BF0000;
   --space-xs: 0.25rem;
   --space-sm: 0.5rem;
   --space-md: 1rem;
@@ -589,15 +590,16 @@
   /* Layer 2: Semantic Tokens */
   --color-brand-primary: #E50506;
   --color-accent-red: #E71C23;
+  --color-accent-red-dark: #BF0000;
   --color-accent-green: #55A444;
   --color-accent-orange: #F37124;
   --color-accent-yellow: #FEC20F;
   --color-accent-teal: #095F7F;
+  --color-accent-teal-dark: #004F51;
   --color-accent-blue-light: #0178B5;
   --color-accent-blue-dark: #133156;
   --color-accent-purple: #7C2984;
   --color-accent-magenta: #AD1F63;
-  --color-accent-dark-red: #BF0000;
   --color-accent-primary: #133156;
   --color-accent-primary-hover: #0178B5;
   --color-accent-primary-active: #133156;
