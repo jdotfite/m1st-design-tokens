@@ -1,6 +1,6 @@
 {
   "name": "m1st-design-tokens",
-  "version": "2.12.1",
+  "version": "2.13.0",
   "description": "Design tokens for the M1st Federal Credit Union design system",
   "main": "dist/js/tokens.js",
   "types": "dist/js/tokens.d.ts",
