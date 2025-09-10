@@ -1,4 +1,4 @@
-/** Generated 2025-09-10T14:14:22.691Z */
+/** Generated 2025-09-10T14:53:13.843Z */
 module.exports = function({ addUtilities }) {
   const utilities = {
     '.heading-xxl': { fontFamily: 'var(--font-family-heading)', fontSize: 'var(--font-size-heading-xxl)', fontWeight: 'var(--font-weight-bold)', lineHeight: '1.1', letterSpacing: 'var(--font-letter-spacing-tight)' },
