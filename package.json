@@ -52,7 +52,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Members1stFederalCreditUnion/m1st-design-tokens.git"
+    "url": "git+https://github.com/jdotfite/m1st-design-tokens.git"
   },
   "publishConfig": {
     "access": "public"
