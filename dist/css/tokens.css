@@ -492,7 +492,7 @@
 
 /**
  * M1st Design System - CSS Variables
- * Generated on Wed, 10 Sep 2025 15:59:25 GMT
+ * Generated on Wed, 10 Sep 2025 16:12:28 GMT
  * 
  * 4-Layer Token Architecture:
  * Layer 1: Foundation tokens (base colors, typography)
@@ -947,13 +947,13 @@
   --neutral-950: #fafafa;
   --neutral-975: #fefefd;
   --neutral-1000: #ffffff;
-  --color-background-primary: #0f0f0f;
+  --color-background-primary: #05080d;
   --color-background-secondary: #171717;
   --color-background-tertiary: #1e1e1e;
-  --color-background-canvas: #0f0f0f;
-  --color-surface-primary: #171717;
-  --color-surface-secondary: #1e1e1e;
-  --color-surface-elevated: #1e1e1e;
+  --color-background-canvas: #05080d;
+  --color-surface-primary: #02050e;
+  --color-surface-secondary: #0e1218;
+  --color-surface-elevated: #10141e;
   --color-surface-sunken: #0a0a0a;
   --color-text-primary: #ffffff;
   --color-text-secondary: #a0a0a0;
@@ -1141,13 +1141,13 @@
     --neutral-950: #fafafa;
     --neutral-975: #fefefd;
     --neutral-1000: #ffffff;
-    --color-background-primary: #0f0f0f;
+    --color-background-primary: #05080d;
     --color-background-secondary: #171717;
     --color-background-tertiary: #1e1e1e;
-    --color-background-canvas: #0f0f0f;
-    --color-surface-primary: #171717;
-    --color-surface-secondary: #1e1e1e;
-    --color-surface-elevated: #1e1e1e;
+    --color-background-canvas: #05080d;
+    --color-surface-primary: #02050e;
+    --color-surface-secondary: #0e1218;
+    --color-surface-elevated: #10141e;
     --color-surface-sunken: #0a0a0a;
     --color-text-primary: #ffffff;
     --color-text-secondary: #a0a0a0;

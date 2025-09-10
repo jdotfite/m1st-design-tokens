@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Sep 2025 15:59:25 GMT
+ * Generated on Wed, 10 Sep 2025 16:12:28 GMT
  */
 
 module.exports = {
@@ -345,13 +345,13 @@ module.exports = {
   "DarkNeutral950": "#fafafa",
   "DarkNeutral975": "#fefefd",
   "DarkNeutral1000": "#ffffff",
-  "DarkColorBackgroundPrimary": "#0f0f0f",
+  "DarkColorBackgroundPrimary": "#05080d",
   "DarkColorBackgroundSecondary": "#171717",
   "DarkColorBackgroundTertiary": "#1e1e1e",
-  "DarkColorBackgroundCanvas": "#0f0f0f",
-  "DarkColorSurfacePrimary": "#171717",
-  "DarkColorSurfaceSecondary": "#1e1e1e",
-  "DarkColorSurfaceElevated": "#1e1e1e",
+  "DarkColorBackgroundCanvas": "#05080d",
+  "DarkColorSurfacePrimary": "#02050e",
+  "DarkColorSurfaceSecondary": "#0e1218",
+  "DarkColorSurfaceElevated": "#10141e",
   "DarkColorSurfaceSunken": "#0a0a0a",
   "DarkColorTextPrimary": "#ffffff",
   "DarkColorTextSecondary": "#a0a0a0",

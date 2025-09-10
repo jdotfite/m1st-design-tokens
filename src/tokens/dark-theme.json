@@ -30,16 +30,16 @@
     },
     "color": {
       "background": {
-        "primary": { "value": "#0f0f0f", "type": "color", "description": "Dark theme main background" },
+        "primary": { "value": "{dark-theme.page-background}", "type": "color", "description": "Dark theme main background" },
         "secondary": { "value": "#171717", "type": "color", "description": "Dark theme secondary background" },
         "tertiary": { "value": "#1e1e1e", "type": "color", "description": "Dark theme tertiary background" },
-        "canvas": { "value": "#0f0f0f", "type": "color", "description": "Dark theme canvas" }
+        "canvas": { "value": "{dark-theme.page-background}", "type": "color", "description": "Dark theme canvas" }
       },
       "surface": {
-        "primary": { "value": "#171717", "type": "color", "description": "Dark theme primary surface" },
-        "secondary": { "value": "#1e1e1e", "type": "color", "description": "Dark theme secondary surface" },
-        "elevated": { "value": "#1e1e1e", "type": "color", "description": "Dark theme elevated surface" },
-        "sunken": { "value": "#0a0a0a", "type": "color", "description": "Dark theme sunken surface" }
+        "primary": { "value": "{dark-theme.nav-background}", "type": "color", "description": "Dark theme primary surface" },
+        "secondary": { "value": "{dark-theme.surface}", "type": "color", "description": "Dark theme secondary surface" },
+        "elevated": { "value": "{dark-theme.surface-elevated}", "type": "color", "description": "Dark theme elevated surface" },
+        "sunken": { "value": "{dark-theme.surface-sunken}", "type": "color", "description": "Dark theme sunken surface" }
       },
       "text": {
         "primary": { "value": "#ffffff", "type": "color", "description": "Dark theme primary text" },

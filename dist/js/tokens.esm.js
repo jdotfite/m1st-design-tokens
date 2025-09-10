@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Sep 2025 15:59:25 GMT
+ * Generated on Wed, 10 Sep 2025 16:12:28 GMT
  */
 
 export const BrandPrimary = "#E50506";
@@ -344,13 +344,13 @@ export const DarkNeutral925 = "#f7f7f7";
 export const DarkNeutral950 = "#fafafa";
 export const DarkNeutral975 = "#fefefd";
 export const DarkNeutral1000 = "#ffffff";
-export const DarkColorBackgroundPrimary = "#0f0f0f";
+export const DarkColorBackgroundPrimary = "#05080d";
 export const DarkColorBackgroundSecondary = "#171717";
 export const DarkColorBackgroundTertiary = "#1e1e1e";
-export const DarkColorBackgroundCanvas = "#0f0f0f";
-export const DarkColorSurfacePrimary = "#171717";
-export const DarkColorSurfaceSecondary = "#1e1e1e";
-export const DarkColorSurfaceElevated = "#1e1e1e";
+export const DarkColorBackgroundCanvas = "#05080d";
+export const DarkColorSurfacePrimary = "#02050e";
+export const DarkColorSurfaceSecondary = "#0e1218";
+export const DarkColorSurfaceElevated = "#10141e";
 export const DarkColorSurfaceSunken = "#0a0a0a";
 export const DarkColorTextPrimary = "#ffffff";
 export const DarkColorTextSecondary = "#a0a0a0";
