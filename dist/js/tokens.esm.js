@@ -1,16 +1,15 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Sep 2025 21:58:38 GMT
+ * Generated on Wed, 10 Sep 2025 13:27:11 GMT
  */
 
 export const BrandPrimary = "#EE3831";
 export const AccentRed = "#E71C23";
 export const AccentGreen = "#55A444";
-export const AccentBlue = "#0090C4";
-export const AccentOrange = "#F15C22";
-export const AccentYellow = "#FAA61A";
-export const AccentTeal = "#006068";
-export const AccentBlueLight = "#007199";
+export const AccentOrange = "#F37124";
+export const AccentYellow = "#FEC20F";
+export const AccentTeal = "#095F7F";
+export const AccentBlueLight = "#0178B5";
 export const AccentBlueDark = "#133156";
 export const AccentPurple = "#7C2984";
 export const AccentMagenta = "#AD1F63";
@@ -131,17 +130,16 @@ export const SecondaryButtonText = "#171717";
 export const ColorBrandPrimary = "#EE3831";
 export const ColorAccentRed = "#E71C23";
 export const ColorAccentGreen = "#55A444";
-export const ColorAccentBlue = "#0090C4";
-export const ColorAccentOrange = "#F15C22";
-export const ColorAccentYellow = "#FAA61A";
-export const ColorAccentTeal = "#006068";
-export const ColorAccentBlueLight = "#007199";
+export const ColorAccentOrange = "#F37124";
+export const ColorAccentYellow = "#FEC20F";
+export const ColorAccentTeal = "#095F7F";
+export const ColorAccentBlueLight = "#0178B5";
 export const ColorAccentBlueDark = "#133156";
 export const ColorAccentPurple = "#7C2984";
 export const ColorAccentMagenta = "#AD1F63";
 export const ColorAccentDarkRed = "#BF0000";
 export const ColorAccentPrimary = "#133156";
-export const ColorAccentPrimaryHover = "#0090C4";
+export const ColorAccentPrimaryHover = "#0178B5";
 export const ColorAccentPrimaryActive = "#133156";
 export const ColorAccentSecondary = "#525252";
 export const ColorAccentSecondaryHover = "#404040";
@@ -461,11 +459,11 @@ export const PageFocus = "#ee3831";
 export const PageHover = "#e5e5e5";
 export const PageActive = "#d4d4d4";
 export const PageAccentPrimary = "#133156";
-export const PageAccentPrimaryHover = "#0090C4";
+export const PageAccentPrimaryHover = "#0178B5";
 export const PageAccentPrimaryActive = "#133156";
 export const PageAccentSecondary = "#525252";
 export const PageAccentTertiary = "#a3a3a3";
-export const PageTextAccentHover = "#0090C4";
+export const PageTextAccentHover = "#0178B5";
 export const PageBackgroundContainer = "#ffffff";
 export const PageOverlayBackdrop = "rgba(0, 0, 0, 0.6)";
 export const PageBorderControl = "#e5e5e5";

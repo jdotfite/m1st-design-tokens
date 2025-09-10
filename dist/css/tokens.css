@@ -492,7 +492,7 @@
 
 /**
  * M1st Design System - CSS Variables
- * Generated on Tue, 09 Sep 2025 21:58:38 GMT
+ * Generated on Wed, 10 Sep 2025 13:27:11 GMT
  * 
  * 4-Layer Token Architecture:
  * Layer 1: Foundation tokens (base colors, typography)
@@ -510,11 +510,10 @@
   --brand-primary: #EE3831;
   --accent-red: #E71C23;
   --accent-green: #55A444;
-  --accent-blue: #0090C4;
-  --accent-orange: #F15C22;
-  --accent-yellow: #FAA61A;
-  --accent-teal: #006068;
-  --accent-blue-light: #007199;
+  --accent-orange: #F37124;
+  --accent-yellow: #FEC20F;
+  --accent-teal: #095F7F;
+  --accent-blue-light: #0178B5;
   --accent-blue-dark: #133156;
   --accent-purple: #7C2984;
   --accent-magenta: #AD1F63;
@@ -590,17 +589,16 @@
   --color-brand-primary: #EE3831;
   --color-accent-red: #E71C23;
   --color-accent-green: #55A444;
-  --color-accent-blue: #0090C4;
-  --color-accent-orange: #F15C22;
-  --color-accent-yellow: #FAA61A;
-  --color-accent-teal: #006068;
-  --color-accent-blue-light: #007199;
+  --color-accent-orange: #F37124;
+  --color-accent-yellow: #FEC20F;
+  --color-accent-teal: #095F7F;
+  --color-accent-blue-light: #0178B5;
   --color-accent-blue-dark: #133156;
   --color-accent-purple: #7C2984;
   --color-accent-magenta: #AD1F63;
   --color-accent-dark-red: #BF0000;
   --color-accent-primary: #133156;
-  --color-accent-primary-hover: #0090C4;
+  --color-accent-primary-hover: #0178B5;
   --color-accent-primary-active: #133156;
   --color-accent-secondary: #525252;
   --color-accent-secondary-hover: #404040;
@@ -659,11 +657,11 @@
   --page-hover: rgba(229, 229, 229, 0.5);
   --page-active: rgba(212, 212, 212, 0.7);
   --page-accent-primary: #133156;
-  --page-accent-primary-hover: #0090C4;
+  --page-accent-primary-hover: #0178B5;
   --page-accent-primary-active: #133156;
   --page-accent-secondary: #525252;
   --page-accent-tertiary: #a3a3a3;
-  --page-text-accent-hover: #0090C4;
+  --page-text-accent-hover: #0178B5;
   --page-background-container: #ffffff;
   --page-overlay-backdrop: rgba(0, 0, 0, 0.6);
   --page-border-control: #e5e5e5;

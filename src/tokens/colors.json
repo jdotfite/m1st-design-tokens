@@ -51,7 +51,6 @@
     "accent": {
       "red": { "value": "{accent.red}", "type": "color", "description": "Vibrant red accent" },
       "green": { "value": "{accent.green}", "type": "color", "description": "Fresh green accent" },
-      "blue": { "value": "{accent.blue}", "type": "color", "description": "Blue accent" },
       "orange": { "value": "{accent.orange}", "type": "color", "description": "Energetic orange accent" },
       "yellow": { "value": "{accent.yellow}", "type": "color", "description": "Warm yellow accent" },
       "teal": { "value": "{accent.teal}", "type": "color", "description": "Sophisticated teal accent" },
@@ -61,7 +60,7 @@
       "magenta": { "value": "{accent.magenta}", "type": "color", "description": "Bold magenta accent" },
       "dark-red": { "value": "{accent.dark-red}", "type": "color", "description": "Dark red accent" },
       "primary": { "value": "{accent.blue-dark}", "type": "color", "description": "Primary interactive accent" },
-      "primary-hover": { "value": "{accent.blue}", "type": "color", "description": "Primary accent hover state" },
+      "primary-hover": { "value": "{accent.blue-light}", "type": "color", "description": "Primary accent hover state" },
       "primary-active": { "value": "{accent.blue-dark}", "type": "color", "description": "Primary accent active state" },
       "secondary": { "value": "{neutral.600}", "type": "color", "description": "Secondary accent" },
       "secondary-hover": { "value": "{neutral.700}", "type": "color", "description": "Secondary accent hover" },

@@ -1,12 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Sep 2025 21:58:38 GMT
+ * Generated on Wed, 10 Sep 2025 13:27:11 GMT
  */
 
 export const BrandPrimary : string;
 export const AccentRed : string;
 export const AccentGreen : string;
-export const AccentBlue : string;
 export const AccentOrange : string;
 export const AccentYellow : string;
 export const AccentTeal : string;
@@ -131,7 +130,6 @@ export const SecondaryButtonText : string;
 export const ColorBrandPrimary : string;
 export const ColorAccentRed : string;
 export const ColorAccentGreen : string;
-export const ColorAccentBlue : string;
 export const ColorAccentOrange : string;
 export const ColorAccentYellow : string;
 export const ColorAccentTeal : string;
