@@ -5,7 +5,7 @@ Design tokens for M1st Federal Credit Union's design system. Built with Style Di
 ## Quick Start
 
 ```bash
-npm install m1st-design-tokens
+npm install github:jdotfite/m1st-design-tokens
 ```
 
 ```css
