@@ -1,6 +1,6 @@
 {
   "page": {
-  "main-nav-background": { "value": "{color.surface.primary}", "type": "color", "description": "Primary navigation background (light)" },
+  "main-nav-background": { "value": "{color.surface.primary}", "type": "color", "description": "Primary navigation background (dark theme)" },
   "background": { "value": "{color.background.primary}", "type": "color", "description": "Main page background" },
   "surface": { "value": "{color.surface.secondary}", "type": "color", "description": "Page content surfaces" },
   "surface-elevated": { "value": "{color.surface.elevated}", "type": "color", "description": "Cards, modals" },

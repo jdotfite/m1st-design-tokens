@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Sep 2025 14:53:12 GMT
+ * Generated on Wed, 10 Sep 2025 15:59:25 GMT
  */
 
 export const BrandPrimary : string;
@@ -15,6 +15,11 @@ export const AccentBlueLight : string;
 export const AccentBlueDark : string;
 export const AccentPurple : string;
 export const AccentMagenta : string;
+export const DarkThemeNavBackground : string;
+export const DarkThemePageBackground : string;
+export const DarkThemeSurface : string;
+export const DarkThemeSurfaceElevated : string;
+export const DarkThemeSurfaceSunken : string;
 export const StatusSuccess : string;
 export const StatusSuccessEmphasis : string;
 export const StatusSuccessSubtle : string;

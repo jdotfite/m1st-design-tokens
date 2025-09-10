@@ -15,6 +15,13 @@
     "purple": { "value": "#7C2984", "type": "color", "description": "Rich purple accent" },
     "magenta": { "value": "#AD1F63", "type": "color", "description": "Bold magenta accent" }
   },
+  "dark-theme": {
+    "nav-background": { "value": "#02050e", "type": "color", "description": "Dark theme navigation background" },
+    "page-background": { "value": "#05080d", "type": "color", "description": "Dark theme page background" },
+    "surface": { "value": "#0e1218", "type": "color", "description": "Dark theme surface" },
+    "surface-elevated": { "value": "#10141e", "type": "color", "description": "Dark theme elevated surface" },
+    "surface-sunken": { "value": "#0a0a0a", "type": "color", "description": "Dark theme sunken surface" }
+  },
   "status": {
     "success": { "value": "#059669", "type": "color", "description": "Success green" },
     "success-emphasis": { "value": "#047857", "type": "color", "description": "Success green emphasis" },
